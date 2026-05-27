@@ -871,6 +871,21 @@
   border: 1px solid rgba(255, 144, 76, 0.14);
 }
 
+.load-more-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
 .bottom-nav {
   position: sticky;
   bottom: 0;

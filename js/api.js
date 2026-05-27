@@ -1,4 +1,4 @@
-import { CONFIG, MOCK_DATA } from "./config.js?v=20260527d";
+import { CONFIG, MOCK_DATA } from "./config.js?v=20260527f";
 
 function cloneMock() {
   return JSON.parse(JSON.stringify(MOCK_DATA));
@@ -64,9 +64,21 @@ async function fetchWithTimeout(url, ms = 10000) {
   }
 }
 
+function safeLocalGet(key) {
+  try { return localStorage.getItem(key); } catch (_) { return null; }
+}
+
+function safeLocalSet(key, value) {
+  try { localStorage.setItem(key, value); } catch (_) { /* Safari private mode */ }
+}
+
+function safeLocalRemove(key) {
+  try { localStorage.removeItem(key); } catch (_) { /* Safari private mode */ }
+}
+
 export async function fetchSalesData() {
   const cacheKey = getCacheKey("all");
-  const cached = localStorage.getItem(cacheKey);
+  const cached = safeLocalGet(cacheKey);
 
   // Return cache jika masih valid
   if (cached) {
@@ -76,7 +88,7 @@ export async function fetchSalesData() {
         return { ...normalizeData(data), source: "cache" };
       }
     } catch (_) {
-      localStorage.removeItem(cacheKey);
+      safeLocalRemove(cacheKey);
     }
   }
 
@@ -87,7 +99,7 @@ export async function fetchSalesData() {
     const raw = await fetchWithTimeout("./data/live_data.json");
     if (raw && !raw.error) {
       const data = normalizeData(raw);
-      localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
+      safeLocalSet(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
       hideSkeletonLoading();
       return { ...data, source: "live_json" };
     }
@@ -102,7 +114,7 @@ export async function fetchSalesData() {
       const raw = await fetchWithTimeout(`${CONFIG.API_URL}?action=all`);
       if (raw && !raw.error) {
         const data = normalizeData(raw);
-        localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
+        safeLocalSet(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
         hideSkeletonLoading();
         return { ...data, source: "api" };
       }
@@ -120,5 +132,5 @@ export async function fetchSalesData() {
 
 // Invalidate cache agar fetch ulang data segar
 export function invalidateCache() {
-  localStorage.removeItem(getCacheKey("all"));
+  safeLocalRemove(getCacheKey("all"));
 }

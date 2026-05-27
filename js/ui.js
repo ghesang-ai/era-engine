@@ -1,5 +1,5 @@
-import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527e";
-import { getDosProgress, getDosTone } from "./filters.js?v=20260527e";
+import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527f";
+import { getDosProgress, getDosTone } from "./filters.js?v=20260527f";
 
 function formatNumber(value) {
   return new Intl.NumberFormat("id-ID").format(value);
@@ -211,41 +211,61 @@ export function renderStoreFilters(state, onChange) {
   sortRow.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => onChange({ sort: button.dataset.sort })));
 }
 
-export function renderStoreList(stores, onSelect) {
-  const target = document.getElementById("storeList");
-  target.innerHTML = stores.map((store) => {
-    const tone = getDosTone(store.dos);
-    const dot = store.channel.includes("IBOX") ? "IB" : store.channel.includes("ERABLUE") ? "EB" : "ER";
-    return `
-      <article class="card store-card" data-site="${store.siteCode}">
-        <div class="store-header">
-          <div class="store-title">
-            <span class="brand-dot">${dot}</span>
-            <div>
-              <h4>${store.siteDesc}</h4>
-              <p>Kode: ${store.siteCode} · TSH: ${store.tsh}</p>
-            </div>
+const STORE_PAGE_SIZE = 30;
+
+function buildStoreCard(store) {
+  const tone = getDosTone(store.dos || 0);
+  const ch = store.channel || "";
+  const dot = ch.includes("IBOX") ? "IB" : ch.includes("ERABLUE") ? "EB" : "ER";
+  return `
+    <article class="card store-card" data-site="${store.siteCode}">
+      <div class="store-header">
+        <div class="store-title">
+          <span class="brand-dot">${dot}</span>
+          <div>
+            <h4>${store.siteDesc || "-"}</h4>
+            <p>Kode: ${store.siteCode} · TSH: ${store.tsh || "-"}</p>
           </div>
-          <span class="badge ${tone}">${store.channel}</span>
         </div>
-        <div class="store-stats">
-          <div class="metric-tile"><span>Apr</span><strong>${formatNumber(store.april)}</strong></div>
-          <div class="metric-tile"><span>May</span><strong>${formatNumber(store.may)}</strong></div>
-          <div class="metric-tile"><span>Stock</span><strong>${formatNumber(store.stock)}</strong></div>
-          <div class="metric-tile"><span>DOS</span><strong>${store.dos.toFixed(1).replace(".", ",")} hari</strong></div>
-        </div>
-        <div class="progress-meta">
-          <p>Readiness index</p>
-          <p>${Math.round(getDosProgress(store.dos))}%</p>
-        </div>
-        <div class="progress-track"><div class="progress-fill ${tone}" style="width:${getDosProgress(store.dos)}%; background:${tone === "safe" ? "var(--accent-green)" : tone === "warn" ? "var(--accent-amber)" : "var(--accent-red)"}"></div></div>
-      </article>
-    `;
-  }).join("");
-  target.querySelectorAll(".store-card").forEach((card) => card.addEventListener("click", () => {
-    const selected = stores.find((item) => item.siteCode === card.dataset.site);
-    if (selected) onSelect(selected);
-  }));
+        <span class="badge ${tone}">${ch || "-"}</span>
+      </div>
+      <div class="store-stats">
+        <div class="metric-tile"><span>Apr</span><strong>${formatNumber(store.april || 0)}</strong></div>
+        <div class="metric-tile"><span>May</span><strong>${formatNumber(store.may || 0)}</strong></div>
+        <div class="metric-tile"><span>Stock</span><strong>${formatNumber(store.stock || 0)}</strong></div>
+        <div class="metric-tile"><span>DOS</span><strong>${(store.dos || 0).toFixed(1).replace(".", ",")} hari</strong></div>
+      </div>
+      <div class="progress-meta">
+        <p>Readiness index</p>
+        <p>${Math.round(getDosProgress(store.dos || 0))}%</p>
+      </div>
+      <div class="progress-track"><div class="progress-fill ${tone}" style="width:${getDosProgress(store.dos || 0)}%; background:${tone === "safe" ? "var(--accent-green)" : tone === "warn" ? "var(--accent-amber)" : "var(--accent-red)"}"></div></div>
+    </article>
+  `;
+}
+
+export function renderStoreList(stores, onSelect, limit = STORE_PAGE_SIZE) {
+  const target = document.getElementById("storeList");
+  const visible = stores.slice(0, limit);
+  const remaining = stores.length - visible.length;
+
+  target.innerHTML = visible.map(buildStoreCard).join("") + (remaining > 0 ? `
+    <button type="button" class="load-more-btn">
+      Lihat ${remaining} toko lainnya
+    </button>
+  ` : "");
+
+  target.querySelectorAll(".store-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const selected = visible.find((item) => item.siteCode === card.dataset.site);
+      if (selected) onSelect(selected);
+    });
+  });
+
+  const loadMore = target.querySelector(".load-more-btn");
+  if (loadMore) {
+    loadMore.addEventListener("click", () => renderStoreList(stores, onSelect, limit + STORE_PAGE_SIZE));
+  }
 }
 
 export function renderBrandSection(data) {

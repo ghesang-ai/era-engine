@@ -1,6 +1,6 @@
-import { CONFIG } from "./config.js?v=20260527d";
-import { fetchSalesData, invalidateCache } from "./api.js?v=20260527d";
-import { getFilteredStores } from "./filters.js?v=20260527d";
+import { CONFIG } from "./config.js?v=20260527f";
+import { fetchSalesData, invalidateCache } from "./api.js?v=20260527f";
+import { getFilteredStores } from "./filters.js?v=20260527f";
 import {
   bindDosAlert,
   bindStoreSearch,
@@ -14,14 +14,14 @@ import {
   renderStoreFilters,
   renderStoreList,
   setupTabs
-} from "./ui.js?v=20260527d";
+} from "./ui.js?v=20260527f";
 import {
   renderAccessoriesChart,
   renderBrandDonutChart,
   renderSalesTrendChart,
   renderStockChart,
   renderTshChart
-} from "./charts.js?v=20260527d";
+} from "./charts.js?v=20260527f";
 
 const storeUiState = {
   query: "",
@@ -40,7 +40,7 @@ function renderApp(data) {
   renderBrandSection(data);
   renderStockSection(data);
   renderAccessoriesSection(data);
-  refreshStoreList();
+  // Store list is lazy-rendered on first Toko tab activation
 }
 
 function renderActiveTabCharts(tab) {
@@ -85,6 +85,7 @@ async function init() {
 
   setupTabs(CONFIG.DEFAULT_TAB, (tab) => {
     activeTab = tab;
+    if (tab === "toko") refreshStoreList();
     renderActiveTabCharts(tab);
   });
 
@@ -97,6 +98,7 @@ async function init() {
     initializedCharts.clear();
     appData = await fetchSalesData();
     renderApp(appData);
+    if (activeTab === "toko") refreshStoreList();
     renderActiveTabCharts(activeTab);
   });
 

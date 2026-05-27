@@ -144,13 +144,13 @@ img {
   position: sticky;
   top: 0;
   z-index: var(--z-header);
-  margin: 12px 14px 10px;
-  padding: 14px 16px;
+  margin: 10px 14px 8px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 14px;
-  border-radius: 26px;
+  gap: 12px;
+  border-radius: 22px;
 }
 
 .topbar-brand,
@@ -169,13 +169,14 @@ img {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4px;
-  padding: 6px;
-  border-radius: 14px;
+  gap: 3px;
+  padding: 5px;
+  border-radius: 12px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.16));
   border: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow:
@@ -184,13 +185,13 @@ img {
 }
 
 .brand-mark span {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   border-radius: 999px;
   background: linear-gradient(180deg, #fff8ef, #ff8b52);
   align-self: center;
   justify-self: center;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.22);
 }
 
 .brand-mark span:nth-child(2),
@@ -246,8 +247,8 @@ img {
 }
 
 .brand-row {
-  gap: 10px;
-  margin: 3px 0 2px;
+  gap: 8px;
+  margin: 0 0 2px;
 }
 
 .brand-row h1,
@@ -261,7 +262,8 @@ img {
 }
 
 .brand-row h1 {
-  font-size: 24px;
+  font-size: 17px;
+  white-space: nowrap;
 }
 
 .subtitle,
@@ -269,6 +271,11 @@ img {
   margin: 0;
   color: var(--text-secondary);
   font-size: 13px;
+}
+
+.topbar-identity .subtitle {
+  font-size: 11px;
+  letter-spacing: 0.01em;
 }
 
 .status-dot {
@@ -291,8 +298,8 @@ img {
 }
 
 .icon-button {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.12));
   border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow:

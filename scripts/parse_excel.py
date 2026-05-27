@@ -60,12 +60,14 @@ def to_num(val):
         return 0.0
 
 def fmt_compact(n):
-    """Format angka ke string compact: 1.234.567 → '1,2M'."""
+    """Format angka ke string compact: 5.063.100 → '5,1Jt' | 730.000.000.000 → '730,0M'."""
     n = abs(n)
     if n >= 1e12:
         return f"{n/1e12:.1f}T".replace(".", ",")
     if n >= 1e9:
         return f"{n/1e9:.1f}M".replace(".", ",")
+    if n >= 1e6:
+        return f"{n/1e6:.1f}Jt".replace(".", ",")
     if n >= 1e3:
         return f"{n/1e3:.1f}K".replace(".", ",")
     return str(int(n))
@@ -278,9 +280,10 @@ def read_sum_r5(ws):
     headers = list(ws.iter_rows(min_row=header_row_idx, max_row=header_row_idx, values_only=True))[0]
 
     # Cari kolom berdasarkan type/content
-    apr26_col  = None
-    target_col = None
-    may_cols   = []
+    apr26_col    = None
+    target_col   = None
+    may2025_col  = None
+    may_cols     = []
 
     for i, h in enumerate(headers):
         if h is None:
@@ -290,13 +293,22 @@ def read_sum_r5(ws):
             target_col = i
         # Date columns (openpyxl return datetime)
         elif isinstance(h, dt):
-            if h.year == 2026 and h.month == 4:
+            if h.year == 2025 and h.month == 5:
+                may2025_col = i      # May 2025 total → untuk YoY
+            elif h.year == 2026 and h.month == 4:
                 apr26_col = i        # April 2026 total
             elif h.year == 2026 and h.month == 5:
                 may_cols.append(i)   # Daily May 2026
 
+    # Weekly slices dari kolom harian Mei 2026
+    this_week_cols = may_cols[-7:]    if len(may_cols) >= 7  else may_cols
+    prev_week_cols = may_cols[-14:-7] if len(may_cols) >= 14 else []
+
     tsh_data = {}
-    totals   = {"apr_2026": 0.0, "may_mtd": 0.0, "target_may": 0.0}
+    totals   = {
+        "apr_2026": 0.0, "may_mtd": 0.0, "target_may": 0.0,
+        "may_2025": 0.0, "may_this_week": 0.0, "may_prev_week": 0.0
+    }
 
     for row in ws.iter_rows(min_row=header_row_idx + 1, values_only=True):
         if not row or tsh_col >= len(row) or not row[tsh_col]:
@@ -319,6 +331,7 @@ def read_sum_r5(ws):
         apr26   = to_num(row[apr26_col])  if apr26_col  and apr26_col  < len(row) else 0.0
         target  = to_num(row[target_col]) if target_col and target_col < len(row) else 0.0
         may_mtd = sum(to_num(row[c]) for c in may_cols if c < len(row))
+        may2025 = to_num(row[may2025_col]) if may2025_col and may2025_col < len(row) else 0.0
 
         tsh_data[name] = {
             "tsh":      name,
@@ -326,9 +339,12 @@ def read_sum_r5(ws):
             "may_mtd":  may_mtd,
             "target":   target
         }
-        totals["apr_2026"]   += apr26
-        totals["may_mtd"]    += may_mtd
-        totals["target_may"] += target
+        totals["apr_2026"]      += apr26
+        totals["may_mtd"]       += may_mtd
+        totals["target_may"]    += target
+        totals["may_2025"]      += may2025
+        totals["may_this_week"] += sum(to_num(row[c]) for c in this_week_cols if c < len(row))
+        totals["may_prev_week"] += sum(to_num(row[c]) for c in prev_week_cols if c < len(row))
 
     return tsh_data, totals
 
@@ -481,9 +497,12 @@ def build_summary(stores, totals):
 
 
 def build_overview(totals, stores):
-    target = int(totals.get("target_may", 0))
-    mtd    = int(totals.get("may_mtd", 0))
-    apr    = int(totals.get("apr_2026", 0))
+    target       = int(totals.get("target_may", 0))
+    mtd          = int(totals.get("may_mtd", 0))
+    apr          = int(totals.get("apr_2026", 0))
+    may_2025     = int(totals.get("may_2025", 0))
+    this_week    = int(totals.get("may_this_week", 0))
+    prev_week    = int(totals.get("may_prev_week", 0))
 
     # Estimasi akhir bulan
     daily_rate = mtd / WORKING_DAYS if WORKING_DAYS > 0 else 0
@@ -495,12 +514,22 @@ def build_overview(totals, stores):
     # Timegone (hari berlalu dari total hari kerja bulan)
     tg = round((WORKING_DAYS / 31) * 100)
 
-    # WoW / MoM / YoY — placeholder (butuh data historis)
-    wow = "~"
-    mom = f"{round((mtd - apr) / apr * 100):+}%" if apr > 0 else "~"
-    yoy = "~"
+    # WoW — dari kolom harian Mei (last 7 vs prev 7 working days)
+    wow = f"{round((this_week - prev_week) / prev_week * 100):+}%" if prev_week > 0 else "~"
 
-    avg_qty = int(mtd / max(len([s for s in stores if s['may'] > 0]), 1))
+    # MoM — Mei 2026 vs April 2026
+    mom = f"{round((mtd - apr) / apr * 100):+}%" if apr > 0 else "~"
+
+    # YoY — Mei 2026 vs Mei 2025 (jika kolom tersedia di sheet)
+    yoy = f"{round((mtd - may_2025) / may_2025 * 100):+}%" if may_2025 > 0 else "~"
+
+    # AVG qty per active store
+    total_qty     = sum(s["may"] for s in stores)
+    active_stores = max(len([s for s in stores if s["may"] > 0]), 1)
+    avg_qty       = int(total_qty / active_stores)
+
+    # ASP — Average Selling Price = total revenue / total qty
+    asp = int(mtd / total_qty) if total_qty > 0 else 0
 
     return {
         "title":         "Sales Performance - B2C Region 5",
@@ -515,11 +544,11 @@ def build_overview(totals, stores):
             {"label": "EST", "value": min(est_pct, 100), "tone": "green" if est_pct >= 100 else "amber" if est_pct >= 80 else "red"}
         ],
         "quickStats": [
-            {"label": "WoW", "value": wow},
-            {"label": "MoM", "value": mom},
-            {"label": "YoY", "value": yoy},
-            {"label": "AVG", "value": str(avg_qty)},
-            {"label": "ASP", "value": "~"}
+            {"label": "WoW",  "value": wow},
+            {"label": "MoM",  "value": mom},
+            {"label": "YoY",  "value": yoy},
+            {"label": "AVG",  "value": f"{avg_qty:,}".replace(",", ".") + " u/toko"},
+            {"label": "ASP",  "value": "Rp " + fmt_compact(asp)}
         ],
         "segments": [],       # diisi dari BY STORE aggregate per TSH/channel
         "categories": []      # diisi dari category_qty

@@ -1,4 +1,4 @@
-import { CONFIG, MOCK_DATA } from "./config.js?v=20260527g";
+import { CONFIG, MOCK_DATA } from "./config.js?v=20260527i";
 
 function cloneMock() {
   return JSON.parse(JSON.stringify(MOCK_DATA));

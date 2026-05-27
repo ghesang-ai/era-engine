@@ -1,0 +1,76 @@
+@media (min-width: 720px) {
+  .app-shell {
+    max-width: 470px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 560px) {
+  .hero-topline {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-copy h2 {
+    font-size: 28px;
+  }
+
+  .hero-topline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-strip,
+  .achievement-grid,
+  .highlight-grid,
+  .summary-strip,
+  .segment-grid,
+  .target-strip,
+  .quick-stat-row,
+  .segment-stats,
+  .segment-trend,
+  .category-card__stats {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .topbar-actions {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 440px) {
+  .achievement-grid,
+  .segment-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-stat-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .target-strip,
+  .segment-stats,
+  .segment-trend,
+  .category-card__stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-heading__copy h2 {
+    font-size: 20px;
+    max-width: 16ch;
+  }
+
+  .topbar {
+    padding: 12px 14px;
+  }
+}

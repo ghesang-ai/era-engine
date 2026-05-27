@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0A0A0F" />
+    <title>ERA-ENGINE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css?v=20260527c" />
+    <link rel="stylesheet" href="./css/components.css?v=20260527c" />
+    <link rel="stylesheet" href="./css/mobile.css?v=20260527c" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="ambient-grid" aria-hidden="true"></div>
+    <div class="app-shell">
+      <header class="topbar card-glass">
+        <div class="topbar-brand">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div>
+            <p class="eyebrow">SIERA Platform</p>
+            <div class="brand-row">
+              <h1>ERA-ENGINE</h1>
+              <span class="status-dot">LIVE</span>
+            </div>
+            <p class="subtitle">Sales Intelligence · Region 5</p>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <div class="workspace-pill">
+            <span class="workspace-pill__main">R5</span>
+            <span class="workspace-pill__sub">Sales Grid</span>
+          </div>
+          <button class="icon-button" id="notifyButton" aria-label="Notifikasi">
+            <span>◎</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="scroll-container" id="appScroll">
+        <section class="hero-panel command-deck">
+          <div class="hero-gradient"></div>
+          <div class="hero-topline">
+            <div class="hero-heading">
+              <div class="workspace-tag">
+                <span class="workspace-tag__icon">◌</span>
+                <span>Executive Overview</span>
+              </div>
+              <div class="hero-heading__copy">
+                <h2>Sales command desk untuk monitoring cepat Region 5.</h2>
+                <p class="hero-note">
+                  Fokus ke target, MTD, estimasi closing, dan eksekusi sell-out harian.
+                </p>
+              </div>
+            </div>
+            <label class="search-shell" aria-label="Pencarian">
+              <span>⌕</span>
+              <input type="text" placeholder="Cari insight, toko, brand..." />
+            </label>
+          </div>
+          <div class="period-selector" id="periodSelector">
+            <button class="chip">April</button>
+            <button class="chip active">May</button>
+            <button class="chip">Apr-May</button>
+          </div>
+          <div class="hero-metrics">
+            <article class="hero-metric">
+              <span>Command Mode</span>
+              <strong>Sales vs Stock</strong>
+            </article>
+            <article class="hero-metric">
+              <span>Mission Pulse</span>
+              <strong>48 DOS exposure</strong>
+            </article>
+            <article class="hero-metric">
+              <span>Field Sync</span>
+              <strong>Realtime</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="offline-banner hidden" id="offlineBanner">
+          <span>Mode preview aktif</span>
+          <p>API belum tersambung. Dashboard menampilkan data fallback lokal.</p>
+        </section>
+
+        <section class="skeleton-panel hidden" id="skeletonPanel">
+          <div class="skeleton hero"></div>
+          <div class="skeleton row"></div>
+          <div class="skeleton row"></div>
+          <div class="skeleton block"></div>
+        </section>
+
+        <section class="tab-view active" data-tab="overview">
+          <article class="overview-headline card">
+            <div class="overview-headline__top">
+              <div>
+                <p class="section-kicker">Overview</p>
+                <h3>Sales Performance B2C Region 5</h3>
+              </div>
+              <button class="mini-button" id="refreshButton">Refresh</button>
+            </div>
+            <div class="overview-headline__bar"></div>
+            <div class="overview-headline__meta" id="overviewHeadlineMeta"></div>
+          </article>
+
+          <div class="kpi-strip" id="kpiStrip"></div>
+
+          <div class="achievement-grid">
+            <article class="card ring-panel" id="achievementPanel"></article>
+            <article class="card insight-stack" id="overviewInsightStack"></article>
+          </div>
+
+          <article class="card overview-section-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Segment Performance</p>
+                <h4>All B2C · Multibrand · Monobrand</h4>
+              </div>
+            </div>
+            <div class="segment-grid" id="segmentGrid"></div>
+          </article>
+
+          <article class="card overview-section-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Category Performance</p>
+                <h4>Device hingga Laptop</h4>
+              </div>
+            </div>
+            <div class="category-performance" id="categoryPerformance"></div>
+          </article>
+
+          <div class="overview-stack">
+            <article class="card chart-card chart-card--hero">
+              <div class="card-header">
+                <div>
+                  <p class="section-kicker">Trend</p>
+                  <h4>Sales PO vs Non-PO</h4>
+                </div>
+                <span class="muted-label">April - May 2026</span>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="salesTrendChart"></canvas>
+              </div>
+            </article>
+
+            <article class="card chart-card chart-card--tsh">
+              <div class="card-header">
+                <div>
+                  <p class="section-kicker">TSH Performance</p>
+                  <h4>Achievement per area manager</h4>
+                </div>
+                <span class="muted-label">Ranking MTD Mei</span>
+              </div>
+              <div class="chart-wrap tall">
+                <canvas id="tshChart"></canvas>
+              </div>
+            </article>
+          </div>
+
+          <button class="alert-banner" id="dosAlertButton">
+            <span class="alert-icon">!</span>
+            <div>
+              <strong id="dosAlertTitle">DOS Alert</strong>
+              <p id="dosAlertText"></p>
+            </div>
+          </button>
+        </section>
+
+        <section class="tab-view" data-tab="toko">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Toko</p>
+              <h3>Store performance explorer</h3>
+            </div>
+          </div>
+
+          <div class="search-block card-glass">
+            <input
+              type="search"
+              id="storeSearch"
+              class="search-input"
+              placeholder="Cari nama toko..."
+            />
+            <div class="filter-row" id="channelFilters"></div>
+            <div class="sort-row" id="storeSortRow"></div>
+          </div>
+
+          <div class="store-list" id="storeList"></div>
+        </section>
+
+        <section class="tab-view" data-tab="brand">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Brand</p>
+              <h3>Device mix & model momentum</h3>
+            </div>
+          </div>
+
+          <div class="brand-topgrid">
+            <article class="card chart-card">
+              <div class="card-header">
+                <div>
+                  <p class="section-kicker">Mix</p>
+                  <h4>Sales mix per brand</h4>
+                </div>
+              </div>
+              <div class="chart-wrap donut">
+                <canvas id="brandDonutChart"></canvas>
+                <div class="chart-center" id="brandCenterLabel"></div>
+              </div>
+            </article>
+
+            <div class="highlight-grid" id="highlightGrid"></div>
+          </div>
+
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Model Performance</p>
+                <h4>April vs Mei</h4>
+              </div>
+            </div>
+            <div class="table-scroll">
+              <table class="data-table" id="modelTable"></table>
+            </div>
+          </article>
+        </section>
+
+        <section class="tab-view" data-tab="stock">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Stock</p>
+              <h3>Inventory intelligence</h3>
+            </div>
+          </div>
+
+          <div class="summary-strip" id="stockSummary"></div>
+
+          <article class="card chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Distribusi</p>
+                <h4>Stock per TSH & channel</h4>
+              </div>
+            </div>
+            <div class="chart-wrap tall">
+              <canvas id="stockChart"></canvas>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Risk Table</p>
+                <h4>DOS risk tertinggi</h4>
+              </div>
+            </div>
+            <div class="table-scroll">
+              <table class="data-table" id="riskTable"></table>
+            </div>
+          </article>
+        </section>
+
+        <section class="tab-view" data-tab="aksesoris">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">Aksesoris</p>
+              <h3>Category movement & DOS insight</h3>
+            </div>
+          </div>
+
+          <article class="card chart-card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Category Breakdown</p>
+                <h4>Accessories top categories</h4>
+              </div>
+            </div>
+            <div class="chart-wrap tall">
+              <canvas id="accessoriesChart"></canvas>
+            </div>
+          </article>
+
+          <article class="card insight-card" id="accessoryInsight"></article>
+        </section>
+      </main>
+
+      <nav class="bottom-nav card-glass" aria-label="Bottom navigation">
+        <button class="nav-item active" data-tab-target="overview">
+          <img src="./assets/icons/overview.svg" alt="" />
+          <span>Overview</span>
+        </button>
+        <button class="nav-item" data-tab-target="toko">
+          <img src="./assets/icons/store.svg" alt="" />
+          <span>Toko</span>
+        </button>
+        <button class="nav-item" data-tab-target="brand">
+          <img src="./assets/icons/brand.svg" alt="" />
+          <span>Brand</span>
+        </button>
+        <button class="nav-item" data-tab-target="stock">
+          <img src="./assets/icons/stock.svg" alt="" />
+          <span>Stock</span>
+        </button>
+        <button class="nav-item" data-tab-target="aksesoris">
+          <img src="./assets/icons/accessory.svg" alt="" />
+          <span>Aksesoris</span>
+        </button>
+      </nav>
+
+      <dialog class="store-modal" id="storeModal">
+        <div class="modal-card card-glass" id="storeModalContent"></div>
+      </dialog>
+    </div>
+
+    <script type="module" src="./js/main.js?v=20260527c"></script>
+  </body>
+</html>

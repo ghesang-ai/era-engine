@@ -1,39 +1,40 @@
 import { CONFIG, MOCK_DATA } from "./config.js?v=20260527c";
 
-function cloneMockData() {
+function cloneMock() {
   return JSON.parse(JSON.stringify(MOCK_DATA));
 }
 
-function normalizeData(payload = {}) {
-  const fallback = cloneMockData();
+function normalizeData(payload) {
+  const fb = cloneMock();
+  if (!payload || typeof payload !== "object" || payload.error) return fb;
 
   return {
-    ...fallback,
+    ...fb,
     ...payload,
-    summary: { ...fallback.summary, ...(payload.summary || {}) },
+    summary:  { ...fb.summary,  ...(payload.summary  || {}) },
     overview: {
-      ...fallback.overview,
+      ...fb.overview,
       ...(payload.overview || {}),
-      rings: payload.overview?.rings || fallback.overview.rings,
-      quickStats: payload.overview?.quickStats || fallback.overview.quickStats,
-      segments: payload.overview?.segments || fallback.overview.segments,
-      categories: payload.overview?.categories || fallback.overview.categories
+      rings:      payload.overview?.rings      || fb.overview.rings,
+      quickStats: payload.overview?.quickStats || fb.overview.quickStats,
+      segments:   payload.overview?.segments   || fb.overview.segments,
+      categories: payload.overview?.categories || fb.overview.categories
     },
-    trend: payload.trend || fallback.trend,
-    tshRanking: payload.tshRanking || fallback.tshRanking,
-    stores: payload.stores || fallback.stores,
-    brandMix: payload.brandMix || fallback.brandMix,
-    modelTable: payload.modelTable || fallback.modelTable,
-    highlights: { ...fallback.highlights, ...(payload.highlights || {}) },
-    stockSummary: payload.stockSummary || fallback.stockSummary,
-    stockStack: payload.stockStack || fallback.stockStack,
-    risk: payload.risk || fallback.risk,
-    accessories: payload.accessories || fallback.accessories
+    trend:        payload.trend        || fb.trend,
+    tshRanking:   payload.tshRanking   || fb.tshRanking,
+    stores:       payload.stores       || fb.stores,
+    brandMix:     payload.brandMix     || fb.brandMix,
+    modelTable:   payload.modelTable   || fb.modelTable,
+    highlights:   { ...fb.highlights,  ...(payload.highlights  || {}) },
+    stockSummary: payload.stockSummary || fb.stockSummary,
+    stockStack:   payload.stockStack   || fb.stockStack,
+    risk:         payload.risk         || fb.risk,
+    accessories:  payload.accessories  || fb.accessories
   };
 }
 
-export function getCacheKey(sheetName = "Pivot") {
-  return `era_engine_${CONFIG.CACHE_VERSION}_${sheetName}`;
+export function getCacheKey(suffix) {
+  return `era_engine_${CONFIG.CACHE_VERSION}_${suffix}`;
 }
 
 export function showSkeletonLoading() {
@@ -48,31 +49,67 @@ export function showErrorState() {
   document.getElementById("offlineBanner")?.classList.remove("hidden");
 }
 
-export async function fetchSalesData(sheetName = "Pivot") {
-  const cacheKey = getCacheKey(sheetName);
+// Fetch dengan retry 1x dan timeout 10 detik
+async function fetchWithTimeout(url, ms = 10000) {
+  const ctrl = new AbortController();
+  const id = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const res = await fetch(url, { signal: ctrl.signal });
+    clearTimeout(id);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    clearTimeout(id);
+    throw err;
+  }
+}
+
+export async function fetchSalesData() {
+  const cacheKey = getCacheKey("all");
   const cached = localStorage.getItem(cacheKey);
 
+  // Return cache jika masih valid
   if (cached) {
-    const { data, timestamp } = JSON.parse(cached);
-    if (Date.now() - timestamp < CONFIG.CACHE_TTL) {
-      return { ...normalizeData(data), source: "cache" };
+    try {
+      const { data, timestamp } = JSON.parse(cached);
+      if (Date.now() - timestamp < CONFIG.CACHE_TTL) {
+        return { ...normalizeData(data), source: "cache" };
+      }
+    } catch (_) {
+      localStorage.removeItem(cacheKey);
     }
   }
 
+  // Preview mode — langsung pakai mock
+  const isPreview = !CONFIG.API_URL || CONFIG.API_URL === "YOUR_APPS_SCRIPT_WEB_APP_URL";
+  if (isPreview) {
+    document.getElementById("offlineBanner")?.classList.remove("hidden");
+    return { ...normalizeData(MOCK_DATA), source: "mock" };
+  }
+
+  // Coba ambil dari API
+  showSkeletonLoading();
   try {
-    showSkeletonLoading();
-    if (!CONFIG.API_URL || CONFIG.API_URL === "YOUR_APPS_SCRIPT_WEB_APP_URL") {
-      throw new Error("Preview mode");
-    }
-    const res = await fetch(`${CONFIG.API_URL}?sheet=${sheetName}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = normalizeData(await res.json());
+    const url  = `${CONFIG.API_URL}?action=all`;
+    const raw  = await fetchWithTimeout(url);
+
+    // Jika API mengembalikan error field
+    if (raw.error) throw new Error(raw.error);
+
+    const data = normalizeData(raw);
     localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
     hideSkeletonLoading();
     return { ...data, source: "api" };
+
   } catch (err) {
     hideSkeletonLoading();
-    showErrorState(err);
+    showErrorState();
+    console.warn("[ERA-ENGINE] API error, fallback ke mock:", err.message);
     return { ...normalizeData(MOCK_DATA), source: "mock" };
   }
+}
+
+// Invalidate cache agar fetch ulang data segar
+export function invalidateCache() {
+  localStorage.removeItem(getCacheKey("all"));
 }

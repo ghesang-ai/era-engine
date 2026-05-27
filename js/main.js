@@ -1,5 +1,5 @@
 import { CONFIG } from "./config.js?v=20260527c";
-import { fetchSalesData, getCacheKey } from "./api.js?v=20260527c";
+import { fetchSalesData, invalidateCache } from "./api.js?v=20260527c";
 import { getFilteredStores } from "./filters.js?v=20260527c";
 import {
   bindDosAlert,
@@ -93,7 +93,7 @@ async function init() {
   });
 
   document.getElementById("refreshButton").addEventListener("click", async () => {
-    localStorage.removeItem(getCacheKey("Pivot"));
+    invalidateCache();
     initializedCharts.clear();
     appData = await fetchSalesData();
     renderApp(appData);

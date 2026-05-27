@@ -14,9 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css?v=20260527d" />
-    <link rel="stylesheet" href="./css/components.css?v=20260527d" />
-    <link rel="stylesheet" href="./css/mobile.css?v=20260527d" />
+    <link rel="stylesheet" href="./css/main.css?v=20260527e" />
+    <link rel="stylesheet" href="./css/components.css?v=20260527e" />
+    <link rel="stylesheet" href="./css/mobile.css?v=20260527e" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   </head>
   <body>
@@ -41,7 +41,7 @@
             <span class="workspace-pill__main">R5</span>
             <span class="workspace-pill__sub">Sales Grid</span>
           </div>
-          <button class="icon-button" id="notifyButton" aria-label="Notifikasi">
+          <button type="button" class="icon-button" id="notifyButton" aria-label="Notifikasi">
             <span>◎</span>
           </button>
         </div>
@@ -69,9 +69,9 @@
             </label>
           </div>
           <div class="period-selector" id="periodSelector">
-            <button class="chip">April</button>
-            <button class="chip active">May</button>
-            <button class="chip">Apr-May</button>
+            <button type="button" class="chip">April</button>
+            <button type="button" class="chip active">May</button>
+            <button type="button" class="chip">Apr-May</button>
           </div>
           <div class="hero-metrics">
             <article class="hero-metric">
@@ -108,7 +108,7 @@
                 <p class="section-kicker">Overview</p>
                 <h3>Sales Performance B2C Region 5</h3>
               </div>
-              <button class="mini-button" id="refreshButton">Refresh</button>
+              <button type="button" class="mini-button" id="refreshButton">Refresh</button>
             </div>
             <div class="overview-headline__bar"></div>
             <div class="overview-headline__meta" id="overviewHeadlineMeta"></div>
@@ -169,7 +169,7 @@
             </article>
           </div>
 
-          <button class="alert-banner" id="dosAlertButton">
+          <button type="button" class="alert-banner" id="dosAlertButton">
             <span class="alert-icon">!</span>
             <div>
               <strong id="dosAlertTitle">DOS Alert</strong>
@@ -298,23 +298,23 @@
       </main>
 
       <nav class="bottom-nav card-glass" aria-label="Bottom navigation">
-        <button class="nav-item active" data-tab-target="overview">
+        <button type="button" class="nav-item active" data-tab-target="overview">
           <img src="./assets/icons/overview.svg" alt="" />
           <span>Overview</span>
         </button>
-        <button class="nav-item" data-tab-target="toko">
+        <button type="button" class="nav-item" data-tab-target="toko">
           <img src="./assets/icons/store.svg" alt="" />
           <span>Toko</span>
         </button>
-        <button class="nav-item" data-tab-target="brand">
+        <button type="button" class="nav-item" data-tab-target="brand">
           <img src="./assets/icons/brand.svg" alt="" />
           <span>Brand</span>
         </button>
-        <button class="nav-item" data-tab-target="stock">
+        <button type="button" class="nav-item" data-tab-target="stock">
           <img src="./assets/icons/stock.svg" alt="" />
           <span>Stock</span>
         </button>
-        <button class="nav-item" data-tab-target="aksesoris">
+        <button type="button" class="nav-item" data-tab-target="aksesoris">
           <img src="./assets/icons/accessory.svg" alt="" />
           <span>Aksesoris</span>
         </button>
@@ -325,6 +325,6 @@
       </dialog>
     </div>
 
-    <script type="module" src="./js/main.js?v=20260527d"></script>
+    <script type="module" src="./js/main.js?v=20260527e"></script>
   </body>
 </html>

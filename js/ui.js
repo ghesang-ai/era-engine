@@ -1,5 +1,5 @@
-import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527d";
-import { getDosProgress, getDosTone } from "./filters.js?v=20260527d";
+import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527e";
+import { getDosProgress, getDosTone } from "./filters.js?v=20260527e";
 
 function formatNumber(value) {
   return new Intl.NumberFormat("id-ID").format(value);
@@ -205,8 +205,8 @@ export function renderDosAlert(data) {
 export function renderStoreFilters(state, onChange) {
   const channelRow = document.getElementById("channelFilters");
   const sortRow = document.getElementById("storeSortRow");
-  channelRow.innerHTML = STORE_FILTERS.map((item) => `<button class="filter-pill ${state.channel === item ? "active" : ""}" data-filter="${item}">${item}</button>`).join("");
-  sortRow.innerHTML = STORE_SORTS.map((item) => `<button class="sort-pill ${state.sort === item.key ? "active" : ""}" data-sort="${item.key}">${item.label}</button>`).join("");
+  channelRow.innerHTML = STORE_FILTERS.map((item) => `<button type="button" class="filter-pill ${state.channel === item ? "active" : ""}" data-filter="${item}">${item}</button>`).join("");
+  sortRow.innerHTML = STORE_SORTS.map((item) => `<button type="button" class="sort-pill ${state.sort === item.key ? "active" : ""}" data-sort="${item.key}">${item.label}</button>`).join("");
   channelRow.querySelectorAll("[data-filter]").forEach((button) => button.addEventListener("click", () => onChange({ channel: button.dataset.filter })));
   sortRow.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => onChange({ sort: button.dataset.sort })));
 }
@@ -299,10 +299,12 @@ export function renderAccessoriesSection(data) {
 export function setupTabs(defaultTab, onChange) {
   const buttons = [...document.querySelectorAll(".nav-item")];
   const views = [...document.querySelectorAll(".tab-view")];
+  const scrollEl = document.getElementById("appScroll");
 
   const activate = (tab) => {
     buttons.forEach((button) => button.classList.toggle("active", button.dataset.tabTarget === tab));
     views.forEach((view) => view.classList.toggle("active", view.dataset.tab === tab));
+    if (scrollEl) scrollEl.scrollTop = 0;
     onChange(tab);
   };
 

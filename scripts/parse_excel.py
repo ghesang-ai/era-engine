@@ -89,24 +89,28 @@ def col_idx(col_letter):
 def read_sales_vs_stock(ws):
     """
     Sheet: SALES VS STOCK
-    Kolom: site_code, site_desc, Month, item_group_desc, brand_name, Qty
-    Return: per-store qty {site_code: {april, may}}, brand mix {brand: qty}
+    Kolom: site_code, site_desc, Month, item_group_desc, brand_name,
+           Model Type Detail, Model Category, Qty
+    Return: store_qty, brand_qty, category_qty, sku_qty
     """
     headers = {}
     for cell in ws[1]:
         if cell.value:
             headers[str(cell.value).strip()] = cell.column - 1
 
-    site_code_col = headers.get("site_code", 0)
-    site_desc_col = headers.get("site_desc", 1)
-    month_col     = headers.get("Month", 3)
-    group_col     = headers.get("item_group_desc", 4)
-    brand_col     = headers.get("brand_name", 8)
-    qty_col       = headers.get("Qty", 9)
+    site_code_col  = headers.get("site_code", 0)
+    site_desc_col  = headers.get("site_desc", 1)
+    month_col      = headers.get("Month", 3)
+    group_col      = headers.get("item_group_desc", 4)
+    brand_col      = headers.get("brand_name", 8)
+    qty_col        = headers.get("Qty", 9)
+    model_det_col  = headers.get("Model Type Detail", 28)  # col 29
+    model_cat_col  = headers.get("Model Category", 29)     # col 30
 
-    store_qty   = {}  # {code: {april: n, may: n, desc: s}}
-    brand_qty   = {}  # {brand: {april: n, may: n}}
-    category_qty = {} # {category_group: {april: n, may: n}}
+    store_qty    = {}  # {code: {april: n, may: n, desc: s}}
+    brand_qty    = {}  # {brand: {april: n, may: n}}
+    category_qty = {}  # {category_group: {april: n, may: n}}
+    sku_qty      = {}  # {(brand, model_detail, storage): {april: n, may: n}}
 
     for row in ws.iter_rows(min_row=2, values_only=True):
         if not row or not row[site_code_col]:
@@ -122,33 +126,41 @@ def read_sales_vs_stock(ws):
         if not code or qty == 0:
             continue
 
+        is_april = month.lower() == PREV_MONTH.lower()
+        is_may   = month.lower() == CURRENT_MONTH.lower()
+
         # Per-store
         if code not in store_qty:
             store_qty[code] = {"april": 0, "may": 0, "desc": desc}
-        if month.lower() == PREV_MONTH.lower():
-            store_qty[code]["april"] += qty
-        elif month.lower() == CURRENT_MONTH.lower():
-            store_qty[code]["may"] += qty
+        if is_april: store_qty[code]["april"] += qty
+        elif is_may: store_qty[code]["may"]   += qty
 
         # Per-brand
         brand_key = brand.upper() or "LAINNYA"
         if brand_key not in brand_qty:
             brand_qty[brand_key] = {"april": 0, "may": 0}
-        if month.lower() == PREV_MONTH.lower():
-            brand_qty[brand_key]["april"] += qty
-        elif month.lower() == CURRENT_MONTH.lower():
-            brand_qty[brand_key]["may"] += qty
+        if is_april: brand_qty[brand_key]["april"] += qty
+        elif is_may: brand_qty[brand_key]["may"]   += qty
 
         # Category (gunakan prefix item_group)
         cat = group.split("-")[0].strip().upper() if "-" in group else group.upper()
         if cat not in category_qty:
             category_qty[cat] = {"april": 0, "may": 0}
-        if month.lower() == PREV_MONTH.lower():
-            category_qty[cat]["april"] += qty
-        elif month.lower() == CURRENT_MONTH.lower():
-            category_qty[cat]["may"] += qty
+        if is_april: category_qty[cat]["april"] += qty
+        elif is_may: category_qty[cat]["may"]   += qty
 
-    return store_qty, brand_qty, category_qty
+        # Per-SKU (brand + model + storage) — hanya baris dengan model valid
+        model_det = str(row[model_det_col] if model_det_col < len(row) else "").strip()
+        model_cat = str(row[model_cat_col] if model_cat_col < len(row) else "").strip()
+        if (model_det and model_det not in ("0", "-", "")
+                and model_cat and model_cat not in ("0", "-", "")):
+            sku_key = (brand_key, model_det.upper(), model_cat.upper())
+            if sku_key not in sku_qty:
+                sku_qty[sku_key] = {"april": 0, "may": 0}
+            if is_april: sku_qty[sku_key]["april"] += qty
+            elif is_may: sku_qty[sku_key]["may"]   += qty
+
+    return store_qty, brand_qty, category_qty, sku_qty
 
 
 def read_by_store(ws):
@@ -522,12 +534,25 @@ def build_risk_table(stores):
     return [[s["siteDesc"], s["channel"], s["stock"], s["dos"], s["tsh"]] for s in risky[:12]]
 
 
-def build_model_table(brand_qty):
-    """Placeholder — model detail butuh lebih banyak kolom dari SALES VS STOCK."""
-    return sorted(
-        [{"brand": b, "qty": int(d["may"])} for b, d in brand_qty.items() if d["may"] > 0],
-        key=lambda x: x["qty"], reverse=True
-    )
+DEVICE_BRANDS = {"APPLE", "SAMSUNG", "XIAOMI", "OPPO", "VIVO", "REALME",
+                  "INFINIX", "TECNO", "HONOR", "NOTHING", "ITEL", "POCO"}
+
+def _is_storage(s):
+    """True jika string tampak seperti kapasitas storage: '128 GB', '8/256 GB', '1 TB'."""
+    s = s.upper()
+    return "GB" in s or "TB" in s
+
+def build_model_table(sku_qty):
+    """Top phone models dari SALES VS STOCK, sorted by qty May.
+    Filter: brand = device brand DAN storage mengandung GB/TB."""
+    rows = [
+        (brand, model, storage, int(d["april"]), int(d["may"]))
+        for (brand, model, storage), d in sku_qty.items()
+        if d["may"] > 0
+        and brand in DEVICE_BRANDS
+        and _is_storage(storage)
+    ]
+    return sorted(rows, key=lambda x: x[4], reverse=True)[:20]
 
 
 def build_accessories(category_qty):
@@ -591,7 +616,7 @@ def main():
 
     # Parse setiap sheet
     print("[ERA-ENGINE] Parsing SALES VS STOCK...")
-    store_qty, brand_qty, category_qty = read_sales_vs_stock(ws_svs) if ws_svs else ({}, {}, {})
+    store_qty, brand_qty, category_qty, sku_qty = read_sales_vs_stock(ws_svs) if ws_svs else ({}, {}, {}, {})
 
     print("[ERA-ENGINE] Parsing BY STORE...")
     by_store = read_by_store(ws_store) if ws_store else {}
@@ -638,8 +663,8 @@ def main():
     }
 
     model_table = [
-        [b["brand"], "-", "-", 0, b["qty"], 0, 0]
-        for b in build_model_table(brand_qty)[:15]
+        [brand, model, storage, apr, may, 0, 0]
+        for brand, model, storage, apr, may in build_model_table(sku_qty)
     ]
 
     payload = {

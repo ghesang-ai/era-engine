@@ -416,6 +416,30 @@ def build_brand_mix(brand_qty):
     return top2
 
 
+def build_brand_ranking(sku_qty):
+    """Per-device-brand ranking dengan apr + may + growth untuk brand cards."""
+    totals = {}
+    for (brand, model, storage), d in sku_qty.items():
+        if brand not in totals:
+            totals[brand] = {"april": 0, "may": 0}
+        totals[brand]["april"] += d["april"]
+        totals[brand]["may"]   += d["may"]
+
+    result = []
+    for brand, d in sorted(totals.items(), key=lambda x: x[1]["may"], reverse=True):
+        apr, may = d["april"], d["may"]
+        if may == 0:
+            continue
+        growth = round((may - apr) / apr * 100, 1) if apr > 0 else 0.0
+        result.append({
+            "brand":  brand,
+            "may":    int(may),
+            "april":  int(apr),
+            "growth": growth
+        })
+    return result
+
+
 def build_tsh_ranking(tsh_data):
     ranking = [(name, d["may_mtd"]) for name, d in tsh_data.items() if d["may_mtd"] > 0]
     ranking.sort(key=lambda x: x[1], reverse=True)
@@ -552,7 +576,7 @@ def build_model_table(sku_qty):
         and brand in DEVICE_BRANDS
         and _is_storage(storage)
     ]
-    return sorted(rows, key=lambda x: x[4], reverse=True)[:20]
+    return sorted(rows, key=lambda x: x[4], reverse=True)[:50]
 
 
 def build_accessories(category_qty):
@@ -631,8 +655,9 @@ def main():
 
     # Assemble output
     print("[ERA-ENGINE] Assembling dashboard data...")
-    stores       = build_stores(store_qty, by_store)
-    brand_mix    = build_brand_mix(brand_qty)
+    stores         = build_stores(store_qty, by_store)
+    brand_mix      = build_brand_mix(brand_qty)
+    brand_ranking  = build_brand_ranking(sku_qty)
     tsh_ranking  = build_tsh_ranking(tsh_data)
     trend        = build_trend(pivot_data, tsh_data)
     summary      = build_summary(stores, totals)
@@ -676,6 +701,7 @@ def main():
         "tshRanking":   tsh_ranking,
         "stores":       stores,
         "brandMix":     brand_mix,
+        "brandRanking": brand_ranking,
         "modelTable":   model_table,
         "highlights":   highlights,
         "stockSummary": stock_summ,

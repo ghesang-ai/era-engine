@@ -1,4 +1,4 @@
-import { CONFIG } from "./config.js?v=20260527d";
+import { CONFIG } from "./config.js?v=20260527g";
 
 Chart.defaults.color = CONFIG.COLORS.text;
 Chart.defaults.borderColor = CONFIG.COLORS.grid;
@@ -88,29 +88,6 @@ export function renderTshChart(data) {
   });
 }
 
-export function renderBrandDonutChart(data) {
-  const ctx = document.getElementById("brandDonutChart");
-  if (!ctx) return;
-  chartStore.brand?.destroy();
-  chartStore.brand = new Chart(ctx, {
-    type: "doughnut",
-    data: {
-      labels: data.brandMix.map((item) => item.label),
-      datasets: [{
-        data: data.brandMix.map((item) => item.value),
-        backgroundColor: [CONFIG.COLORS.cyan, CONFIG.COLORS.violet, "#182138"],
-        borderWidth: 0,
-        hoverOffset: 6
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: "70%",
-      plugins: { legend: { position: "bottom" } }
-    }
-  });
-}
 
 export function renderStockChart(data) {
   const ctx = document.getElementById("stockChart");

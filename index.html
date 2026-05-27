@@ -14,9 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css?v=20260527f" />
-    <link rel="stylesheet" href="./css/components.css?v=20260527f" />
-    <link rel="stylesheet" href="./css/mobile.css?v=20260527f" />
+    <link rel="stylesheet" href="./css/main.css?v=20260527g" />
+    <link rel="stylesheet" href="./css/components.css?v=20260527g" />
+    <link rel="stylesheet" href="./css/mobile.css?v=20260527g" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   </head>
   <body>
@@ -208,28 +208,22 @@
             </div>
           </div>
 
-          <div class="brand-topgrid">
-            <article class="card chart-card">
-              <div class="card-header">
-                <div>
-                  <p class="section-kicker">Mix</p>
-                  <h4>Sales mix per brand</h4>
-                </div>
+          <article class="card">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Pencapaian per Brand Device</p>
+                <h4>Klik brand untuk filter model di bawah</h4>
               </div>
-              <div class="chart-wrap donut">
-                <canvas id="brandDonutChart"></canvas>
-                <div class="chart-center" id="brandCenterLabel"></div>
-              </div>
-            </article>
-
-            <div class="highlight-grid" id="highlightGrid"></div>
-          </div>
+              <span class="muted-label" id="brandSelectedLabel">Semua Brand</span>
+            </div>
+            <div class="brand-card-list" id="brandCardList"></div>
+          </article>
 
           <article class="card">
             <div class="card-header">
               <div>
                 <p class="section-kicker">Model Performance</p>
-                <h4>April vs Mei</h4>
+                <h4 id="modelTableTitle">Semua Brand · April vs Mei</h4>
               </div>
             </div>
             <div class="table-scroll">
@@ -325,6 +319,6 @@
       </dialog>
     </div>
 
-    <script type="module" src="./js/main.js?v=20260527f"></script>
+    <script type="module" src="./js/main.js?v=20260527g"></script>
   </body>
 </html>

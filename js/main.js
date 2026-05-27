@@ -1,6 +1,6 @@
-import { CONFIG } from "./config.js?v=20260527f";
-import { fetchSalesData, invalidateCache } from "./api.js?v=20260527f";
-import { getFilteredStores } from "./filters.js?v=20260527f";
+import { CONFIG } from "./config.js?v=20260527g";
+import { fetchSalesData, invalidateCache } from "./api.js?v=20260527g";
+import { getFilteredStores } from "./filters.js?v=20260527g";
 import {
   bindDosAlert,
   bindStoreSearch,
@@ -14,14 +14,13 @@ import {
   renderStoreFilters,
   renderStoreList,
   setupTabs
-} from "./ui.js?v=20260527f";
+} from "./ui.js?v=20260527g";
 import {
   renderAccessoriesChart,
-  renderBrandDonutChart,
   renderSalesTrendChart,
   renderStockChart,
   renderTshChart
-} from "./charts.js?v=20260527f";
+} from "./charts.js?v=20260527g";
 
 const storeUiState = {
   query: "",
@@ -49,9 +48,7 @@ function renderActiveTabCharts(tab) {
     renderSalesTrendChart(appData);
     renderTshChart(appData);
   }
-  if (tab === "brand") {
-    renderBrandDonutChart(appData);
-  }
+
   if (tab === "stock") {
     renderStockChart(appData);
   }

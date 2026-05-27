@@ -1,5 +1,5 @@
-import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527f";
-import { getDosProgress, getDosTone } from "./filters.js?v=20260527f";
+import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527g";
+import { getDosProgress, getDosTone } from "./filters.js?v=20260527g";
 
 function formatNumber(value) {
   return new Intl.NumberFormat("id-ID").format(value);
@@ -268,28 +268,86 @@ export function renderStoreList(stores, onSelect, limit = STORE_PAGE_SIZE) {
   }
 }
 
+let _brandAllModels = [];
+let _brandActiveFilter = null;
+
+function renderModelTable(rows, brandFilter) {
+  const filtered = brandFilter ? rows.filter((r) => r[0] === brandFilter) : rows;
+  const tableEl = document.getElementById("modelTable");
+  const titleEl = document.getElementById("modelTableTitle");
+  if (titleEl) titleEl.textContent = brandFilter ? `${brandFilter} · April vs Mei` : "Semua Brand · April vs Mei";
+  if (!tableEl) return;
+  if (!filtered.length) {
+    tableEl.innerHTML = `<tbody><tr><td colspan="5" style="text-align:center;padding:24px;color:var(--text-tertiary)">Tidak ada data model untuk brand ini.</td></tr></tbody>`;
+    return;
+  }
+  tableEl.innerHTML = `
+    <thead><tr><th>Brand</th><th>Model</th><th>Storage</th><th>Apr</th><th>Mei</th></tr></thead>
+    <tbody>${filtered.slice(0, 30).map((row) => `
+      <tr>
+        <td>${row[0]}</td>
+        <td>${row[1]}</td>
+        <td>${row[2]}</td>
+        <td>${formatNumber(row[3])}</td>
+        <td><strong>${formatNumber(row[4])}</strong></td>
+      </tr>`).join("")}</tbody>
+  `;
+}
+
 export function renderBrandSection(data) {
-  document.getElementById("brandCenterLabel").innerHTML = `<strong>${formatNumber(data.brandMix.reduce((sum, item) => sum + item.value, 0))}</strong><span>unit Mei</span>`;
-  document.getElementById("highlightGrid").innerHTML = `
-    <article class="card highlight-card">
-      <p class="emoji">🏆</p>
-      <p class="section-kicker">${data.highlights.bestSeller.title}</p>
-      <h4>${data.highlights.bestSeller.model}</h4>
-      <strong>${data.highlights.bestSeller.value}</strong>
-      <p>${data.highlights.bestSeller.note}</p>
-    </article>
-    <article class="card highlight-card">
-      <p class="emoji">⚠</p>
-      <p class="section-kicker">${data.highlights.deadStock.title}</p>
-      <h4>${data.highlights.deadStock.model}</h4>
-      <strong>${data.highlights.deadStock.value}</strong>
-      <p>${data.highlights.deadStock.note}</p>
-    </article>
-  `;
-  document.getElementById("modelTable").innerHTML = `
-    <thead><tr><th>Brand</th><th>Model</th><th>Storage</th><th>Qty Apr</th><th>Qty May</th><th>Stock</th><th>DOS</th></tr></thead>
-    <tbody>${data.modelTable.map((row) => `<tr><td>${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${formatNumber(row[3])}</td><td>${formatNumber(row[4])}</td><td>${formatNumber(row[5])}</td><td>${row[6].toFixed(1).replace(".", ",")}</td></tr>`).join("")}</tbody>
-  `;
+  _brandAllModels = data.modelTable || [];
+  _brandActiveFilter = null;
+
+  const ranking = data.brandRanking || [];
+  const listEl = document.getElementById("brandCardList");
+  const labelEl = document.getElementById("brandSelectedLabel");
+
+  if (!listEl) return;
+
+  if (!ranking.length) {
+    listEl.innerHTML = `<p style="color:var(--text-tertiary);padding:16px 0">Data brand belum tersedia.</p>`;
+    renderModelTable(_brandAllModels, null);
+    return;
+  }
+
+  const maxQty = ranking[0].may || 1;
+
+  listEl.innerHTML = ranking.map((item, idx) => {
+    const barWidth = Math.round((item.may / maxQty) * 100);
+    const growthClass = item.growth > 0 ? "positive" : item.growth < 0 ? "negative" : "neutral";
+    const growthSign = item.growth > 0 ? "▲" : item.growth < 0 ? "▼" : "—";
+    return `
+      <div class="brand-card" data-brand="${item.brand}">
+        <span class="brand-card__rank">${idx + 1}</span>
+        <span class="brand-card__name">${item.brand}</span>
+        <div class="brand-card__bar-wrap">
+          <div class="brand-card__bar-fill" style="width:${barWidth}%"></div>
+        </div>
+        <div class="brand-card__stats">
+          <span class="brand-card__qty">${formatNumber(item.may)} unit</span>
+          <span class="brand-card__growth ${growthClass}">${growthSign} ${Math.abs(item.growth)}% vs Apr</span>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  listEl.querySelectorAll(".brand-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const brand = card.dataset.brand;
+      if (_brandActiveFilter === brand) {
+        _brandActiveFilter = null;
+        listEl.querySelectorAll(".brand-card").forEach((c) => c.classList.remove("active"));
+        if (labelEl) labelEl.textContent = "Semua Brand";
+      } else {
+        _brandActiveFilter = brand;
+        listEl.querySelectorAll(".brand-card").forEach((c) => c.classList.toggle("active", c.dataset.brand === brand));
+        if (labelEl) labelEl.textContent = brand;
+      }
+      renderModelTable(_brandAllModels, _brandActiveFilter);
+    });
+  });
+
+  renderModelTable(_brandAllModels, null);
 }
 
 export function renderStockSection(data) {

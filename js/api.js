@@ -1,4 +1,4 @@
-import { CONFIG, MOCK_DATA } from "./config.js?v=20260527f";
+import { CONFIG, MOCK_DATA } from "./config.js?v=20260527g";
 
 function cloneMock() {
   return JSON.parse(JSON.stringify(MOCK_DATA));
@@ -24,6 +24,7 @@ function normalizeData(payload) {
     tshRanking:   payload.tshRanking   || fb.tshRanking,
     stores:       payload.stores       || fb.stores,
     brandMix:     payload.brandMix     || fb.brandMix,
+    brandRanking: payload.brandRanking || fb.brandRanking || [],
     modelTable:   payload.modelTable   || fb.modelTable,
     highlights:   { ...fb.highlights,  ...(payload.highlights  || {}) },
     stockSummary: payload.stockSummary || fb.stockSummary,

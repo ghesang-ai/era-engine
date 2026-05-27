@@ -1,4 +1,4 @@
-import { CONFIG, MOCK_DATA } from "./config.js?v=20260527c";
+import { CONFIG, MOCK_DATA } from "./config.js?v=20260527d";
 
 function cloneMock() {
   return JSON.parse(JSON.stringify(MOCK_DATA));
@@ -80,33 +80,42 @@ export async function fetchSalesData() {
     }
   }
 
-  // Preview mode — langsung pakai mock
-  const isPreview = !CONFIG.API_URL || CONFIG.API_URL === "YOUR_APPS_SCRIPT_WEB_APP_URL";
-  if (isPreview) {
-    document.getElementById("offlineBanner")?.classList.remove("hidden");
-    return { ...normalizeData(MOCK_DATA), source: "mock" };
-  }
-
-  // Coba ambil dari API
   showSkeletonLoading();
+
+  // 1. Coba live_data.json (digenerate Python parser, di-deploy bersama site)
   try {
-    const url  = `${CONFIG.API_URL}?action=all`;
-    const raw  = await fetchWithTimeout(url);
-
-    // Jika API mengembalikan error field
-    if (raw.error) throw new Error(raw.error);
-
-    const data = normalizeData(raw);
-    localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
-    hideSkeletonLoading();
-    return { ...data, source: "api" };
-
-  } catch (err) {
-    hideSkeletonLoading();
-    showErrorState();
-    console.warn("[ERA-ENGINE] API error, fallback ke mock:", err.message);
-    return { ...normalizeData(MOCK_DATA), source: "mock" };
+    const raw = await fetchWithTimeout("./data/live_data.json");
+    if (raw && !raw.error) {
+      const data = normalizeData(raw);
+      localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
+      hideSkeletonLoading();
+      return { ...data, source: "live_json" };
+    }
+  } catch (_) {
+    // lanjut ke fallback
   }
+
+  // 2. Coba GAS API jika URL sudah dikonfigurasi
+  const hasApi = CONFIG.API_URL && CONFIG.API_URL !== "YOUR_APPS_SCRIPT_WEB_APP_URL";
+  if (hasApi) {
+    try {
+      const raw = await fetchWithTimeout(`${CONFIG.API_URL}?action=all`);
+      if (raw && !raw.error) {
+        const data = normalizeData(raw);
+        localStorage.setItem(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
+        hideSkeletonLoading();
+        return { ...data, source: "api" };
+      }
+    } catch (_) {
+      // lanjut ke mock
+    }
+  }
+
+  // 3. Mock fallback
+  hideSkeletonLoading();
+  showErrorState();
+  console.warn("[ERA-ENGINE] Semua sumber gagal, menggunakan mock data");
+  return { ...normalizeData(MOCK_DATA), source: "mock" };
 }
 
 // Invalidate cache agar fetch ulang data segar

@@ -1,5 +1,5 @@
-import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527j";
-import { getDosProgress, getDosTone } from "./filters.js?v=20260527j";
+import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527k";
+import { getDosProgress, getDosTone } from "./filters.js?v=20260527k";
 
 function formatNumber(value) {
   return new Intl.NumberFormat("id-ID").format(value);

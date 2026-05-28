@@ -566,6 +566,46 @@
   color: var(--accent-amber);
 }
 
+/* KPI Dual Mode (Apr-May comparison) */
+.kpi-card--dual {
+  min-height: 148px;
+}
+
+.kpi-dual-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 0;
+  margin: 10px 0 8px;
+}
+
+.kpi-dual-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.kpi-dual-col .kpi-value {
+  margin: 3px 0 0;
+  font-size: 18px;
+}
+
+.kpi-dual-label {
+  display: block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.kpi-dual-sep {
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.07);
+  margin: 0 12px;
+  flex-shrink: 0;
+  align-self: center;
+}
+
 .chart-card {
   overflow: hidden;
 }

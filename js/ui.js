@@ -1,5 +1,5 @@
-import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527i";
-import { getDosProgress, getDosTone } from "./filters.js?v=20260527i";
+import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527j";
+import { getDosProgress, getDosTone } from "./filters.js?v=20260527j";
 
 function formatNumber(value) {
   return new Intl.NumberFormat("id-ID").format(value);
@@ -64,22 +64,100 @@ function renderRingSvg(value, tone, size = 132, stroke = 14, label = "") {
   `;
 }
 
-export function renderKpis(data) {
-  const diffSales = ((data.summary.totalSalesMay - data.summary.totalSalesApril) / data.summary.totalSalesApril) * 100;
-  const diffQty = ((data.summary.qtyMay - data.summary.qtyApril) / data.summary.qtyApril) * 100;
+export function renderHeroMetrics(data) {
+  const el = document.getElementById("heroMetrics");
+  if (!el) return;
+  const s = data.summary || {};
+  const o = data.overview || {};
+  el.innerHTML = `
+    <article class="hero-metric">
+      <span>Command Mode</span>
+      <strong>Sales vs Stock</strong>
+    </article>
+    <article class="hero-metric">
+      <span>Mission Pulse</span>
+      <strong>${s.criticalStores ?? "—"} toko kritis</strong>
+    </article>
+    <article class="hero-metric">
+      <span>Period</span>
+      <strong>${o.periodLabel ?? "MTD Mei"}</strong>
+    </article>
+  `;
+}
+
+export function setupPeriodSelector(onChange) {
+  const chips = document.querySelectorAll("#periodSelector .chip");
+  chips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+      chips.forEach((c) => c.classList.remove("active"));
+      chip.classList.add("active");
+      const text = chip.textContent.trim().toLowerCase();
+      const period = text === "april" ? "april" : text.includes("-") ? "apr-may" : "may";
+      onChange(period);
+    });
+  });
+}
+
+export function renderKpis(data, period = "may") {
+  const el = document.getElementById("kpiStrip");
+  if (!el) return;
+  const s = data.summary;
+
+  if (period === "apr-may") {
+    const salesDiff = s.totalSalesApril > 0 ? ((s.totalSalesMay - s.totalSalesApril) / s.totalSalesApril) * 100 : 0;
+    const qtyDiff   = s.qtyApril > 0 ? ((s.qtyMay - s.qtyApril) / s.qtyApril) * 100 : 0;
+    el.innerHTML = [
+      ["Total Sales", formatCompactCurrency(s.totalSalesApril), formatCompactCurrency(s.totalSalesMay), salesDiff, "Revenue netto April vs Mei"],
+      ["Total Qty",   `${formatNumber(s.qtyApril)} unit`,       `${formatNumber(s.qtyMay)} unit`,       qtyDiff,   "Movement unit April vs Mei"],
+      ["Total Stock", "—",                                       `${formatNumber(s.totalStock)} unit`,   null,      "Stock aktif end Mei"],
+      ["AVG DOS",     "—",                                       `${s.avgDos.toFixed(1).replace(".", ",")} hari`, null, "Target ideal < 60 hari"]
+    ].map(([label, aprVal, mayVal, diff, meta]) => `
+      <article class="card kpi-card kpi-card--dual">
+        <div class="kpi-card__line">
+          <p class="kpi-label">${label}</p>
+          <span class="kpi-card__orb"></span>
+        </div>
+        <div class="kpi-dual-row">
+          <div class="kpi-dual-col">
+            <span class="kpi-dual-label">Apr</span>
+            <h4 class="kpi-value">${aprVal}</h4>
+          </div>
+          <div class="kpi-dual-sep"></div>
+          <div class="kpi-dual-col">
+            <span class="kpi-dual-label">Mei</span>
+            <h4 class="kpi-value">${mayVal}</h4>
+          </div>
+        </div>
+        ${diff !== null ? `<span class="kpi-badge ${diff >= 0 ? "positive" : "negative"}">${diff >= 0 ? "▲" : "▼"} ${Math.abs(diff).toFixed(1)}% MoM</span>` : ""}
+        <p class="kpi-meta">${meta}</p>
+      </article>
+    `).join("");
+    return;
+  }
+
+  // Single period: "may" or "april"
+  const isMay   = period !== "april";
+  const sales   = isMay ? s.totalSalesMay   : s.totalSalesApril;
+  const salesPr = isMay ? s.totalSalesApril : s.totalSalesMay;
+  const qty     = isMay ? s.qtyMay   : s.qtyApril;
+  const qtyPr   = isMay ? s.qtyApril : s.qtyMay;
+  const vs      = isMay ? "vs Apr" : "vs Mei";
+  const diffS   = salesPr > 0 ? ((sales - salesPr) / salesPr) * 100 : 0;
+  const diffQ   = qtyPr   > 0 ? ((qty   - qtyPr)   / qtyPr)   * 100 : 0;
+
   const cards = [
-    ["Total Sales", formatCompactCurrency(data.summary.totalSalesMay), `${diffSales >= 0 ? "▲" : "▼"} ${Math.abs(diffSales).toFixed(1)}% vs Apr`, diffSales >= 0 ? "positive" : "negative", "Revenue netto MTD Mei"],
-    ["Total Qty", `${formatNumber(data.summary.qtyMay)} unit`, `${diffQty >= 0 ? "▲" : "▼"} ${Math.abs(diffQty).toFixed(1)}% vs Apr`, diffQty >= 0 ? "positive" : "negative", "Movement unit terjual"],
-    ["Total Stock", `${formatNumber(data.summary.totalStock)} unit`, "Stock aktif seluruh jaringan", "warning", "PO + Non-PO"],
-    ["AVG DOS", `${data.summary.avgDos.toFixed(1).replace(".", ",")} hari`, "Target ideal < 60 hari", "warning", "Butuh akselerasi sell-out"]
+    ["Total Sales", formatCompactCurrency(sales),               `${diffS >= 0 ? "▲" : "▼"} ${Math.abs(diffS).toFixed(1)}% ${vs}`, diffS >= 0 ? "positive" : "negative", isMay ? "Revenue netto MTD Mei" : "Revenue netto April"],
+    ["Total Qty",   `${formatNumber(qty)} unit`,                `${diffQ >= 0 ? "▲" : "▼"} ${Math.abs(diffQ).toFixed(1)}% ${vs}`, diffQ >= 0 ? "positive" : "negative", "Movement unit terjual"],
+    ["Total Stock", `${formatNumber(s.totalStock)} unit`,       "Stock aktif seluruh jaringan", "warning", "PO + Non-PO"],
+    ["AVG DOS",     `${s.avgDos.toFixed(1).replace(".", ",")} hari`, "Target ideal < 60 hari", "warning", "Butuh akselerasi sell-out"]
   ];
-  document.getElementById("kpiStrip").innerHTML = cards.map(([label, value, badge, tone, meta]) => `
+  el.innerHTML = cards.map(([label, value, badge, tone, meta]) => `
     <article class="card kpi-card">
       <div class="kpi-card__line">
         <p class="kpi-label">${label}</p>
         <span class="kpi-card__orb"></span>
       </div>
-      <h4 class="kpi-value" data-countup="${value}">${value}</h4>
+      <h4 class="kpi-value">${value}</h4>
       <span class="kpi-badge ${tone}">${badge}</span>
       <p class="kpi-meta">${meta}</p>
     </article>

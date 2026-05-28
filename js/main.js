@@ -1,6 +1,6 @@
-import { CONFIG } from "./config.js?v=20260527i";
-import { fetchSalesData, invalidateCache } from "./api.js?v=20260527i";
-import { getFilteredStores } from "./filters.js?v=20260527i";
+import { CONFIG } from "./config.js?v=20260527j";
+import { fetchSalesData, invalidateCache } from "./api.js?v=20260527j";
+import { getFilteredStores } from "./filters.js?v=20260527j";
 import {
   bindDosAlert,
   bindStoreSearch,
@@ -8,19 +8,21 @@ import {
   renderAccessoriesSection,
   renderBrandSection,
   renderDosAlert,
+  renderHeroMetrics,
   renderKpis,
   renderOverviewSections,
   renderStockSection,
   renderStoreFilters,
   renderStoreList,
+  setupPeriodSelector,
   setupTabs
-} from "./ui.js?v=20260527i";
+} from "./ui.js?v=20260527j";
 import {
   renderAccessoriesChart,
   renderSalesTrendChart,
   renderStockChart,
   renderTshChart
-} from "./charts.js?v=20260527i";
+} from "./charts.js?v=20260527j";
 
 const storeUiState = {
   query: "",
@@ -30,11 +32,13 @@ const storeUiState = {
 
 let appData;
 let activeTab = CONFIG.DEFAULT_TAB;
+let currentPeriod = "may";
 const initializedCharts = new Set();
 
 function renderApp(data) {
+  renderHeroMetrics(data);
   renderOverviewSections(data);
-  renderKpis(data);
+  renderKpis(data, currentPeriod);
   renderDosAlert(data);
   renderBrandSection(data);
   renderStockSection(data);
@@ -97,6 +101,11 @@ async function init() {
     renderApp(appData);
     if (activeTab === "toko") refreshStoreList();
     renderActiveTabCharts(activeTab);
+  });
+
+  setupPeriodSelector((period) => {
+    currentPeriod = period;
+    renderKpis(appData, period);
   });
 
   renderActiveTabCharts(CONFIG.DEFAULT_TAB);

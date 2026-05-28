@@ -34,8 +34,8 @@ if not EXCEL_FOLDER.exists():
 
 CURRENT_MONTH  = "May"          # Nama bulan di kolom 'Month' pada sheet SALES VS STOCK
 PREV_MONTH     = "April"
-PERIOD_LABEL   = "1 - 25 Mei 2026"
-WORKING_DAYS   = 25             # Hari kerja MTD bulan ini
+PERIOD_LABEL   = "1 - 27 Mei 2026"
+WORKING_DAYS   = 27             # Hari kerja MTD bulan ini
 DOS_CRITICAL   = 75
 
 # ── Utility ──────────────────────────────────────────────────────────────────

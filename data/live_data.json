@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-05-28T09:58:01.952706",
-  "source_file": "Sales vs Stock 01 - 27 Mei 2026 R5_Master.xlsx",
+  "generated_at": "2026-05-29T14:38:36.960044",
+  "source_file": "Sales vs Stock 01 - 28 Mei 2026 R5_Master.xlsx",
   "summary": {
-    "totalSalesMay": 787454376262,
+    "totalSalesMay": 811551792411,
     "totalSalesApril": 1026325137935,
-    "qtyMay": 156378,
+    "qtyMay": 161398,
     "qtyApril": 192844,
-    "totalStock": 318126,
-    "avgDos": 77.45,
-    "criticalStores": 78,
+    "totalStock": 322073,
+    "avgDos": 78.8,
+    "criticalStores": 80,
     "storeCount": 435
   },
   "overview": {
     "title": "Sales Performance - B2C Region 5",
-    "periodLabel": "1 - 27 Mei 2026",
-    "timegone": 87,
-    "underTimegone": 20,
+    "periodLabel": "1 - 28 Mei 2026",
+    "timegone": 90,
+    "underTimegone": 18,
     "targetUnits": 989029608071,
-    "mtdUnits": 787454376262,
-    "estUnits": 904114283856,
+    "mtdUnits": 811551792411,
+    "estUnits": 898503770169,
     "rings": [
       {
         "label": "MTD",
-        "value": 80,
+        "value": 82,
         "tone": "amber"
       },
       {
@@ -34,19 +34,19 @@
     "quickStats": [
       {
         "label": "WoW",
-        "value": "-58%"
+        "value": "-45%"
       },
       {
         "label": "MoM",
-        "value": "-23%"
-      },
-      {
-        "label": "YoY",
         "value": "-21%"
       },
       {
+        "label": "YoY",
+        "value": "-18%"
+      },
+      {
         "label": "AVG",
-        "value": "606 u/toko"
+        "value": "625 u/toko"
       },
       {
         "label": "ASP",
@@ -64,58 +64,58 @@
     },
     {
       "month": "May",
-      "po": 704963709196,
-      "nonPo": 80630880884
+      "po": 726598819086,
+      "nonPo": 83093187143
     }
   ],
   "tshRanking": [
     [
       "ANDI IRAWAN",
-      165407999099
+      170062743641
     ],
     [
       "MARDIANSAH",
-      77700636756
+      80546366607
     ],
     [
       "RACHMAT",
-      56603677935
+      58214391888
     ],
     [
       "ARIS FACHRUDIN",
-      52769540808
+      54475907407
     ],
     [
       "ANDRY UTAMA",
-      49576171647
+      50899017875
     ],
     [
       "JOKO SUPRASTIO",
-      44482187988
+      45528942145
     ],
     [
       "RIZKY KURNIAWAN",
-      36506119899
+      37641713236
     ],
     [
       "ARDILESACH",
-      34843519565
+      35993070385
     ],
     [
       "SOPIYAN SAURI",
-      20221068429
+      20815509898
     ],
     [
       "LIA ASTUTI",
-      15982635569
+      16454826087
     ],
     [
       "ARENGGA",
-      14608608492
+      15222471004
     ],
     [
       "LIM PING KIAN",
-      14137369434
+      14662114099
     ]
   ],
   "stores": [
@@ -125,10 +125,10 @@
       "channel": "IBOX",
       "tsh": "JOKO SUPRASTIO",
       "april": 4538,
-      "may": 4147,
-      "stock": 3130,
-      "est": 4761,
-      "dos": 20.38
+      "may": 4248,
+      "stock": 3286,
+      "est": 4703,
+      "dos": 21.66
     },
     {
       "siteCode": "X022",
@@ -136,10 +136,10 @@
       "channel": "IBOX",
       "tsh": "ANDRY UTAMA",
       "april": 4013,
-      "may": 3927,
-      "stock": 2792,
-      "est": 4509,
-      "dos": 19.2
+      "may": 4042,
+      "stock": 2960,
+      "est": 4475,
+      "dos": 20.5
     },
     {
       "siteCode": "X035",
@@ -147,10 +147,10 @@
       "channel": "IBOX",
       "tsh": "RIZKY KURNIAWAN",
       "april": 3496,
-      "may": 3734,
-      "stock": 2719,
-      "est": 4287,
-      "dos": 19.66
+      "may": 3848,
+      "stock": 2824,
+      "est": 4260,
+      "dos": 20.55
     },
     {
       "siteCode": "X168",
@@ -158,10 +158,10 @@
       "channel": "IBOX",
       "tsh": "ARDILESACH",
       "april": 2581,
-      "may": 3649,
-      "stock": 4364,
-      "est": 4190,
-      "dos": 32.29
+      "may": 3769,
+      "stock": 4403,
+      "est": 4173,
+      "dos": 32.71
     },
     {
       "siteCode": "M091",
@@ -169,10 +169,10 @@
       "channel": "ERAFONE",
       "tsh": "RENDY NUR SETIAWAN",
       "april": 1772,
-      "may": 2976,
-      "stock": 6061,
-      "est": 3417,
-      "dos": 54.99
+      "may": 3032,
+      "stock": 5963,
+      "est": 3357,
+      "dos": 55.07
     },
     {
       "siteCode": "X011",
@@ -180,10 +180,10 @@
       "channel": "IBOX",
       "tsh": "JOKO SUPRASTIO",
       "april": 2546,
-      "may": 2808,
-      "stock": 2483,
-      "est": 3224,
-      "dos": 23.88
+      "may": 2890,
+      "stock": 2430,
+      "est": 3200,
+      "dos": 23.54
     },
     {
       "siteCode": "X049",
@@ -191,21 +191,10 @@
       "channel": "IBOX",
       "tsh": "ARDILESACH",
       "april": 1484,
-      "may": 2402,
-      "stock": 2984,
-      "est": 2758,
-      "dos": 33.54
-    },
-    {
-      "siteCode": "X015",
-      "siteDesc": "IBOX PLAZA INDONESIA",
-      "channel": "IBOX",
-      "tsh": "ANDRY UTAMA",
-      "april": 2841,
-      "may": 2321,
-      "stock": 2282,
-      "est": 2665,
-      "dos": 26.55
+      "may": 2431,
+      "stock": 2976,
+      "est": 2691,
+      "dos": 34.27
     },
     {
       "siteCode": "M014",
@@ -213,10 +202,21 @@
       "channel": "ERA & MORE",
       "tsh": "ARENGGA",
       "april": 2967,
-      "may": 2315,
-      "stock": 4938,
-      "est": 2658,
-      "dos": 57.6
+      "may": 2407,
+      "stock": 4920,
+      "est": 2665,
+      "dos": 57.23
+    },
+    {
+      "siteCode": "X015",
+      "siteDesc": "IBOX PLAZA INDONESIA",
+      "channel": "IBOX",
+      "tsh": "ANDRY UTAMA",
+      "april": 2841,
+      "may": 2377,
+      "stock": 2277,
+      "est": 2632,
+      "dos": 26.82
     },
     {
       "siteCode": "X058",
@@ -224,10 +224,10 @@
       "channel": "IBOX",
       "tsh": "RIZKY KURNIAWAN",
       "april": 2404,
-      "may": 2304,
-      "stock": 2444,
-      "est": 2645,
-      "dos": 28.64
+      "may": 2358,
+      "stock": 2416,
+      "est": 2611,
+      "dos": 28.69
     },
     {
       "siteCode": "M019",
@@ -235,10 +235,10 @@
       "channel": "ERAFONE",
       "tsh": "SANDI MAULANA",
       "april": 2375,
-      "may": 2099,
-      "stock": 3426,
-      "est": 2410,
-      "dos": 44.07
+      "may": 2199,
+      "stock": 3441,
+      "est": 2435,
+      "dos": 43.81
     },
     {
       "siteCode": "X072",
@@ -246,10 +246,10 @@
       "channel": "IBOX",
       "tsh": "ARDILESACH",
       "april": 1089,
-      "may": 1664,
-      "stock": 1385,
-      "est": 1911,
-      "dos": 22.47
+      "may": 1692,
+      "stock": 1317,
+      "est": 1873,
+      "dos": 21.79
     },
     {
       "siteCode": "M013",
@@ -257,21 +257,10 @@
       "channel": "ERAFONE",
       "tsh": "SANDI MAULANA",
       "april": 1790,
-      "may": 1590,
-      "stock": 2507,
-      "est": 1826,
-      "dos": 42.57
-    },
-    {
-      "siteCode": "E150",
-      "siteDesc": "ERAFONE CILEGON CENTER MALL",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 2483,
-      "may": 1565,
-      "stock": 2750,
-      "est": 1797,
-      "dos": 47.44
+      "may": 1647,
+      "stock": 2550,
+      "est": 1823,
+      "dos": 43.35
     },
     {
       "siteCode": "E221",
@@ -279,10 +268,21 @@
       "channel": "ERA & MORE",
       "tsh": "RENDI JANUARDI",
       "april": 2189,
-      "may": 1538,
-      "stock": 3097,
-      "est": 1766,
-      "dos": 54.36
+      "may": 1614,
+      "stock": 3110,
+      "est": 1787,
+      "dos": 53.95
+    },
+    {
+      "siteCode": "E150",
+      "siteDesc": "ERAFONE CILEGON CENTER MALL",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 2483,
+      "may": 1589,
+      "stock": 2821,
+      "est": 1759,
+      "dos": 49.71
     },
     {
       "siteCode": "E209",
@@ -290,21 +290,10 @@
       "channel": "ERAFONE",
       "tsh": "NURUL ZAMAN",
       "april": 1451,
-      "may": 1518,
-      "stock": 3587,
-      "est": 1743,
-      "dos": 63.79
-    },
-    {
-      "siteCode": "M021",
-      "siteDesc": "ERAFONE & MORE RUKO CILEDUG",
-      "channel": "ERA & MORE",
-      "tsh": "ABDILLAH",
-      "april": 2312,
-      "may": 1485,
-      "stock": 2857,
-      "est": 1705,
-      "dos": 51.95
+      "may": 1548,
+      "stock": 3699,
+      "est": 1714,
+      "dos": 66.91
     },
     {
       "siteCode": "E119",
@@ -312,21 +301,21 @@
       "channel": "ERAFONE",
       "tsh": "ARI HIDAYAT",
       "april": 1524,
-      "may": 1484,
-      "stock": 2438,
-      "est": 1704,
-      "dos": 44.35
+      "may": 1532,
+      "stock": 2484,
+      "est": 1696,
+      "dos": 45.4
     },
     {
-      "siteCode": "M193",
-      "siteDesc": "ERAFONE & MORE EDC",
+      "siteCode": "M021",
+      "siteDesc": "ERAFONE & MORE RUKO CILEDUG",
       "channel": "ERA & MORE",
-      "tsh": "VACANT",
-      "april": 1355,
-      "may": 1418,
-      "stock": 315,
-      "est": 1628,
-      "dos": 5.99
+      "tsh": "ABDILLAH",
+      "april": 2312,
+      "may": 1528,
+      "stock": 3014,
+      "est": 1692,
+      "dos": 55.23
     },
     {
       "siteCode": "E396",
@@ -334,10 +323,21 @@
       "channel": "ERA & MORE",
       "tsh": "MENSI ALEXANDER",
       "april": 1471,
-      "may": 1415,
-      "stock": 2783,
-      "est": 1625,
-      "dos": 53.1
+      "may": 1503,
+      "stock": 3099,
+      "est": 1664,
+      "dos": 57.73
+    },
+    {
+      "siteCode": "M193",
+      "siteDesc": "ERAFONE & MORE EDC",
+      "channel": "ERA & MORE",
+      "tsh": "VACANT",
+      "april": 1355,
+      "may": 1424,
+      "stock": 381,
+      "est": 1577,
+      "dos": 7.48
     },
     {
       "siteCode": "E414",
@@ -345,54 +345,10 @@
       "channel": "ERAFONE",
       "tsh": "LUKMAN WIBOWO",
       "april": 1634,
-      "may": 1260,
-      "stock": 1908,
-      "est": 1447,
-      "dos": 40.88
-    },
-    {
-      "siteCode": "M068",
-      "siteDesc": "ERAFONE & MORE RUKO KAMAL CENGKAREN",
-      "channel": "ERA & MORE",
-      "tsh": "IRMAN PERMANA",
-      "april": 1953,
-      "may": 1221,
-      "stock": 2724,
-      "est": 1402,
-      "dos": 60.24
-    },
-    {
-      "siteCode": "X142",
-      "siteDesc": "IBOX A YANI SERANG",
-      "channel": "IBOX",
-      "tsh": "ARDILESACH",
-      "april": 1375,
-      "may": 1197,
-      "stock": 1160,
-      "est": 1374,
-      "dos": 26.17
-    },
-    {
-      "siteCode": "E172",
-      "siteDesc": "ERAFONE RUKO KEBON JERUK BINUS",
-      "channel": "ERAFONE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 1775,
-      "may": 1189,
-      "stock": 2861,
-      "est": 1365,
-      "dos": 64.98
-    },
-    {
-      "siteCode": "E194",
-      "siteDesc": "ERAFONE RUKO RANGKASBITUNG",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 1738,
-      "may": 1185,
-      "stock": 2447,
-      "est": 1361,
-      "dos": 55.75
+      "may": 1324,
+      "stock": 1872,
+      "est": 1466,
+      "dos": 39.6
     },
     {
       "siteCode": "E028",
@@ -400,10 +356,43 @@
       "channel": "ERAFONE",
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 1702,
-      "may": 1183,
-      "stock": 2515,
-      "est": 1358,
-      "dos": 57.41
+      "may": 1242,
+      "stock": 2532,
+      "est": 1375,
+      "dos": 57.09
+    },
+    {
+      "siteCode": "E194",
+      "siteDesc": "ERAFONE RUKO RANGKASBITUNG",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 1738,
+      "may": 1238,
+      "stock": 2481,
+      "est": 1371,
+      "dos": 56.11
+    },
+    {
+      "siteCode": "M068",
+      "siteDesc": "ERAFONE & MORE RUKO KAMAL CENGKAREN",
+      "channel": "ERA & MORE",
+      "tsh": "IRMAN PERMANA",
+      "april": 1953,
+      "may": 1236,
+      "stock": 2725,
+      "est": 1368,
+      "dos": 61.74
+    },
+    {
+      "siteCode": "E172",
+      "siteDesc": "ERAFONE RUKO KEBON JERUK BINUS",
+      "channel": "ERAFONE",
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 1775,
+      "may": 1229,
+      "stock": 2862,
+      "est": 1361,
+      "dos": 65.21
     },
     {
       "siteCode": "E113",
@@ -411,32 +400,21 @@
       "channel": "ERAFONE",
       "tsh": "LUKMAN WIBOWO",
       "april": 1304,
-      "may": 1168,
-      "stock": 2112,
-      "est": 1341,
-      "dos": 48.82
+      "may": 1227,
+      "stock": 2282,
+      "est": 1358,
+      "dos": 52.08
     },
     {
-      "siteCode": "E231",
-      "siteDesc": "ERAFONE RUKO HOS COKROAMINOTO",
-      "channel": "ERAFONE",
-      "tsh": "ABDILLAH",
-      "april": 1299,
-      "may": 1154,
-      "stock": 2195,
-      "est": 1325,
-      "dos": 51.36
-    },
-    {
-      "siteCode": "N200",
-      "siteDesc": "XIAOMI STORE 1 SUMMARECON MAL",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 1341,
-      "may": 1138,
-      "stock": 4400,
-      "est": 1307,
-      "dos": 104.38
+      "siteCode": "X142",
+      "siteDesc": "IBOX A YANI SERANG",
+      "channel": "IBOX",
+      "tsh": "ARDILESACH",
+      "april": 1375,
+      "may": 1218,
+      "stock": 1200,
+      "est": 1348,
+      "dos": 27.59
     },
     {
       "siteCode": "S056",
@@ -444,10 +422,21 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIM PING KIAN",
       "april": 1313,
-      "may": 1134,
-      "stock": 1550,
-      "est": 1302,
-      "dos": 36.91
+      "may": 1180,
+      "stock": 1537,
+      "est": 1306,
+      "dos": 36.46
+    },
+    {
+      "siteCode": "E231",
+      "siteDesc": "ERAFONE RUKO HOS COKROAMINOTO",
+      "channel": "ERAFONE",
+      "tsh": "ABDILLAH",
+      "april": 1299,
+      "may": 1166,
+      "stock": 2256,
+      "est": 1291,
+      "dos": 54.17
     },
     {
       "siteCode": "X064",
@@ -455,10 +444,21 @@
       "channel": "IBOX",
       "tsh": "ARDILESACH",
       "april": 1289,
-      "may": 1122,
-      "stock": 1079,
-      "est": 1288,
-      "dos": 25.95
+      "may": 1161,
+      "stock": 1077,
+      "est": 1285,
+      "dos": 25.97
+    },
+    {
+      "siteCode": "N200",
+      "siteDesc": "XIAOMI STORE 1 SUMMARECON MAL",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 1341,
+      "may": 1160,
+      "stock": 4329,
+      "est": 1284,
+      "dos": 104.5
     },
     {
       "siteCode": "E027",
@@ -466,10 +466,10 @@
       "channel": "ERAFONE",
       "tsh": "IRMAN PERMANA",
       "april": 1160,
-      "may": 1112,
-      "stock": 1922,
-      "est": 1277,
-      "dos": 46.67
+      "may": 1155,
+      "stock": 1947,
+      "est": 1279,
+      "dos": 47.19
     },
     {
       "siteCode": "X043",
@@ -477,10 +477,10 @@
       "channel": "IBOX",
       "tsh": "JOKO SUPRASTIO",
       "april": 1141,
-      "may": 1083,
+      "may": 1110,
       "stock": 1177,
-      "est": 1243,
-      "dos": 29.34
+      "est": 1229,
+      "dos": 29.69
     },
     {
       "siteCode": "E822",
@@ -488,10 +488,10 @@
       "channel": "ERAFONE",
       "tsh": "NURUL ZAMAN",
       "april": 721,
-      "may": 1069,
-      "stock": 3282,
-      "est": 1227,
-      "dos": 82.9
+      "may": 1093,
+      "stock": 3249,
+      "est": 1210,
+      "dos": 83.23
     },
     {
       "siteCode": "E029",
@@ -499,10 +499,10 @@
       "channel": "ERAFONE",
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 1308,
-      "may": 1067,
-      "stock": 2088,
-      "est": 1225,
-      "dos": 52.84
+      "may": 1089,
+      "stock": 2123,
+      "est": 1206,
+      "dos": 54.57
     },
     {
       "siteCode": "F077",
@@ -510,21 +510,10 @@
       "channel": "ERAFONE",
       "tsh": "ARENGGA",
       "april": 1162,
-      "may": 1047,
-      "stock": 2667,
-      "est": 1202,
-      "dos": 68.77
-    },
-    {
-      "siteCode": "X191",
-      "siteDesc": "IBOX PARAMOUNT BSD",
-      "channel": "IBOX",
-      "tsh": "RIZKY KURNIAWAN",
-      "april": 794,
-      "may": 1042,
-      "stock": 861,
-      "est": 1196,
-      "dos": 22.31
+      "may": 1081,
+      "stock": 2756,
+      "est": 1197,
+      "dos": 71.38
     },
     {
       "siteCode": "E191",
@@ -532,21 +521,21 @@
       "channel": "ERAFONE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 1140,
-      "may": 1025,
-      "stock": 1909,
-      "est": 1177,
-      "dos": 50.28
+      "may": 1077,
+      "stock": 1973,
+      "est": 1192,
+      "dos": 51.29
     },
     {
-      "siteCode": "N183",
-      "siteDesc": "XIAOMI STORE BINTARO XCHANGE",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 1369,
-      "may": 1011,
-      "stock": 2058,
-      "est": 1161,
-      "dos": 54.97
+      "siteCode": "X191",
+      "siteDesc": "IBOX PARAMOUNT BSD",
+      "channel": "IBOX",
+      "tsh": "RIZKY KURNIAWAN",
+      "april": 794,
+      "may": 1071,
+      "stock": 869,
+      "est": 1186,
+      "dos": 22.72
     },
     {
       "siteCode": "S142",
@@ -554,21 +543,10 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 1250,
-      "may": 1002,
-      "stock": 1785,
+      "may": 1039,
+      "stock": 1742,
       "est": 1150,
-      "dos": 48.09
-    },
-    {
-      "siteCode": "E160",
-      "siteDesc": "ERAFONE RUKO CEGER TANGERANG",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 1009,
-      "may": 996,
-      "stock": 1875,
-      "est": 1144,
-      "dos": 50.82
+      "dos": 46.95
     },
     {
       "siteCode": "E281",
@@ -576,32 +554,10 @@
       "channel": "ERAFONE",
       "tsh": "MENSI ALEXANDER",
       "april": 1122,
-      "may": 994,
-      "stock": 4045,
-      "est": 1141,
-      "dos": 109.87
-    },
-    {
-      "siteCode": "M061",
-      "siteDesc": "ERAFONE & MORE RUKO JATIUWUNG",
-      "channel": "ERA & MORE",
-      "tsh": "ARI HIDAYAT",
-      "april": 1031,
-      "may": 983,
-      "stock": 1879,
-      "est": 1129,
-      "dos": 51.62
-    },
-    {
-      "siteCode": "X016",
-      "siteDesc": "IBOX MALL ATRIUM SENEN",
-      "channel": "IBOX",
-      "tsh": "ANDRY UTAMA",
-      "april": 1239,
-      "may": 980,
-      "stock": 1002,
-      "est": 1125,
-      "dos": 27.6
+      "may": 1036,
+      "stock": 4118,
+      "est": 1147,
+      "dos": 111.29
     },
     {
       "siteCode": "E215",
@@ -609,32 +565,54 @@
       "channel": "ERAFONE",
       "tsh": "IRMAN PERMANA",
       "april": 1665,
-      "may": 976,
-      "stock": 2426,
-      "est": 1121,
-      "dos": 67.1
+      "may": 1035,
+      "stock": 2488,
+      "est": 1146,
+      "dos": 67.3
     },
     {
-      "siteCode": "M219",
-      "siteDesc": "ERAFONE & MORE PURI INDAH MALL 2",
-      "channel": "ERA & MORE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 928,
-      "may": 958,
-      "stock": 1954,
-      "est": 1100,
-      "dos": 55.08
+      "siteCode": "N183",
+      "siteDesc": "XIAOMI STORE BINTARO XCHANGE",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 1369,
+      "may": 1027,
+      "stock": 2039,
+      "est": 1137,
+      "dos": 55.6
     },
     {
-      "siteCode": "E164",
-      "siteDesc": "ERAFONE MAL TAMAN ANGGREK",
+      "siteCode": "E160",
+      "siteDesc": "ERAFONE RUKO CEGER TANGERANG",
       "channel": "ERAFONE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 989,
-      "may": 956,
-      "stock": 2309,
-      "est": 1098,
-      "dos": 65.2
+      "tsh": "ARENGGA",
+      "april": 1009,
+      "may": 1020,
+      "stock": 1808,
+      "est": 1129,
+      "dos": 49.63
+    },
+    {
+      "siteCode": "M061",
+      "siteDesc": "ERAFONE & MORE RUKO JATIUWUNG",
+      "channel": "ERA & MORE",
+      "tsh": "ARI HIDAYAT",
+      "april": 1031,
+      "may": 1014,
+      "stock": 1869,
+      "est": 1123,
+      "dos": 51.6
+    },
+    {
+      "siteCode": "X016",
+      "siteDesc": "IBOX MALL ATRIUM SENEN",
+      "channel": "IBOX",
+      "tsh": "ANDRY UTAMA",
+      "april": 1239,
+      "may": 1009,
+      "stock": 1004,
+      "est": 1117,
+      "dos": 27.85
     },
     {
       "siteCode": "E408",
@@ -642,21 +620,21 @@
       "channel": "FRANCHISE",
       "tsh": "LUKMAN WIBOWO",
       "april": 1185,
-      "may": 949,
-      "stock": 1518,
-      "est": 1090,
-      "dos": 43.2
+      "may": 1006,
+      "stock": 1524,
+      "est": 1114,
+      "dos": 42.42
     },
     {
-      "siteCode": "E593",
-      "siteDesc": "ERAFONE RUKO MANGGA BESAR",
-      "channel": "ERAFONE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 1286,
-      "may": 927,
-      "stock": 2114,
-      "est": 1064,
-      "dos": 61.58
+      "siteCode": "M219",
+      "siteDesc": "ERAFONE & MORE PURI INDAH MALL 2",
+      "channel": "ERA & MORE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 928,
+      "may": 987,
+      "stock": 2026,
+      "est": 1093,
+      "dos": 57.49
     },
     {
       "siteCode": "M104",
@@ -664,10 +642,21 @@
       "channel": "ERAFONE",
       "tsh": "ARENGGA",
       "april": 741,
-      "may": 925,
-      "stock": 3339,
-      "est": 1062,
-      "dos": 97.45
+      "may": 979,
+      "stock": 3362,
+      "est": 1084,
+      "dos": 96.17
+    },
+    {
+      "siteCode": "E164",
+      "siteDesc": "ERAFONE MAL TAMAN ANGGREK",
+      "channel": "ERAFONE",
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 989,
+      "may": 979,
+      "stock": 2274,
+      "est": 1084,
+      "dos": 65.04
     },
     {
       "siteCode": "E088",
@@ -675,10 +664,21 @@
       "channel": "ERAFONE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 1288,
-      "may": 907,
-      "stock": 1913,
-      "est": 1041,
-      "dos": 56.95
+      "may": 937,
+      "stock": 1931,
+      "est": 1037,
+      "dos": 57.7
+    },
+    {
+      "siteCode": "E593",
+      "siteDesc": "ERAFONE RUKO MANGGA BESAR",
+      "channel": "ERAFONE",
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 1286,
+      "may": 933,
+      "stock": 2163,
+      "est": 1033,
+      "dos": 64.91
     },
     {
       "siteCode": "E320",
@@ -686,10 +686,10 @@
       "channel": "ERAFONE",
       "tsh": "NURUL ZAMAN",
       "april": 851,
-      "may": 907,
-      "stock": 2020,
-      "est": 1041,
-      "dos": 60.13
+      "may": 925,
+      "stock": 2033,
+      "est": 1024,
+      "dos": 61.54
     },
     {
       "siteCode": "N191",
@@ -697,98 +697,10 @@
       "channel": "XIAOMI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 1107,
-      "may": 882,
-      "stock": 1891,
+      "may": 915,
+      "stock": 1871,
       "est": 1013,
-      "dos": 57.89
-    },
-    {
-      "siteCode": "E082",
-      "siteDesc": "ERAFONE LIVING WORLD ALAM SUTERA",
-      "channel": "ERAFONE",
-      "tsh": "EKA FUJI CHAERUL ANWAR",
-      "april": 621,
-      "may": 860,
-      "stock": 1651,
-      "est": 987,
-      "dos": 51.83
-    },
-    {
-      "siteCode": "N131",
-      "siteDesc": "XIAOMI STORE AEON MAL BSD CITY",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 903,
-      "may": 843,
-      "stock": 2803,
-      "est": 968,
-      "dos": 89.77
-    },
-    {
-      "siteCode": "Q022",
-      "siteDesc": "XLC MAL PURI INDAH",
-      "channel": "XL STORE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 1059,
-      "may": 837,
-      "stock": 1146,
-      "est": 961,
-      "dos": 36.97
-    },
-    {
-      "siteCode": "E084",
-      "siteDesc": "ERAFONE 1 SUPERMALL KARAWACI",
-      "channel": "ERAFONE",
-      "tsh": "SANDI MAULANA",
-      "april": 1205,
-      "may": 834,
-      "stock": 2037,
-      "est": 958,
-      "dos": 65.96
-    },
-    {
-      "siteCode": "E043",
-      "siteDesc": "ERAFONE PLAZA BINTARO JAYA",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 1040,
-      "may": 819,
-      "stock": 1650,
-      "est": 940,
-      "dos": 54.4
-    },
-    {
-      "siteCode": "S041",
-      "siteDesc": "SES BINTARO X CHANGE",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 1262,
-      "may": 818,
-      "stock": 1564,
-      "est": 939,
-      "dos": 51.62
-    },
-    {
-      "siteCode": "E308",
-      "siteDesc": "ERAFONE RUKO MAYOR SAFEI",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 1057,
-      "may": 809,
-      "stock": 1908,
-      "est": 929,
-      "dos": 63.68
-    },
-    {
-      "siteCode": "E422",
-      "siteDesc": "ERAFONE RUKO MOH TOHA TANGERANG",
-      "channel": "ERAFONE",
-      "tsh": "ARI HIDAYAT",
-      "april": 569,
-      "may": 796,
-      "stock": 1295,
-      "est": 914,
-      "dos": 43.94
+      "dos": 57.27
     },
     {
       "siteCode": "E413",
@@ -796,10 +708,87 @@
       "channel": "ERAFONE",
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 691,
-      "may": 793,
-      "stock": 1610,
-      "est": 910,
-      "dos": 54.81
+      "may": 909,
+      "stock": 1766,
+      "est": 1006,
+      "dos": 54.39
+    },
+    {
+      "siteCode": "E082",
+      "siteDesc": "ERAFONE LIVING WORLD ALAM SUTERA",
+      "channel": "ERAFONE",
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "april": 621,
+      "may": 889,
+      "stock": 1824,
+      "est": 984,
+      "dos": 57.45
+    },
+    {
+      "siteCode": "E084",
+      "siteDesc": "ERAFONE 1 SUPERMALL KARAWACI",
+      "channel": "ERAFONE",
+      "tsh": "SANDI MAULANA",
+      "april": 1205,
+      "may": 880,
+      "stock": 2059,
+      "est": 974,
+      "dos": 65.52
+    },
+    {
+      "siteCode": "N131",
+      "siteDesc": "XIAOMI STORE AEON MAL BSD CITY",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 903,
+      "may": 870,
+      "stock": 2784,
+      "est": 963,
+      "dos": 89.6
+    },
+    {
+      "siteCode": "S041",
+      "siteDesc": "SES BINTARO X CHANGE",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 1262,
+      "may": 855,
+      "stock": 1531,
+      "est": 947,
+      "dos": 50.13
+    },
+    {
+      "siteCode": "E043",
+      "siteDesc": "ERAFONE PLAZA BINTARO JAYA",
+      "channel": "ERAFONE",
+      "tsh": "ARENGGA",
+      "april": 1040,
+      "may": 855,
+      "stock": 1664,
+      "est": 947,
+      "dos": 54.48
+    },
+    {
+      "siteCode": "Q022",
+      "siteDesc": "XLC MAL PURI INDAH",
+      "channel": "XL STORE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 1059,
+      "may": 853,
+      "stock": 1157,
+      "est": 944,
+      "dos": 37.98
+    },
+    {
+      "siteCode": "E308",
+      "siteDesc": "ERAFONE RUKO MAYOR SAFEI",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 1057,
+      "may": 826,
+      "stock": 1945,
+      "est": 914,
+      "dos": 65.94
     },
     {
       "siteCode": "S015",
@@ -807,21 +796,21 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 727,
-      "may": 791,
-      "stock": 1226,
-      "est": 908,
-      "dos": 41.85
+      "may": 825,
+      "stock": 1203,
+      "est": 913,
+      "dos": 40.84
     },
     {
-      "siteCode": "E898",
-      "siteDesc": "ERAFONE MB SAMANHUDI",
+      "siteCode": "E422",
+      "siteDesc": "ERAFONE RUKO MOH TOHA TANGERANG",
       "channel": "ERAFONE",
-      "tsh": "MENSI ALEXANDER",
-      "april": 884,
-      "may": 787,
-      "stock": 1408,
-      "est": 904,
-      "dos": 48.31
+      "tsh": "ARI HIDAYAT",
+      "april": 569,
+      "may": 811,
+      "stock": 1270,
+      "est": 898,
+      "dos": 43.86
     },
     {
       "siteCode": "N184",
@@ -829,10 +818,21 @@
       "channel": "XIAOMI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 887,
-      "may": 776,
-      "stock": 3398,
-      "est": 891,
-      "dos": 118.22
+      "may": 794,
+      "stock": 3356,
+      "est": 879,
+      "dos": 118.33
+    },
+    {
+      "siteCode": "E898",
+      "siteDesc": "ERAFONE MB SAMANHUDI",
+      "channel": "ERAFONE",
+      "tsh": "MENSI ALEXANDER",
+      "april": 884,
+      "may": 794,
+      "stock": 1457,
+      "est": 879,
+      "dos": 51.39
     },
     {
       "siteCode": "N125",
@@ -840,10 +840,10 @@
       "channel": "HUAWEI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 482,
-      "may": 769,
-      "stock": 913,
-      "est": 883,
-      "dos": 32.05
+      "may": 792,
+      "stock": 964,
+      "est": 877,
+      "dos": 34.07
     },
     {
       "siteCode": "F073",
@@ -851,10 +851,10 @@
       "channel": "ERAFONE",
       "tsh": "MENSI ALEXANDER",
       "april": 316,
-      "may": 765,
-      "stock": 1138,
-      "est": 878,
-      "dos": 40.15
+      "may": 790,
+      "stock": 1144,
+      "est": 875,
+      "dos": 40.55
     },
     {
       "siteCode": "E081",
@@ -862,10 +862,32 @@
       "channel": "ERAFONE",
       "tsh": "NURUL ZAMAN",
       "april": 1128,
-      "may": 751,
-      "stock": 1656,
-      "est": 862,
-      "dos": 59.55
+      "may": 778,
+      "stock": 1689,
+      "est": 861,
+      "dos": 60.78
+    },
+    {
+      "siteCode": "E942",
+      "siteDesc": "ERAFONE MB KEMBANGAN UTARA",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 417,
+      "may": 762,
+      "stock": 1627,
+      "est": 844,
+      "dos": 59.79
+    },
+    {
+      "siteCode": "X172",
+      "siteDesc": "IBOX SENAYAN PARK",
+      "channel": "IBOX",
+      "tsh": "ANDRY UTAMA",
+      "april": 782,
+      "may": 750,
+      "stock": 931,
+      "est": 830,
+      "dos": 34.76
     },
     {
       "siteCode": "XE09",
@@ -875,19 +897,8 @@
       "april": 348,
       "may": 736,
       "stock": 0,
-      "est": 845,
+      "est": 815,
       "dos": 0.0
-    },
-    {
-      "siteCode": "X172",
-      "siteDesc": "IBOX SENAYAN PARK",
-      "channel": "IBOX",
-      "tsh": "ANDRY UTAMA",
-      "april": 782,
-      "may": 728,
-      "stock": 915,
-      "est": 836,
-      "dos": 33.93
     },
     {
       "siteCode": "X055",
@@ -895,21 +906,10 @@
       "channel": "IBOX",
       "tsh": "JOKO SUPRASTIO",
       "april": 728,
-      "may": 726,
-      "stock": 797,
-      "est": 834,
-      "dos": 29.65
-    },
-    {
-      "siteCode": "E942",
-      "siteDesc": "ERAFONE MB KEMBANGAN UTARA",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 417,
-      "may": 724,
-      "stock": 1565,
-      "est": 831,
-      "dos": 58.37
+      "may": 733,
+      "stock": 888,
+      "est": 812,
+      "dos": 33.92
     },
     {
       "siteCode": "F134",
@@ -917,21 +917,10 @@
       "channel": "ERAFONE",
       "tsh": "RENDY NUR SETIAWAN",
       "april": 654,
-      "may": 719,
-      "stock": 1429,
-      "est": 826,
-      "dos": 53.66
-    },
-    {
-      "siteCode": "F022",
-      "siteDesc": "ERAFONE 2.5 PAMULANG",
-      "channel": "ERAFONE",
-      "tsh": "EKA FUJI CHAERUL ANWAR",
-      "april": 532,
-      "may": 707,
-      "stock": 1525,
-      "est": 812,
-      "dos": 58.25
+      "may": 732,
+      "stock": 1462,
+      "est": 810,
+      "dos": 55.92
     },
     {
       "siteCode": "X222",
@@ -939,10 +928,21 @@
       "channel": "IBOX",
       "tsh": "RIZKY KURNIAWAN",
       "april": 976,
-      "may": 707,
-      "stock": 999,
-      "est": 812,
-      "dos": 38.15
+      "may": 731,
+      "stock": 1015,
+      "est": 809,
+      "dos": 38.89
+    },
+    {
+      "siteCode": "F022",
+      "siteDesc": "ERAFONE 2.5 PAMULANG",
+      "channel": "ERAFONE",
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "april": 532,
+      "may": 724,
+      "stock": 1507,
+      "est": 802,
+      "dos": 58.29
     },
     {
       "siteCode": "E369",
@@ -950,208 +950,10 @@
       "channel": "FRANCHISE",
       "tsh": "ARI HIDAYAT",
       "april": 992,
-      "may": 686,
-      "stock": 1262,
-      "est": 788,
-      "dos": 49.68
-    },
-    {
-      "siteCode": "Q108",
-      "siteDesc": "GERAI ISAT OOREDOO LIPPO MALL PURI",
-      "channel": "INDOSAT STORE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 245,
-      "may": 685,
-      "stock": 2387,
-      "est": 786,
-      "dos": 94.1
-    },
-    {
-      "siteCode": "M212",
-      "siteDesc": "ERAFONE & MORE RAWASARI",
-      "channel": "ERA & MORE",
-      "tsh": "LUKMAN WIBOWO",
-      "april": 1241,
-      "may": 681,
-      "stock": 1454,
-      "est": 782,
-      "dos": 57.65
-    },
-    {
-      "siteCode": "E290",
-      "siteDesc": "ERAFONE RUKO PORIS TANGERANG",
-      "channel": "FRANCHISE",
-      "tsh": "ABDILLAH",
-      "april": 829,
-      "may": 677,
-      "stock": 1343,
-      "est": 777,
-      "dos": 53.54
-    },
-    {
-      "siteCode": "E453",
-      "siteDesc": "ERAFONE RUKO DURI KOSAMBI",
-      "channel": "ERAFONE",
-      "tsh": "IRMAN PERMANA",
-      "april": 618,
-      "may": 671,
-      "stock": 2103,
-      "est": 770,
-      "dos": 84.63
-    },
-    {
-      "siteCode": "E684",
-      "siteDesc": "ERAFONE MB SANGIANG",
-      "channel": "ERAFONE",
-      "tsh": "ARI HIDAYAT",
-      "april": 433,
-      "may": 666,
-      "stock": 1454,
-      "est": 765,
-      "dos": 58.97
-    },
-    {
-      "siteCode": "E233",
-      "siteDesc": "ERAFONE RUKO TAMAN SURYA JAKBAR",
-      "channel": "FRANCHISE",
-      "tsh": "IRMAN PERMANA",
-      "april": 632,
-      "may": 664,
-      "stock": 1777,
-      "est": 762,
-      "dos": 72.26
-    },
-    {
-      "siteCode": "S018",
-      "siteDesc": "SES SENAYAN CITY",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 648,
-      "may": 662,
-      "stock": 1094,
-      "est": 760,
-      "dos": 44.62
-    },
-    {
-      "siteCode": "E321",
-      "siteDesc": "ERAFONE RUKO SUDIMARA",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 914,
-      "may": 656,
-      "stock": 1599,
-      "est": 753,
-      "dos": 65.82
-    },
-    {
-      "siteCode": "E544",
-      "siteDesc": "ERAFONE CILEGON",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 670,
-      "may": 652,
-      "stock": 1741,
-      "est": 749,
-      "dos": 72.09
-    },
-    {
-      "siteCode": "E465",
-      "siteDesc": "ERAFONE RUKO KEBAYORAN LAMA",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 549,
-      "may": 647,
-      "stock": 1599,
-      "est": 743,
-      "dos": 66.74
-    },
-    {
-      "siteCode": "S190",
-      "siteDesc": "SAMSUNG BINTARO XCHANGE MALL II",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 612,
-      "may": 637,
-      "stock": 870,
-      "est": 731,
-      "dos": 36.89
-    },
-    {
-      "siteCode": "E322",
-      "siteDesc": "ERAFONE RUKO MERUYA",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 695,
-      "may": 630,
-      "stock": 1344,
-      "est": 723,
-      "dos": 57.6
-    },
-    {
-      "siteCode": "E821",
-      "siteDesc": "ERAFONE MB ANYER",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 595,
-      "may": 622,
-      "stock": 1831,
-      "est": 714,
-      "dos": 79.48
-    },
-    {
-      "siteCode": "Q008",
-      "siteDesc": "XLC CENTRAL PARK",
-      "channel": "XL STORE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 548,
-      "may": 614,
-      "stock": 3344,
-      "est": 705,
-      "dos": 147.05
-    },
-    {
-      "siteCode": "X110",
-      "siteDesc": "IBOX GAJAH MADA MALL",
-      "channel": "IBOX",
-      "tsh": "JOKO SUPRASTIO",
-      "april": 625,
-      "may": 614,
-      "stock": 641,
-      "est": 705,
-      "dos": 28.18
-    },
-    {
-      "siteCode": "S066",
-      "siteDesc": "SES CILEGON CENTER MALL",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 736,
-      "may": 611,
-      "stock": 1035,
-      "est": 702,
-      "dos": 45.75
-    },
-    {
-      "siteCode": "N140",
-      "siteDesc": "XIAOMI STORE CILEGON CENTER MALL",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 738,
-      "may": 597,
-      "stock": 1902,
-      "est": 685,
-      "dos": 86.03
-    },
-    {
-      "siteCode": "E834",
-      "siteDesc": "ERAFONE KEDAUNG TANGSEL",
-      "channel": "FRANCHISE",
-      "tsh": "EKA FUJI CHAERUL ANWAR",
-      "april": 624,
-      "may": 595,
-      "stock": 1973,
-      "est": 683,
-      "dos": 89.52
+      "may": 705,
+      "stock": 1225,
+      "est": 781,
+      "dos": 48.66
     },
     {
       "siteCode": "E087",
@@ -1159,10 +961,219 @@
       "channel": "ERAFONE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 359,
-      "may": 592,
-      "stock": 1200,
-      "est": 680,
-      "dos": 54.72
+      "may": 702,
+      "stock": 1278,
+      "est": 777,
+      "dos": 50.96
+    },
+    {
+      "siteCode": "E290",
+      "siteDesc": "ERAFONE RUKO PORIS TANGERANG",
+      "channel": "FRANCHISE",
+      "tsh": "ABDILLAH",
+      "april": 829,
+      "may": 701,
+      "stock": 1362,
+      "est": 776,
+      "dos": 54.4
+    },
+    {
+      "siteCode": "E321",
+      "siteDesc": "ERAFONE RUKO SUDIMARA",
+      "channel": "ERAFONE",
+      "tsh": "ARENGGA",
+      "april": 914,
+      "may": 696,
+      "stock": 1617,
+      "est": 771,
+      "dos": 65.03
+    },
+    {
+      "siteCode": "M212",
+      "siteDesc": "ERAFONE & MORE RAWASARI",
+      "channel": "ERA & MORE",
+      "tsh": "LUKMAN WIBOWO",
+      "april": 1241,
+      "may": 693,
+      "stock": 1448,
+      "est": 767,
+      "dos": 58.49
+    },
+    {
+      "siteCode": "Q108",
+      "siteDesc": "GERAI ISAT OOREDOO LIPPO MALL PURI",
+      "channel": "INDOSAT STORE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 245,
+      "may": 688,
+      "stock": 2398,
+      "est": 762,
+      "dos": 97.59
+    },
+    {
+      "siteCode": "E684",
+      "siteDesc": "ERAFONE MB SANGIANG",
+      "channel": "ERAFONE",
+      "tsh": "ARI HIDAYAT",
+      "april": 433,
+      "may": 688,
+      "stock": 1479,
+      "est": 762,
+      "dos": 60.21
+    },
+    {
+      "siteCode": "E233",
+      "siteDesc": "ERAFONE RUKO TAMAN SURYA JAKBAR",
+      "channel": "FRANCHISE",
+      "tsh": "IRMAN PERMANA",
+      "april": 632,
+      "may": 683,
+      "stock": 1824,
+      "est": 756,
+      "dos": 74.79
+    },
+    {
+      "siteCode": "E544",
+      "siteDesc": "ERAFONE CILEGON",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 670,
+      "may": 680,
+      "stock": 1703,
+      "est": 753,
+      "dos": 70.1
+    },
+    {
+      "siteCode": "S018",
+      "siteDesc": "SES SENAYAN CITY",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 648,
+      "may": 679,
+      "stock": 1095,
+      "est": 752,
+      "dos": 45.16
+    },
+    {
+      "siteCode": "E453",
+      "siteDesc": "ERAFONE RUKO DURI KOSAMBI",
+      "channel": "ERAFONE",
+      "tsh": "IRMAN PERMANA",
+      "april": 618,
+      "may": 676,
+      "stock": 2083,
+      "est": 748,
+      "dos": 86.27
+    },
+    {
+      "siteCode": "S190",
+      "siteDesc": "SAMSUNG BINTARO XCHANGE MALL II",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 612,
+      "may": 664,
+      "stock": 878,
+      "est": 735,
+      "dos": 37.03
+    },
+    {
+      "siteCode": "E465",
+      "siteDesc": "ERAFONE RUKO KEBAYORAN LAMA",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 549,
+      "may": 661,
+      "stock": 1560,
+      "est": 732,
+      "dos": 66.09
+    },
+    {
+      "siteCode": "E322",
+      "siteDesc": "ERAFONE RUKO MERUYA",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 695,
+      "may": 651,
+      "stock": 1342,
+      "est": 721,
+      "dos": 57.7
+    },
+    {
+      "siteCode": "Q008",
+      "siteDesc": "XLC CENTRAL PARK",
+      "channel": "XL STORE",
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 548,
+      "may": 645,
+      "stock": 3513,
+      "est": 714,
+      "dos": 152.49
+    },
+    {
+      "siteCode": "E821",
+      "siteDesc": "ERAFONE MB ANYER",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 595,
+      "may": 632,
+      "stock": 1823,
+      "est": 700,
+      "dos": 80.76
+    },
+    {
+      "siteCode": "X110",
+      "siteDesc": "IBOX GAJAH MADA MALL",
+      "channel": "IBOX",
+      "tsh": "JOKO SUPRASTIO",
+      "april": 625,
+      "may": 631,
+      "stock": 687,
+      "est": 699,
+      "dos": 30.48
+    },
+    {
+      "siteCode": "S066",
+      "siteDesc": "SES CILEGON CENTER MALL",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 736,
+      "may": 630,
+      "stock": 1026,
+      "est": 698,
+      "dos": 45.6
+    },
+    {
+      "siteCode": "N140",
+      "siteDesc": "XIAOMI STORE CILEGON CENTER MALL",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 738,
+      "may": 627,
+      "stock": 1839,
+      "est": 694,
+      "dos": 82.12
+    },
+    {
+      "siteCode": "E834",
+      "siteDesc": "ERAFONE KEDAUNG TANGSEL",
+      "channel": "FRANCHISE",
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "april": 624,
+      "may": 613,
+      "stock": 1907,
+      "est": 679,
+      "dos": 87.1
+    },
+    {
+      "siteCode": "S042",
+      "siteDesc": "SES AEON MAL BSD CITY",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 726,
+      "may": 606,
+      "stock": 947,
+      "est": 671,
+      "dos": 43.75
     },
     {
       "siteCode": "M093",
@@ -1170,43 +1181,10 @@
       "channel": "ERAFONE",
       "tsh": "ABDILLAH",
       "april": 782,
-      "may": 591,
-      "stock": 1536,
-      "est": 679,
-      "dos": 70.16
-    },
-    {
-      "siteCode": "E499",
-      "siteDesc": "ERAFONE LABUAN",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 874,
-      "may": 585,
-      "stock": 1684,
-      "est": 672,
-      "dos": 77.72
-    },
-    {
-      "siteCode": "G520",
-      "siteDesc": "ERABLUE PAHLAWAN REMPOA",
-      "channel": "ERABLUE",
-      "tsh": "ARENGGA",
-      "april": 516,
-      "may": 582,
-      "stock": 1356,
-      "est": 668,
-      "dos": 62.93
-    },
-    {
-      "siteCode": "F079",
-      "siteDesc": "ERAFONE 2.5 GRAND BATAVIA",
-      "channel": "FRANCHISE",
-      "tsh": "RENDI JANUARDI",
-      "april": 757,
-      "may": 577,
-      "stock": 1262,
-      "est": 662,
-      "dos": 59.04
+      "may": 605,
+      "stock": 1611,
+      "est": 670,
+      "dos": 74.55
     },
     {
       "siteCode": "E037",
@@ -1214,10 +1192,21 @@
       "channel": "ERAFONE",
       "tsh": "MENSI ALEXANDER",
       "april": 966,
-      "may": 575,
-      "stock": 1012,
+      "may": 596,
+      "stock": 1042,
       "est": 660,
-      "dos": 47.52
+      "dos": 48.94
+    },
+    {
+      "siteCode": "E499",
+      "siteDesc": "ERAFONE LABUAN",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 874,
+      "may": 595,
+      "stock": 1732,
+      "est": 659,
+      "dos": 81.52
     },
     {
       "siteCode": "N144",
@@ -1225,10 +1214,32 @@
       "channel": "XIAOMI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 653,
-      "may": 575,
-      "stock": 3115,
-      "est": 660,
-      "dos": 146.26
+      "may": 589,
+      "stock": 3072,
+      "est": 652,
+      "dos": 146.03
+    },
+    {
+      "siteCode": "F079",
+      "siteDesc": "ERAFONE 2.5 GRAND BATAVIA",
+      "channel": "FRANCHISE",
+      "tsh": "RENDI JANUARDI",
+      "april": 757,
+      "may": 587,
+      "stock": 1297,
+      "est": 650,
+      "dos": 61.86
+    },
+    {
+      "siteCode": "G520",
+      "siteDesc": "ERABLUE PAHLAWAN REMPOA",
+      "channel": "ERABLUE",
+      "tsh": "ARENGGA",
+      "april": 516,
+      "may": 585,
+      "stock": 1345,
+      "est": 648,
+      "dos": 64.37
     },
     {
       "siteCode": "E678",
@@ -1236,10 +1247,65 @@
       "channel": "ERAFONE",
       "tsh": "MENSI ALEXANDER",
       "april": 935,
+      "may": 581,
+      "stock": 1401,
+      "est": 643,
+      "dos": 67.5
+    },
+    {
+      "siteCode": "E137",
+      "siteDesc": "ERAFONE GREEN PRAMUKA SQUARE",
+      "channel": "ERAFONE",
+      "tsh": "LUKMAN WIBOWO",
+      "april": 1538,
+      "may": 579,
+      "stock": 1011,
+      "est": 641,
+      "dos": 48.9
+    },
+    {
+      "siteCode": "E038",
+      "siteDesc": "ERAFONE MALL ATRIUM SENEN",
+      "channel": "ERAFONE",
+      "tsh": "LUKMAN WIBOWO",
+      "april": 418,
+      "may": 579,
+      "stock": 1640,
+      "est": 641,
+      "dos": 79.31
+    },
+    {
+      "siteCode": "N186",
+      "siteDesc": "XIAOMI STORE LIVING WORLD ALAM SUTE",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 716,
+      "may": 577,
+      "stock": 2415,
+      "est": 639,
+      "dos": 117.17
+    },
+    {
+      "siteCode": "E589",
+      "siteDesc": "ERAFONE RUKO PANIMBANG",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 767,
       "may": 573,
-      "stock": 1373,
-      "est": 658,
-      "dos": 64.68
+      "stock": 1414,
+      "est": 634,
+      "dos": 69.09
+    },
+    {
+      "siteCode": "E582",
+      "siteDesc": "ERAFONE RUKO SRENGSENG",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 812,
+      "may": 572,
+      "stock": 1566,
+      "est": 633,
+      "dos": 76.68
     },
     {
       "siteCode": "G468",
@@ -1248,64 +1314,9 @@
       "tsh": "SANDI MAULANA",
       "april": 354,
       "may": 572,
-      "stock": 581,
-      "est": 657,
-      "dos": 27.44
-    },
-    {
-      "siteCode": "E038",
-      "siteDesc": "ERAFONE MALL ATRIUM SENEN",
-      "channel": "ERAFONE",
-      "tsh": "LUKMAN WIBOWO",
-      "april": 418,
-      "may": 571,
-      "stock": 1642,
-      "est": 656,
-      "dos": 77.66
-    },
-    {
-      "siteCode": "S042",
-      "siteDesc": "SES AEON MAL BSD CITY",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 726,
-      "may": 566,
-      "stock": 951,
-      "est": 650,
-      "dos": 45.38
-    },
-    {
-      "siteCode": "N186",
-      "siteDesc": "XIAOMI STORE LIVING WORLD ALAM SUTE",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 716,
-      "may": 562,
-      "stock": 2426,
-      "est": 645,
-      "dos": 116.53
-    },
-    {
-      "siteCode": "E589",
-      "siteDesc": "ERAFONE RUKO PANIMBANG",
-      "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 767,
-      "may": 561,
-      "stock": 1403,
-      "est": 644,
-      "dos": 67.51
-    },
-    {
-      "siteCode": "E137",
-      "siteDesc": "ERAFONE GREEN PRAMUKA SQUARE",
-      "channel": "ERAFONE",
-      "tsh": "LUKMAN WIBOWO",
-      "april": 1538,
-      "may": 557,
-      "stock": 991,
-      "est": 640,
-      "dos": 48.05
+      "stock": 595,
+      "est": 633,
+      "dos": 29.11
     },
     {
       "siteCode": "E646",
@@ -1313,10 +1324,10 @@
       "channel": "ERAFONE",
       "tsh": "ABDILLAH",
       "april": 774,
-      "may": 556,
-      "stock": 1662,
-      "est": 638,
-      "dos": 80.69
+      "may": 572,
+      "stock": 1664,
+      "est": 633,
+      "dos": 81.45
     },
     {
       "siteCode": "E484",
@@ -1324,21 +1335,10 @@
       "channel": "ERAFONE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 547,
-      "may": 553,
-      "stock": 1445,
-      "est": 635,
-      "dos": 70.57
-    },
-    {
-      "siteCode": "E582",
-      "siteDesc": "ERAFONE RUKO SRENGSENG",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 812,
-      "may": 547,
-      "stock": 1562,
-      "est": 628,
-      "dos": 77.12
+      "may": 572,
+      "stock": 1464,
+      "est": 633,
+      "dos": 71.69
     },
     {
       "siteCode": "N130",
@@ -1346,10 +1346,10 @@
       "channel": "XIAOMI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 774,
-      "may": 542,
-      "stock": 2241,
-      "est": 622,
-      "dos": 111.62
+      "may": 569,
+      "stock": 2244,
+      "est": 630,
+      "dos": 110.42
     },
     {
       "siteCode": "E992",
@@ -1357,10 +1357,10 @@
       "channel": "ERAFONE",
       "tsh": "IRMAN PERMANA",
       "april": 985,
-      "may": 542,
-      "stock": 1226,
-      "est": 622,
-      "dos": 61.07
+      "may": 550,
+      "stock": 1244,
+      "est": 609,
+      "dos": 63.34
     },
     {
       "siteCode": "E833",
@@ -1368,10 +1368,10 @@
       "channel": "FRANCHISE",
       "tsh": "NURUL ZAMAN",
       "april": 794,
-      "may": 533,
-      "stock": 1582,
-      "est": 612,
-      "dos": 80.15
+      "may": 548,
+      "stock": 1587,
+      "est": 607,
+      "dos": 81.09
     },
     {
       "siteCode": "M163",
@@ -1379,21 +1379,10 @@
       "channel": "ERA & MORE",
       "tsh": "SANDI MAULANA",
       "april": 447,
-      "may": 525,
-      "stock": 1278,
-      "est": 603,
-      "dos": 65.75
-    },
-    {
-      "siteCode": "S097",
-      "siteDesc": "SES MALL CIPUTRA CITRA RAYA TANGERA",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 613,
-      "may": 517,
-      "stock": 849,
-      "est": 594,
-      "dos": 44.32
+      "may": 543,
+      "stock": 1247,
+      "est": 601,
+      "dos": 64.33
     },
     {
       "siteCode": "E201",
@@ -1401,10 +1390,21 @@
       "channel": "ERAFONE",
       "tsh": "RENDI JANUARDI",
       "april": 665,
-      "may": 517,
-      "stock": 1747,
-      "est": 594,
-      "dos": 91.24
+      "may": 535,
+      "stock": 1777,
+      "est": 592,
+      "dos": 92.98
+    },
+    {
+      "siteCode": "S097",
+      "siteDesc": "SES MALL CIPUTRA CITRA RAYA TANGERA",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 613,
+      "may": 525,
+      "stock": 868,
+      "est": 581,
+      "dos": 46.28
     },
     {
       "siteCode": "X190",
@@ -1412,21 +1412,10 @@
       "channel": "IBOX",
       "tsh": "ARDILESACH",
       "april": 482,
-      "may": 508,
-      "stock": 727,
-      "est": 583,
-      "dos": 38.63
-    },
-    {
-      "siteCode": "E732",
-      "siteDesc": "ERAFONE SABANG JAKPUS",
-      "channel": "ERAFONE",
-      "tsh": "LUKMAN WIBOWO",
-      "april": 573,
-      "may": 496,
-      "stock": 1099,
-      "est": 569,
-      "dos": 59.83
+      "may": 521,
+      "stock": 749,
+      "est": 577,
+      "dos": 40.23
     },
     {
       "siteCode": "S044",
@@ -1434,10 +1423,32 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 639,
-      "may": 495,
-      "stock": 753,
-      "est": 568,
-      "dos": 41.07
+      "may": 506,
+      "stock": 790,
+      "est": 560,
+      "dos": 43.73
+    },
+    {
+      "siteCode": "E732",
+      "siteDesc": "ERAFONE SABANG JAKPUS",
+      "channel": "ERAFONE",
+      "tsh": "LUKMAN WIBOWO",
+      "april": 573,
+      "may": 504,
+      "stock": 1159,
+      "est": 558,
+      "dos": 64.4
+    },
+    {
+      "siteCode": "G444",
+      "siteDesc": "ERABLUE MOH. TOHA TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "ARI HIDAYAT",
+      "april": 95,
+      "may": 504,
+      "stock": 487,
+      "est": 558,
+      "dos": 27.06
     },
     {
       "siteCode": "M167",
@@ -1445,21 +1456,10 @@
       "channel": "ERA & MORE",
       "tsh": "RENDI JANUARDI",
       "april": 551,
-      "may": 490,
-      "stock": 1294,
-      "est": 563,
-      "dos": 71.3
-    },
-    {
-      "siteCode": "E508",
-      "siteDesc": "ERAFONE JEMBATAN LIMA",
-      "channel": "ERAFONE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 661,
-      "may": 486,
-      "stock": 1190,
-      "est": 558,
-      "dos": 66.13
+      "may": 503,
+      "stock": 1298,
+      "est": 557,
+      "dos": 72.25
     },
     {
       "siteCode": "X033",
@@ -1467,21 +1467,21 @@
       "channel": "IBOX",
       "tsh": "RIZKY KURNIAWAN",
       "april": 650,
-      "may": 483,
-      "stock": 559,
-      "est": 555,
-      "dos": 31.24
+      "may": 500,
+      "stock": 553,
+      "est": 554,
+      "dos": 30.94
     },
     {
-      "siteCode": "E627",
-      "siteDesc": "ERAFONE RUKO CISOKA",
+      "siteCode": "E508",
+      "siteDesc": "ERAFONE JEMBATAN LIMA",
       "channel": "ERAFONE",
-      "tsh": "RENDI JANUARDI",
-      "april": 554,
-      "may": 473,
-      "stock": 1275,
-      "est": 543,
-      "dos": 72.79
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 661,
+      "may": 491,
+      "stock": 1235,
+      "est": 544,
+      "dos": 70.43
     },
     {
       "siteCode": "E253",
@@ -1489,10 +1489,10 @@
       "channel": "ERAFONE",
       "tsh": "RENDI JANUARDI",
       "april": 575,
-      "may": 472,
-      "stock": 1311,
+      "may": 490,
+      "stock": 1489,
       "est": 542,
-      "dos": 75.0
+      "dos": 85.09
     },
     {
       "siteCode": "E663",
@@ -1500,10 +1500,10 @@
       "channel": "ERAFONE",
       "tsh": "LUKMAN WIBOWO",
       "april": 600,
-      "may": 472,
-      "stock": 870,
-      "est": 542,
-      "dos": 49.76
+      "may": 486,
+      "stock": 842,
+      "est": 538,
+      "dos": 48.51
     },
     {
       "siteCode": "F003",
@@ -1511,21 +1511,21 @@
       "channel": "ERAFONE",
       "tsh": "ABDILLAH",
       "april": 1103,
-      "may": 467,
-      "stock": 805,
-      "est": 536,
-      "dos": 46.54
+      "may": 485,
+      "stock": 834,
+      "est": 537,
+      "dos": 48.17
     },
     {
-      "siteCode": "G458",
-      "siteDesc": "ERABLUE KH HASYIM ASHARI TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "ARI HIDAYAT",
-      "april": 431,
-      "may": 466,
-      "stock": 654,
-      "est": 535,
-      "dos": 37.92
+      "siteCode": "E627",
+      "siteDesc": "ERAFONE RUKO CISOKA",
+      "channel": "ERAFONE",
+      "tsh": "RENDI JANUARDI",
+      "april": 554,
+      "may": 476,
+      "stock": 1272,
+      "est": 527,
+      "dos": 74.81
     },
     {
       "siteCode": "E096",
@@ -1533,21 +1533,10 @@
       "channel": "ERAFONE",
       "tsh": "MENSI ALEXANDER",
       "april": 600,
-      "may": 463,
-      "stock": 1341,
-      "est": 532,
-      "dos": 78.2
-    },
-    {
-      "siteCode": "X192",
-      "siteDesc": "IBOX (AAR) MENARA JAKARTA",
-      "channel": "IBOX",
-      "tsh": "ANDRY UTAMA",
-      "april": 583,
-      "may": 459,
-      "stock": 676,
-      "est": 527,
-      "dos": 39.74
+      "may": 475,
+      "stock": 1358,
+      "est": 526,
+      "dos": 80.05
     },
     {
       "siteCode": "E158",
@@ -1555,10 +1544,21 @@
       "channel": "ERAFONE",
       "tsh": "RENDY NUR SETIAWAN",
       "april": 857,
-      "may": 459,
-      "stock": 1447,
-      "est": 527,
-      "dos": 85.15
+      "may": 474,
+      "stock": 1449,
+      "est": 525,
+      "dos": 85.61
+    },
+    {
+      "siteCode": "G458",
+      "siteDesc": "ERABLUE KH HASYIM ASHARI TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "ARI HIDAYAT",
+      "april": 431,
+      "may": 468,
+      "stock": 728,
+      "est": 518,
+      "dos": 43.54
     },
     {
       "siteCode": "N216",
@@ -1566,32 +1566,21 @@
       "channel": "XIAOMI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 546,
-      "may": 453,
-      "stock": 1545,
-      "est": 520,
-      "dos": 92.1
+      "may": 467,
+      "stock": 1534,
+      "est": 517,
+      "dos": 91.96
     },
     {
-      "siteCode": "M048",
-      "siteDesc": "MEGASTORE RUKO CIKUPA",
-      "channel": "ERAFONE",
-      "tsh": "RENDI JANUARDI",
-      "april": 587,
-      "may": 447,
-      "stock": 1653,
-      "est": 513,
-      "dos": 99.84
-    },
-    {
-      "siteCode": "N075",
-      "siteDesc": "HUAWEI EXP SHOP MALL TAMAN ANGGREK",
-      "channel": "HUAWEI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 256,
-      "may": 440,
-      "stock": 2100,
-      "est": 505,
-      "dos": 128.88
+      "siteCode": "X192",
+      "siteDesc": "IBOX (AAR) MENARA JAKARTA",
+      "channel": "IBOX",
+      "tsh": "ANDRY UTAMA",
+      "april": 583,
+      "may": 464,
+      "stock": 677,
+      "est": 514,
+      "dos": 40.84
     },
     {
       "siteCode": "N391",
@@ -1599,43 +1588,32 @@
       "channel": "HUAWEI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 349,
-      "may": 440,
-      "stock": 586,
-      "est": 505,
-      "dos": 35.96
+      "may": 455,
+      "stock": 608,
+      "est": 504,
+      "dos": 37.44
     },
     {
-      "siteCode": "E251",
-      "siteDesc": "ERAFONE RUKO CIMONE TANGERANG",
+      "siteCode": "M048",
+      "siteDesc": "MEGASTORE RUKO CIKUPA",
       "channel": "ERAFONE",
-      "tsh": "ARI HIDAYAT",
-      "april": 348,
-      "may": 423,
-      "stock": 1928,
-      "est": 486,
-      "dos": 123.07
+      "tsh": "RENDI JANUARDI",
+      "april": 587,
+      "may": 452,
+      "stock": 1650,
+      "est": 500,
+      "dos": 102.18
     },
     {
-      "siteCode": "E960",
-      "siteDesc": "ERAFONE MB MENCENG RAYA",
-      "channel": "ERAFONE",
-      "tsh": "IRMAN PERMANA",
-      "april": 350,
-      "may": 421,
-      "stock": 1053,
-      "est": 483,
-      "dos": 67.53
-    },
-    {
-      "siteCode": "E381",
-      "siteDesc": "ERAFONE RUKO PETA BARAT JAKBAR",
-      "channel": "ERAFONE",
-      "tsh": "IRMAN PERMANA",
-      "april": 662,
-      "may": 417,
-      "stock": 1139,
-      "est": 479,
-      "dos": 73.72
+      "siteCode": "N075",
+      "siteDesc": "HUAWEI EXP SHOP MALL TAMAN ANGGREK",
+      "channel": "HUAWEI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 256,
+      "may": 447,
+      "stock": 2134,
+      "est": 495,
+      "dos": 133.66
     },
     {
       "siteCode": "E312",
@@ -1643,10 +1621,10 @@
       "channel": "FRANCHISE",
       "tsh": "IRMAN PERMANA",
       "april": 756,
-      "may": 416,
-      "stock": 899,
-      "est": 478,
-      "dos": 58.33
+      "may": 438,
+      "stock": 896,
+      "est": 485,
+      "dos": 57.3
     },
     {
       "siteCode": "S058",
@@ -1654,21 +1632,32 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 464,
-      "may": 413,
-      "stock": 602,
-      "est": 474,
-      "dos": 39.35
+      "may": 438,
+      "stock": 657,
+      "est": 485,
+      "dos": 42.0
     },
     {
-      "siteCode": "E879",
-      "siteDesc": "ERAFONE MB CIPARE",
+      "siteCode": "E960",
+      "siteDesc": "ERAFONE MB MENCENG RAYA",
       "channel": "ERAFONE",
-      "tsh": "NURUL ZAMAN",
-      "april": 799,
-      "may": 412,
-      "stock": 1528,
-      "est": 473,
-      "dos": 100.15
+      "tsh": "IRMAN PERMANA",
+      "april": 350,
+      "may": 433,
+      "stock": 1051,
+      "est": 479,
+      "dos": 67.99
+    },
+    {
+      "siteCode": "E251",
+      "siteDesc": "ERAFONE RUKO CIMONE TANGERANG",
+      "channel": "ERAFONE",
+      "tsh": "ARI HIDAYAT",
+      "april": 348,
+      "may": 432,
+      "stock": 1746,
+      "est": 478,
+      "dos": 113.14
     },
     {
       "siteCode": "E370",
@@ -1676,76 +1665,32 @@
       "channel": "FRANCHISE",
       "tsh": "ARI HIDAYAT",
       "april": 584,
-      "may": 411,
-      "stock": 1003,
+      "may": 427,
+      "stock": 986,
+      "est": 473,
+      "dos": 64.64
+    },
+    {
+      "siteCode": "E879",
+      "siteDesc": "ERAFONE MB CIPARE",
+      "channel": "ERAFONE",
+      "tsh": "NURUL ZAMAN",
+      "april": 799,
+      "may": 427,
+      "stock": 1508,
+      "est": 473,
+      "dos": 98.91
+    },
+    {
+      "siteCode": "E381",
+      "siteDesc": "ERAFONE RUKO PETA BARAT JAKBAR",
+      "channel": "ERAFONE",
+      "tsh": "IRMAN PERMANA",
+      "april": 662,
+      "may": 426,
+      "stock": 1183,
       "est": 472,
-      "dos": 65.9
-    },
-    {
-      "siteCode": "E679",
-      "siteDesc": "ERAFONE MB JOGLO RAYA",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 498,
-      "may": 387,
-      "stock": 1204,
-      "est": 444,
-      "dos": 84.0
-    },
-    {
-      "siteCode": "M027",
-      "siteDesc": "ERAFONE & MORE RUKO CIPUTAT",
-      "channel": "ERA & MORE",
-      "tsh": "ARENGGA",
-      "april": 587,
-      "may": 385,
-      "stock": 987,
-      "est": 442,
-      "dos": 69.25
-    },
-    {
-      "siteCode": "E514",
-      "siteDesc": "ERAFONE MERUYA SELATAN",
-      "channel": "FRANCHISE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 602,
-      "may": 384,
-      "stock": 1531,
-      "est": 441,
-      "dos": 107.66
-    },
-    {
-      "siteCode": "E941",
-      "siteDesc": "ERAFONE MB RAYA SERPONG",
-      "channel": "ERAFONE",
-      "tsh": "EKA FUJI CHAERUL ANWAR",
-      "april": 338,
-      "may": 370,
-      "stock": 1634,
-      "est": 425,
-      "dos": 119.23
-    },
-    {
-      "siteCode": "M176",
-      "siteDesc": "ERAFONE & MORE KISAMAUN",
-      "channel": "ERA & MORE",
-      "tsh": "ARI HIDAYAT",
-      "april": 585,
-      "may": 370,
-      "stock": 1615,
-      "est": 425,
-      "dos": 117.86
-    },
-    {
-      "siteCode": "X135",
-      "siteDesc": "IBOX EDC",
-      "channel": "IBOX",
-      "tsh": "VACANT",
-      "april": 311,
-      "may": 369,
-      "stock": 374,
-      "est": 424,
-      "dos": 27.38
+      "dos": 77.77
     },
     {
       "siteCode": "E875",
@@ -1753,10 +1698,142 @@
       "channel": "ERAFONE",
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 472,
+      "may": 404,
+      "stock": 1056,
+      "est": 447,
+      "dos": 73.18
+    },
+    {
+      "siteCode": "E679",
+      "siteDesc": "ERAFONE MB JOGLO RAYA",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 498,
+      "may": 404,
+      "stock": 1219,
+      "est": 447,
+      "dos": 84.52
+    },
+    {
+      "siteCode": "M027",
+      "siteDesc": "ERAFONE & MORE RUKO CIPUTAT",
+      "channel": "ERA & MORE",
+      "tsh": "ARENGGA",
+      "april": 587,
+      "may": 391,
+      "stock": 1000,
+      "est": 433,
+      "dos": 71.59
+    },
+    {
+      "siteCode": "E514",
+      "siteDesc": "ERAFONE MERUYA SELATAN",
+      "channel": "FRANCHISE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 602,
+      "may": 390,
+      "stock": 1502,
+      "est": 432,
+      "dos": 107.82
+    },
+    {
+      "siteCode": "M176",
+      "siteDesc": "ERAFONE & MORE KISAMAUN",
+      "channel": "ERA & MORE",
+      "tsh": "ARI HIDAYAT",
+      "april": 585,
+      "may": 384,
+      "stock": 1583,
+      "est": 425,
+      "dos": 115.4
+    },
+    {
+      "siteCode": "X135",
+      "siteDesc": "IBOX EDC",
+      "channel": "IBOX",
+      "tsh": "VACANT",
+      "april": 311,
+      "may": 377,
+      "stock": 370,
+      "est": 417,
+      "dos": 27.48
+    },
+    {
+      "siteCode": "E943",
+      "siteDesc": "ERAFONE MB TAMAN RATU",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 442,
+      "may": 372,
+      "stock": 1174,
+      "est": 412,
+      "dos": 88.4
+    },
+    {
+      "siteCode": "E391",
+      "siteDesc": "ERAFONE RUKO SUPRATMAN CIPUTAT",
+      "channel": "ERAFONE",
+      "tsh": "ARENGGA",
+      "april": 620,
+      "may": 371,
+      "stock": 977,
+      "est": 411,
+      "dos": 73.74
+    },
+    {
+      "siteCode": "E941",
+      "siteDesc": "ERAFONE MB RAYA SERPONG",
+      "channel": "ERAFONE",
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "april": 338,
+      "may": 371,
+      "stock": 1650,
+      "est": 411,
+      "dos": 124.53
+    },
+    {
+      "siteCode": "N380",
+      "siteDesc": "MI-STORE PLAZA BINTARO JAYA",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 305,
       "may": 369,
-      "stock": 1031,
-      "est": 424,
-      "dos": 75.43
+      "stock": 996,
+      "est": 409,
+      "dos": 75.56
+    },
+    {
+      "siteCode": "E777",
+      "siteDesc": "ERAFONE CIHUNI GADING SERPONG",
+      "channel": "ERAFONE",
+      "tsh": "SANDI MAULANA",
+      "april": 406,
+      "may": 368,
+      "stock": 794,
+      "est": 407,
+      "dos": 60.45
+    },
+    {
+      "siteCode": "S040",
+      "siteDesc": "SES TANGERANG CITY MALL",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 433,
+      "may": 367,
+      "stock": 540,
+      "est": 406,
+      "dos": 41.21
+    },
+    {
+      "siteCode": "M222",
+      "siteDesc": "ERAFONE & MORE EASTVARA MALL",
+      "channel": "ERA & MORE",
+      "tsh": "SANDI MAULANA",
+      "april": 406,
+      "may": 366,
+      "stock": 1073,
+      "est": 405,
+      "dos": 82.07
     },
     {
       "siteCode": "E299",
@@ -1765,31 +1842,9 @@
       "tsh": "ARENGGA",
       "april": 583,
       "may": 365,
-      "stock": 0,
-      "est": 419,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "S040",
-      "siteDesc": "SES TANGERANG CITY MALL",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 433,
-      "may": 363,
-      "stock": 540,
-      "est": 417,
-      "dos": 40.18
-    },
-    {
-      "siteCode": "M222",
-      "siteDesc": "ERAFONE & MORE EASTVARA MALL",
-      "channel": "ERA & MORE",
-      "tsh": "SANDI MAULANA",
-      "april": 406,
-      "may": 363,
-      "stock": 1083,
-      "est": 417,
-      "dos": 80.56
+      "stock": 73,
+      "est": 404,
+      "dos": 5.61
     },
     {
       "siteCode": "E705",
@@ -1797,76 +1852,10 @@
       "channel": "ERAFONE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 238,
-      "may": 362,
-      "stock": 835,
-      "est": 416,
-      "dos": 62.31
-    },
-    {
-      "siteCode": "E943",
-      "siteDesc": "ERAFONE MB TAMAN RATU",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 442,
-      "may": 360,
-      "stock": 1179,
-      "est": 413,
-      "dos": 88.42
-    },
-    {
-      "siteCode": "N380",
-      "siteDesc": "MI-STORE PLAZA BINTARO JAYA",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 305,
-      "may": 360,
-      "stock": 1043,
-      "est": 413,
-      "dos": 78.21
-    },
-    {
-      "siteCode": "E391",
-      "siteDesc": "ERAFONE RUKO SUPRATMAN CIPUTAT",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 620,
-      "may": 358,
-      "stock": 944,
-      "est": 411,
-      "dos": 71.2
-    },
-    {
-      "siteCode": "G444",
-      "siteDesc": "ERABLUE MOH. TOHA TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "ARI HIDAYAT",
-      "april": 95,
-      "may": 357,
-      "stock": 345,
-      "est": 410,
-      "dos": 26.09
-    },
-    {
-      "siteCode": "E777",
-      "siteDesc": "ERAFONE CIHUNI GADING SERPONG",
-      "channel": "ERAFONE",
-      "tsh": "SANDI MAULANA",
-      "april": 406,
-      "may": 352,
-      "stock": 742,
-      "est": 404,
-      "dos": 56.91
-    },
-    {
-      "siteCode": "G546",
-      "siteDesc": "ERABLUE CILEDUG RAYA TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "ABDILLAH",
-      "april": 399,
-      "may": 347,
-      "stock": 605,
-      "est": 398,
-      "dos": 47.1
+      "may": 364,
+      "stock": 688,
+      "est": 403,
+      "dos": 52.92
     },
     {
       "siteCode": "N330",
@@ -1874,10 +1863,21 @@
       "channel": "HUAWEI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 259,
-      "may": 328,
-      "stock": 474,
-      "est": 377,
-      "dos": 39.02
+      "may": 359,
+      "stock": 538,
+      "est": 397,
+      "dos": 41.96
+    },
+    {
+      "siteCode": "G546",
+      "siteDesc": "ERABLUE CILEDUG RAYA TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "ABDILLAH",
+      "april": 399,
+      "may": 350,
+      "stock": 643,
+      "est": 388,
+      "dos": 51.44
     },
     {
       "siteCode": "S230",
@@ -1885,10 +1885,10 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 304,
-      "may": 326,
-      "stock": 733,
-      "est": 374,
-      "dos": 60.68
+      "may": 339,
+      "stock": 724,
+      "est": 375,
+      "dos": 59.82
     },
     {
       "siteCode": "E744",
@@ -1896,21 +1896,10 @@
       "channel": "ERAFONE",
       "tsh": "RENDI JANUARDI",
       "april": 483,
-      "may": 322,
-      "stock": 1435,
-      "est": 370,
-      "dos": 120.32
-    },
-    {
-      "siteCode": "Q104",
-      "siteDesc": "XLC GRAND INDONESIA",
-      "channel": "XL STORE",
-      "tsh": "LUKMAN WIBOWO",
-      "april": 373,
-      "may": 318,
-      "stock": 0,
-      "est": 365,
-      "dos": 0.0
+      "may": 331,
+      "stock": 1416,
+      "est": 366,
+      "dos": 119.78
     },
     {
       "siteCode": "X173",
@@ -1918,21 +1907,21 @@
       "channel": "IBOX",
       "tsh": "ARDILESACH",
       "april": 358,
-      "may": 318,
-      "stock": 294,
-      "est": 365,
-      "dos": 24.94
+      "may": 327,
+      "stock": 284,
+      "est": 362,
+      "dos": 24.32
     },
     {
-      "siteCode": "E612",
-      "siteDesc": "ERAFONE RUKO JOMBANG",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 459,
-      "may": 314,
-      "stock": 799,
-      "est": 361,
-      "dos": 68.72
+      "siteCode": "Q104",
+      "siteDesc": "XLC GRAND INDONESIA",
+      "channel": "XL STORE",
+      "tsh": "LUKMAN WIBOWO",
+      "april": 373,
+      "may": 322,
+      "stock": 0,
+      "est": 356,
+      "dos": 0.0
     },
     {
       "siteCode": "E586",
@@ -1940,10 +1929,21 @@
       "channel": "ERAFONE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 375,
-      "may": 312,
-      "stock": 768,
-      "est": 358,
-      "dos": 66.5
+      "may": 320,
+      "stock": 746,
+      "est": 354,
+      "dos": 65.26
+    },
+    {
+      "siteCode": "E612",
+      "siteDesc": "ERAFONE RUKO JOMBANG",
+      "channel": "ERAFONE",
+      "tsh": "ARENGGA",
+      "april": 459,
+      "may": 319,
+      "stock": 809,
+      "est": 353,
+      "dos": 71.05
     },
     {
       "siteCode": "G457",
@@ -1951,21 +1951,10 @@
       "channel": "ERABLUE",
       "tsh": "ARENGGA",
       "april": 236,
-      "may": 311,
-      "stock": 234,
-      "est": 357,
-      "dos": 20.27
-    },
-    {
-      "siteCode": "E787",
-      "siteDesc": "ERAFONE MB RUKOTIGARAKSA",
-      "channel": "ERAFONE",
-      "tsh": "RENDI JANUARDI",
-      "april": 398,
-      "may": 311,
-      "stock": 1078,
-      "est": 357,
-      "dos": 93.58
+      "may": 318,
+      "stock": 285,
+      "est": 352,
+      "dos": 25.1
     },
     {
       "siteCode": "F066",
@@ -1973,10 +1962,21 @@
       "channel": "FRANCHISE",
       "tsh": "RENDI JANUARDI",
       "april": 736,
-      "may": 302,
-      "stock": 1135,
-      "est": 347,
-      "dos": 101.46
+      "may": 318,
+      "stock": 1143,
+      "est": 352,
+      "dos": 100.64
+    },
+    {
+      "siteCode": "E787",
+      "siteDesc": "ERAFONE MB RUKOTIGARAKSA",
+      "channel": "ERAFONE",
+      "tsh": "RENDI JANUARDI",
+      "april": 398,
+      "may": 316,
+      "stock": 1085,
+      "est": 350,
+      "dos": 96.17
     },
     {
       "siteCode": "E986",
@@ -1984,10 +1984,10 @@
       "channel": "ERAFONE",
       "tsh": "RENDY NUR SETIAWAN",
       "april": 291,
-      "may": 289,
-      "stock": 439,
-      "est": 332,
-      "dos": 41.03
+      "may": 304,
+      "stock": 400,
+      "est": 337,
+      "dos": 36.87
     },
     {
       "siteCode": "S055",
@@ -1995,21 +1995,10 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 404,
-      "may": 285,
-      "stock": 518,
-      "est": 327,
-      "dos": 49.12
-    },
-    {
-      "siteCode": "X014",
-      "siteDesc": "IBOX MENTENG CENTRAL",
-      "channel": "IBOX",
-      "tsh": "ANDRY UTAMA",
-      "april": 424,
-      "may": 284,
-      "stock": 409,
-      "est": 326,
-      "dos": 38.93
+      "may": 297,
+      "stock": 535,
+      "est": 329,
+      "dos": 50.47
     },
     {
       "siteCode": "E873",
@@ -2017,10 +2006,10 @@
       "channel": "ERAFONE",
       "tsh": "SANDI MAULANA",
       "april": 370,
-      "may": 283,
-      "stock": 1122,
-      "est": 325,
-      "dos": 107.07
+      "may": 292,
+      "stock": 1123,
+      "est": 323,
+      "dos": 107.71
     },
     {
       "siteCode": "F058",
@@ -2028,21 +2017,10 @@
       "channel": "FRANCHISE",
       "tsh": "RENDI JANUARDI",
       "april": 835,
-      "may": 282,
-      "stock": 1192,
-      "est": 324,
-      "dos": 114.13
-    },
-    {
-      "siteCode": "S231",
-      "siteDesc": "SES PLAZA INDONESIA",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 391,
-      "may": 279,
-      "stock": 821,
-      "est": 320,
-      "dos": 79.48
+      "may": 287,
+      "stock": 1229,
+      "est": 318,
+      "dos": 119.9
     },
     {
       "siteCode": "E696",
@@ -2050,10 +2028,21 @@
       "channel": "ERAFONE",
       "tsh": "ARI HIDAYAT",
       "april": 414,
-      "may": 275,
-      "stock": 1000,
-      "est": 316,
-      "dos": 98.22
+      "may": 286,
+      "stock": 995,
+      "est": 317,
+      "dos": 97.44
+    },
+    {
+      "siteCode": "X014",
+      "siteDesc": "IBOX MENTENG CENTRAL",
+      "channel": "IBOX",
+      "tsh": "ANDRY UTAMA",
+      "april": 424,
+      "may": 286,
+      "stock": 498,
+      "est": 317,
+      "dos": 48.78
     },
     {
       "siteCode": "E813",
@@ -2061,10 +2050,21 @@
       "channel": "ERAFONE",
       "tsh": "SANDI MAULANA",
       "april": 355,
-      "may": 272,
-      "stock": 1034,
+      "may": 286,
+      "stock": 1012,
+      "est": 317,
+      "dos": 99.06
+    },
+    {
+      "siteCode": "S231",
+      "siteDesc": "SES PLAZA INDONESIA",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 391,
+      "may": 282,
+      "stock": 818,
       "est": 312,
-      "dos": 102.62
+      "dos": 81.25
     },
     {
       "siteCode": "F080",
@@ -2072,10 +2072,10 @@
       "channel": "ERAFONE",
       "tsh": "LUKMAN WIBOWO",
       "april": 242,
-      "may": 271,
-      "stock": 1423,
-      "est": 311,
-      "dos": 141.77
+      "may": 276,
+      "stock": 1395,
+      "est": 306,
+      "dos": 141.57
     },
     {
       "siteCode": "G401",
@@ -2083,10 +2083,21 @@
       "channel": "ERABLUE",
       "tsh": "ABDILLAH",
       "april": 223,
-      "may": 262,
-      "stock": 265,
-      "est": 301,
-      "dos": 27.3
+      "may": 275,
+      "stock": 315,
+      "est": 304,
+      "dos": 32.08
+    },
+    {
+      "siteCode": "E848",
+      "siteDesc": "ERAFONE PASAR KEMIS",
+      "channel": "ERAFONE",
+      "tsh": "RENDI JANUARDI",
+      "april": 340,
+      "may": 275,
+      "stock": 1068,
+      "est": 304,
+      "dos": 108.79
     },
     {
       "siteCode": "E047",
@@ -2094,10 +2105,43 @@
       "channel": "ERAFONE",
       "tsh": "LUKMAN WIBOWO",
       "april": 439,
+      "may": 273,
+      "stock": 667,
+      "est": 302,
+      "dos": 68.42
+    },
+    {
+      "siteCode": "N337",
+      "siteDesc": "HONOR BINTARO XCHANGE MALL",
+      "channel": "HONOR STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 296,
+      "may": 272,
+      "stock": 732,
+      "est": 301,
+      "dos": 75.36
+    },
+    {
+      "siteCode": "E812",
+      "siteDesc": "ERAFONE MB KUTABUMI",
+      "channel": "ERAFONE",
+      "tsh": "RENDI JANUARDI",
+      "april": 368,
+      "may": 269,
+      "stock": 906,
+      "est": 298,
+      "dos": 94.35
+    },
+    {
+      "siteCode": "N354",
+      "siteDesc": "XIAOMI MENARA JAKARTA",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 270,
       "may": 260,
-      "stock": 677,
-      "est": 299,
-      "dos": 70.28
+      "stock": 1135,
+      "est": 288,
+      "dos": 122.21
     },
     {
       "siteCode": "G402",
@@ -2106,64 +2150,9 @@
       "tsh": "ABDILLAH",
       "april": 237,
       "may": 258,
-      "stock": 363,
-      "est": 296,
-      "dos": 38.0
-    },
-    {
-      "siteCode": "E848",
-      "siteDesc": "ERAFONE PASAR KEMIS",
-      "channel": "ERAFONE",
-      "tsh": "RENDI JANUARDI",
-      "april": 340,
-      "may": 257,
-      "stock": 1045,
-      "est": 295,
-      "dos": 109.76
-    },
-    {
-      "siteCode": "E812",
-      "siteDesc": "ERAFONE MB KUTABUMI",
-      "channel": "ERAFONE",
-      "tsh": "RENDI JANUARDI",
-      "april": 368,
-      "may": 257,
-      "stock": 913,
-      "est": 295,
-      "dos": 95.92
-    },
-    {
-      "siteCode": "N337",
-      "siteDesc": "HONOR BINTARO XCHANGE MALL",
-      "channel": "HONOR STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 296,
-      "may": 254,
-      "stock": 753,
-      "est": 292,
-      "dos": 80.03
-    },
-    {
-      "siteCode": "E991",
-      "siteDesc": "ERAFONE 2.5 KEMANGGISAN UTAMA RAYA",
-      "channel": "ERAFONE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 335,
-      "may": 250,
-      "stock": 736,
-      "est": 287,
-      "dos": 79.48
-    },
-    {
-      "siteCode": "N354",
-      "siteDesc": "XIAOMI MENARA JAKARTA",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 270,
-      "may": 249,
-      "stock": 1149,
+      "stock": 404,
       "est": 286,
-      "dos": 124.61
+      "dos": 43.89
     },
     {
       "siteCode": "N360",
@@ -2171,10 +2160,10 @@
       "channel": "HUAWEI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 145,
-      "may": 246,
-      "stock": 473,
-      "est": 282,
-      "dos": 51.89
+      "may": 257,
+      "stock": 479,
+      "est": 285,
+      "dos": 52.15
     },
     {
       "siteCode": "E704",
@@ -2182,10 +2171,21 @@
       "channel": "ERAFONE",
       "tsh": "ARENGGA",
       "april": 324,
-      "may": 240,
-      "stock": 698,
-      "est": 276,
-      "dos": 78.48
+      "may": 253,
+      "stock": 699,
+      "est": 280,
+      "dos": 77.4
+    },
+    {
+      "siteCode": "E991",
+      "siteDesc": "ERAFONE 2.5 KEMANGGISAN UTAMA RAYA",
+      "channel": "ERAFONE",
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 335,
+      "may": 251,
+      "stock": 739,
+      "est": 278,
+      "dos": 82.43
     },
     {
       "siteCode": "E616",
@@ -2193,10 +2193,10 @@
       "channel": "ERAFONE",
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 180,
-      "may": 232,
-      "stock": 710,
-      "est": 266,
-      "dos": 82.63
+      "may": 238,
+      "stock": 693,
+      "est": 264,
+      "dos": 81.54
     },
     {
       "siteCode": "G437",
@@ -2205,9 +2205,31 @@
       "tsh": "IRMAN PERMANA",
       "april": 106,
       "may": 231,
-      "stock": 322,
-      "est": 265,
-      "dos": 37.61
+      "stock": 325,
+      "est": 256,
+      "dos": 39.44
+    },
+    {
+      "siteCode": "G464",
+      "siteDesc": "ERABLUE MAUK TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "RENDI JANUARDI",
+      "april": 180,
+      "may": 229,
+      "stock": 385,
+      "est": 254,
+      "dos": 47.1
+    },
+    {
+      "siteCode": "E685",
+      "siteDesc": "ERAFONE MB PONDOK BETUNG",
+      "channel": "ERAFONE",
+      "tsh": "ARENGGA",
+      "april": 371,
+      "may": 226,
+      "stock": 785,
+      "est": 250,
+      "dos": 97.2
     },
     {
       "siteCode": "G463",
@@ -2216,31 +2238,9 @@
       "tsh": "SANDI MAULANA",
       "april": 137,
       "may": 221,
-      "stock": 194,
-      "est": 254,
-      "dos": 23.66
-    },
-    {
-      "siteCode": "E685",
-      "siteDesc": "ERAFONE MB PONDOK BETUNG",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 371,
-      "may": 217,
-      "stock": 774,
-      "est": 249,
-      "dos": 96.34
-    },
-    {
-      "siteCode": "G464",
-      "siteDesc": "ERABLUE MAUK TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "RENDI JANUARDI",
-      "april": 180,
-      "may": 212,
-      "stock": 346,
-      "est": 243,
-      "dos": 44.07
+      "stock": 244,
+      "est": 245,
+      "dos": 30.91
     },
     {
       "siteCode": "Q109",
@@ -2248,10 +2248,10 @@
       "channel": "XL STORE",
       "tsh": "ARENGGA",
       "april": 247,
-      "may": 211,
-      "stock": 2416,
-      "est": 242,
-      "dos": 309.11
+      "may": 213,
+      "stock": 2439,
+      "est": 236,
+      "dos": 320.55
     },
     {
       "siteCode": "S229",
@@ -2259,43 +2259,10 @@
       "channel": "SAMSUNG STORE",
       "tsh": "LIA ASTUTI",
       "april": 60,
-      "may": 206,
-      "stock": 569,
-      "est": 237,
-      "dos": 74.58
-    },
-    {
-      "siteCode": "G519",
-      "siteDesc": "ERABLUE RAWA BELONG JAKBAR",
-      "channel": "ERABLUE",
-      "tsh": "RENDY NUR SETIAWAN",
-      "april": 180,
-      "may": 197,
-      "stock": 237,
-      "est": 226,
-      "dos": 32.47
-    },
-    {
-      "siteCode": "S228",
-      "siteDesc": "SES CIPUTRA MALL JKT",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 185,
-      "may": 194,
-      "stock": 481,
-      "est": 223,
-      "dos": 66.99
-    },
-    {
-      "siteCode": "E923",
-      "siteDesc": "ERAFONE MB JALAN PANJANG",
-      "channel": "ERAFONE",
-      "tsh": "FEBRIAN TRI WIBOWO",
-      "april": 332,
-      "may": 193,
-      "stock": 920,
-      "est": 222,
-      "dos": 128.69
+      "may": 207,
+      "stock": 572,
+      "est": 229,
+      "dos": 77.34
     },
     {
       "siteCode": "N326",
@@ -2303,65 +2270,10 @@
       "channel": "XIAOMI STORE",
       "tsh": "SOPIYAN SAURI",
       "april": 197,
-      "may": 193,
-      "stock": 841,
-      "est": 222,
-      "dos": 117.67
-    },
-    {
-      "siteCode": "E874",
-      "siteDesc": "ERAFONE MB DASANA INDAH",
-      "channel": "ERAFONE",
-      "tsh": "SANDI MAULANA",
-      "april": 258,
-      "may": 192,
-      "stock": 922,
-      "est": 220,
-      "dos": 129.71
-    },
-    {
-      "siteCode": "S195",
-      "siteDesc": "SAMSUNG (SES) MENARA JAKARTA",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 161,
-      "may": 190,
-      "stock": 771,
-      "est": 218,
-      "dos": 109.57
-    },
-    {
-      "siteCode": "G451",
-      "siteDesc": "ERABLUE CISOKA TIGARAKSA TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "RENDI JANUARDI",
-      "april": 145,
-      "may": 189,
-      "stock": 252,
-      "est": 217,
-      "dos": 35.94
-    },
-    {
-      "siteCode": "S049",
-      "siteDesc": "SPS ITC CEMPAKA MAS",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 214,
-      "may": 185,
-      "stock": 331,
-      "est": 212,
-      "dos": 48.37
-    },
-    {
-      "siteCode": "S136",
-      "siteDesc": "SPS LABUAN PANDEGLANG",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIM PING KIAN",
-      "april": 200,
-      "may": 173,
-      "stock": 399,
-      "est": 199,
-      "dos": 62.32
+      "may": 205,
+      "stock": 833,
+      "est": 227,
+      "dos": 113.72
     },
     {
       "siteCode": "G435",
@@ -2369,10 +2281,109 @@
       "channel": "ERABLUE",
       "tsh": "IRMAN PERMANA",
       "april": 184,
-      "may": 165,
-      "stock": 275,
-      "est": 189,
-      "dos": 45.04
+      "may": 204,
+      "stock": 291,
+      "est": 226,
+      "dos": 39.99
+    },
+    {
+      "siteCode": "S228",
+      "siteDesc": "SES CIPUTRA MALL JKT",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 185,
+      "may": 202,
+      "stock": 482,
+      "est": 224,
+      "dos": 66.78
+    },
+    {
+      "siteCode": "G519",
+      "siteDesc": "ERABLUE RAWA BELONG JAKBAR",
+      "channel": "ERABLUE",
+      "tsh": "RENDY NUR SETIAWAN",
+      "april": 180,
+      "may": 200,
+      "stock": 236,
+      "est": 221,
+      "dos": 32.97
+    },
+    {
+      "siteCode": "E923",
+      "siteDesc": "ERAFONE MB JALAN PANJANG",
+      "channel": "ERAFONE",
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "april": 332,
+      "may": 200,
+      "stock": 902,
+      "est": 221,
+      "dos": 126.24
+    },
+    {
+      "siteCode": "E874",
+      "siteDesc": "ERAFONE MB DASANA INDAH",
+      "channel": "ERAFONE",
+      "tsh": "SANDI MAULANA",
+      "april": 258,
+      "may": 196,
+      "stock": 896,
+      "est": 217,
+      "dos": 128.04
+    },
+    {
+      "siteCode": "S195",
+      "siteDesc": "SAMSUNG (SES) MENARA JAKARTA",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 161,
+      "may": 194,
+      "stock": 793,
+      "est": 215,
+      "dos": 114.41
+    },
+    {
+      "siteCode": "G451",
+      "siteDesc": "ERABLUE CISOKA TIGARAKSA TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "RENDI JANUARDI",
+      "april": 145,
+      "may": 194,
+      "stock": 257,
+      "est": 215,
+      "dos": 37.09
+    },
+    {
+      "siteCode": "S049",
+      "siteDesc": "SPS ITC CEMPAKA MAS",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 214,
+      "may": 189,
+      "stock": 333,
+      "est": 209,
+      "dos": 49.33
+    },
+    {
+      "siteCode": "S136",
+      "siteDesc": "SPS LABUAN PANDEGLANG",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIM PING KIAN",
+      "april": 200,
+      "may": 183,
+      "stock": 388,
+      "est": 203,
+      "dos": 59.35
+    },
+    {
+      "siteCode": "X037",
+      "siteDesc": "IBOX MANGGA DUA",
+      "channel": "IBOX",
+      "tsh": "ANDRY UTAMA",
+      "april": 233,
+      "may": 162,
+      "stock": 277,
+      "est": 179,
+      "dos": 47.92
     },
     {
       "siteCode": "XE34",
@@ -2382,7 +2393,7 @@
       "april": 0,
       "may": 161,
       "stock": 0,
-      "est": 185,
+      "est": 178,
       "dos": 0.0
     },
     {
@@ -2391,21 +2402,10 @@
       "channel": "ERABLUE",
       "tsh": "ARENGGA",
       "april": 129,
-      "may": 159,
-      "stock": 158,
-      "est": 183,
-      "dos": 26.78
-    },
-    {
-      "siteCode": "X037",
-      "siteDesc": "IBOX MANGGA DUA",
-      "channel": "IBOX",
-      "tsh": "ANDRY UTAMA",
-      "april": 233,
-      "may": 154,
-      "stock": 273,
-      "est": 177,
-      "dos": 47.94
+      "may": 161,
+      "stock": 198,
+      "est": 178,
+      "dos": 34.42
     },
     {
       "siteCode": "X034",
@@ -2413,10 +2413,10 @@
       "channel": "IBOX",
       "tsh": "RIZKY KURNIAWAN",
       "april": 351,
-      "may": 151,
-      "stock": 307,
-      "est": 173,
-      "dos": 54.88
+      "may": 161,
+      "stock": 322,
+      "est": 178,
+      "dos": 55.93
     },
     {
       "siteCode": "G480",
@@ -2424,10 +2424,10 @@
       "channel": "ERABLUE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 224,
-      "may": 147,
-      "stock": 174,
-      "est": 169,
-      "dos": 31.9
+      "may": 148,
+      "stock": 172,
+      "est": 164,
+      "dos": 32.5
     },
     {
       "siteCode": "E695",
@@ -2435,10 +2435,21 @@
       "channel": "ERAFONE",
       "tsh": "RENDI JANUARDI",
       "april": 338,
-      "may": 132,
-      "stock": 138,
-      "est": 152,
-      "dos": 28.15
+      "may": 133,
+      "stock": 133,
+      "est": 147,
+      "dos": 28.04
+    },
+    {
+      "siteCode": "E620",
+      "siteDesc": "ERAFONE 2.5 PADJAJARAN PAMULANG",
+      "channel": "ERAFONE",
+      "tsh": "ARENGGA",
+      "april": 178,
+      "may": 130,
+      "stock": 1039,
+      "est": 144,
+      "dos": 223.88
     },
     {
       "siteCode": "N286",
@@ -2448,7 +2459,7 @@
       "april": 270,
       "may": 130,
       "stock": 0,
-      "est": 149,
+      "est": 144,
       "dos": 0.0
     },
     {
@@ -2457,32 +2468,10 @@
       "channel": "ERABLUE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 362,
-      "may": 124,
+      "may": 130,
       "stock": 155,
-      "est": 142,
-      "dos": 33.65
-    },
-    {
-      "siteCode": "E620",
-      "siteDesc": "ERAFONE 2.5 PADJAJARAN PAMULANG",
-      "channel": "ERAFONE",
-      "tsh": "ARENGGA",
-      "april": 178,
-      "may": 120,
-      "stock": 1137,
-      "est": 138,
-      "dos": 255.73
-    },
-    {
-      "siteCode": "S098",
-      "siteDesc": "SES SENAYAN PARK MALL",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 163,
-      "may": 119,
-      "stock": 457,
-      "est": 137,
-      "dos": 103.64
+      "est": 144,
+      "dos": 33.34
     },
     {
       "siteCode": "G420",
@@ -2490,10 +2479,21 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 262,
-      "may": 118,
-      "stock": 140,
-      "est": 135,
-      "dos": 32.03
+      "may": 124,
+      "stock": 161,
+      "est": 137,
+      "dos": 36.32
+    },
+    {
+      "siteCode": "S098",
+      "siteDesc": "SES SENAYAN PARK MALL",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 163,
+      "may": 121,
+      "stock": 451,
+      "est": 134,
+      "dos": 104.41
     },
     {
       "siteCode": "G447",
@@ -2501,10 +2501,10 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 111,
-      "may": 117,
-      "stock": 140,
-      "est": 134,
-      "dos": 32.38
+      "may": 120,
+      "stock": 157,
+      "est": 133,
+      "dos": 36.63
     },
     {
       "siteCode": "G467",
@@ -2512,10 +2512,10 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 148,
-      "may": 113,
-      "stock": 146,
-      "est": 130,
-      "dos": 34.86
+      "may": 114,
+      "stock": 170,
+      "est": 126,
+      "dos": 41.81
     },
     {
       "siteCode": "S183",
@@ -2523,10 +2523,10 @@
       "channel": "SAMSUNG STORE",
       "tsh": "VACANT",
       "april": 140,
-      "may": 112,
-      "stock": 530,
-      "est": 129,
-      "dos": 127.66
+      "may": 114,
+      "stock": 520,
+      "est": 126,
+      "dos": 127.68
     },
     {
       "siteCode": "S158",
@@ -2536,8 +2536,8 @@
       "april": 115,
       "may": 109,
       "stock": 390,
-      "est": 125,
-      "dos": 96.63
+      "est": 121,
+      "dos": 100.21
     },
     {
       "siteCode": "G487",
@@ -2546,9 +2546,20 @@
       "tsh": "ABDILLAH",
       "april": 104,
       "may": 108,
-      "stock": 204,
-      "est": 124,
-      "dos": 51.1
+      "stock": 227,
+      "est": 120,
+      "dos": 58.88
+    },
+    {
+      "siteCode": "Q248",
+      "siteDesc": "XLC ITC ROXY MAS",
+      "channel": "XL STORE",
+      "tsh": "MENSI ALEXANDER",
+      "april": 137,
+      "may": 101,
+      "stock": 4757,
+      "est": 112,
+      "dos": 1318.85
     },
     {
       "siteCode": "G532",
@@ -2557,9 +2568,9 @@
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 74,
       "may": 100,
-      "stock": 80,
-      "est": 115,
-      "dos": 21.73
+      "stock": 85,
+      "est": 111,
+      "dos": 23.9
     },
     {
       "siteCode": "E216",
@@ -2567,21 +2578,10 @@
       "channel": "ERAFONE",
       "tsh": "MENSI ALEXANDER",
       "april": 181,
-      "may": 93,
-      "stock": 568,
-      "est": 107,
-      "dos": 164.95
-    },
-    {
-      "siteCode": "Q248",
-      "siteDesc": "XLC ITC ROXY MAS",
-      "channel": "XL STORE",
-      "tsh": "MENSI ALEXANDER",
-      "april": 137,
-      "may": 93,
-      "stock": 4380,
-      "est": 107,
-      "dos": 1271.75
+      "may": 100,
+      "stock": 677,
+      "est": 111,
+      "dos": 189.67
     },
     {
       "siteCode": "G404",
@@ -2589,32 +2589,10 @@
       "channel": "ERABLUE",
       "tsh": "EKA FUJI CHAERUL ANWAR",
       "april": 111,
-      "may": 93,
-      "stock": 164,
-      "est": 107,
-      "dos": 47.75
-    },
-    {
-      "siteCode": "G489",
-      "siteDesc": "ERABLUE KAMPUNG MELAYU TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "RENDI JANUARDI",
-      "april": 73,
-      "may": 85,
-      "stock": 86,
-      "est": 98,
-      "dos": 27.43
-    },
-    {
-      "siteCode": "G622",
-      "siteDesc": "ERABLUE WARUNG JAUD SERANG",
-      "channel": "ERABLUE",
-      "tsh": "NURUL ZAMAN",
-      "april": 98,
-      "may": 82,
-      "stock": 76,
-      "est": 94,
-      "dos": 24.88
+      "may": 94,
+      "stock": 163,
+      "est": 104,
+      "dos": 48.68
     },
     {
       "siteCode": "G417",
@@ -2622,10 +2600,21 @@
       "channel": "ERABLUE",
       "tsh": "FEBRIAN TRI WIBOWO",
       "april": 247,
-      "may": 80,
-      "stock": 152,
-      "est": 92,
-      "dos": 51.28
+      "may": 94,
+      "stock": 162,
+      "est": 104,
+      "dos": 48.29
+    },
+    {
+      "siteCode": "G489",
+      "siteDesc": "ERABLUE KAMPUNG MELAYU TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "RENDI JANUARDI",
+      "april": 73,
+      "may": 87,
+      "stock": 97,
+      "est": 96,
+      "dos": 31.27
     },
     {
       "siteCode": "G453",
@@ -2633,10 +2622,43 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 68,
-      "may": 78,
-      "stock": 68,
-      "est": 90,
-      "dos": 23.44
+      "may": 83,
+      "stock": 72,
+      "est": 92,
+      "dos": 24.17
+    },
+    {
+      "siteCode": "G622",
+      "siteDesc": "ERABLUE WARUNG JAUD SERANG",
+      "channel": "ERABLUE",
+      "tsh": "NURUL ZAMAN",
+      "april": 98,
+      "may": 83,
+      "stock": 80,
+      "est": 92,
+      "dos": 27.15
+    },
+    {
+      "siteCode": "G508",
+      "siteDesc": "ERABLUE TAMAN CIBODAS TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "ARI HIDAYAT",
+      "april": 170,
+      "may": 72,
+      "stock": 141,
+      "est": 80,
+      "dos": 54.95
+    },
+    {
+      "siteCode": "G431",
+      "siteDesc": "ERABLUE LEGOK TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "SANDI MAULANA",
+      "april": 122,
+      "may": 72,
+      "stock": 108,
+      "est": 80,
+      "dos": 42.07
     },
     {
       "siteCode": "G586",
@@ -2646,30 +2668,19 @@
       "april": 147,
       "may": 71,
       "stock": 109,
-      "est": 82,
-      "dos": 41.42
-    },
-    {
-      "siteCode": "G431",
-      "siteDesc": "ERABLUE LEGOK TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "SANDI MAULANA",
-      "april": 122,
-      "may": 70,
-      "stock": 111,
-      "est": 80,
-      "dos": 42.73
-    },
-    {
-      "siteCode": "G508",
-      "siteDesc": "ERABLUE TAMAN CIBODAS TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "ARI HIDAYAT",
-      "april": 170,
-      "may": 69,
-      "stock": 143,
       "est": 79,
-      "dos": 56.11
+      "dos": 42.96
+    },
+    {
+      "siteCode": "G445",
+      "siteDesc": "ERABLUE PUSPITEK SERPONG",
+      "channel": "ERABLUE",
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "april": 71,
+      "may": 67,
+      "stock": 135,
+      "est": 74,
+      "dos": 56.28
     },
     {
       "siteCode": "G569",
@@ -2678,9 +2689,9 @@
       "tsh": "RENDI JANUARDI",
       "april": 118,
       "may": 67,
-      "stock": 110,
-      "est": 77,
-      "dos": 44.29
+      "stock": 122,
+      "est": 74,
+      "dos": 50.85
     },
     {
       "siteCode": "N285",
@@ -2690,19 +2701,8 @@
       "april": 19,
       "may": 66,
       "stock": 0,
-      "est": 76,
+      "est": 73,
       "dos": 0.0
-    },
-    {
-      "siteCode": "G445",
-      "siteDesc": "ERABLUE PUSPITEK SERPONG",
-      "channel": "ERABLUE",
-      "tsh": "EKA FUJI CHAERUL ANWAR",
-      "april": 71,
-      "may": 65,
-      "stock": 136,
-      "est": 75,
-      "dos": 56.52
     },
     {
       "siteCode": "G470",
@@ -2710,10 +2710,10 @@
       "channel": "ERABLUE",
       "tsh": "NURUL ZAMAN",
       "april": 109,
-      "may": 59,
-      "stock": 56,
-      "est": 68,
-      "dos": 25.6
+      "may": 63,
+      "stock": 51,
+      "est": 70,
+      "dos": 22.68
     },
     {
       "siteCode": "Q129",
@@ -2721,10 +2721,10 @@
       "channel": "XL STORE",
       "tsh": "ARI HIDAYAT",
       "april": 61,
-      "may": 57,
-      "stock": 519,
+      "may": 59,
+      "stock": 538,
       "est": 65,
-      "dos": 246.02
+      "dos": 255.14
     },
     {
       "siteCode": "G478",
@@ -2732,32 +2732,10 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 107,
-      "may": 47,
-      "stock": 79,
+      "may": 49,
+      "stock": 81,
       "est": 54,
-      "dos": 45.66
-    },
-    {
-      "siteCode": "G403",
-      "siteDesc": "ERABLUE DEWI SARTIKA CIPUTAT",
-      "channel": "ERABLUE",
-      "tsh": "ARENGGA",
-      "april": 76,
-      "may": 44,
-      "stock": 73,
-      "est": 51,
-      "dos": 44.56
-    },
-    {
-      "siteCode": "S194",
-      "siteDesc": "SAMSUNG (SPS) AGORA THAMRIN NINE",
-      "channel": "SAMSUNG STORE",
-      "tsh": "LIA ASTUTI",
-      "april": 45,
-      "may": 44,
-      "stock": 609,
-      "est": 51,
-      "dos": 373.87
+      "dos": 46.54
     },
     {
       "siteCode": "G446",
@@ -2765,10 +2743,32 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 152,
-      "may": 42,
+      "may": 46,
       "stock": 65,
-      "est": 48,
-      "dos": 41.63
+      "est": 51,
+      "dos": 39.42
+    },
+    {
+      "siteCode": "G403",
+      "siteDesc": "ERABLUE DEWI SARTIKA CIPUTAT",
+      "channel": "ERABLUE",
+      "tsh": "ARENGGA",
+      "april": 76,
+      "may": 46,
+      "stock": 81,
+      "est": 51,
+      "dos": 49.58
+    },
+    {
+      "siteCode": "S194",
+      "siteDesc": "SAMSUNG (SPS) AGORA THAMRIN NINE",
+      "channel": "SAMSUNG STORE",
+      "tsh": "LIA ASTUTI",
+      "april": 45,
+      "may": 45,
+      "stock": 643,
+      "est": 50,
+      "dos": 399.93
     },
     {
       "siteCode": "G427",
@@ -2777,9 +2777,9 @@
       "tsh": "ARENGGA",
       "april": 57,
       "may": 35,
-      "stock": 76,
-      "est": 40,
-      "dos": 58.88
+      "stock": 80,
+      "est": 39,
+      "dos": 64.11
     },
     {
       "siteCode": "S201",
@@ -2788,9 +2788,9 @@
       "tsh": "LIM PING KIAN",
       "april": 45,
       "may": 34,
-      "stock": 284,
-      "est": 39,
-      "dos": 225.21
+      "stock": 281,
+      "est": 38,
+      "dos": 231.58
     },
     {
       "siteCode": "N288",
@@ -2800,7 +2800,7 @@
       "april": 54,
       "may": 32,
       "stock": 0,
-      "est": 37,
+      "est": 35,
       "dos": 0.0
     },
     {
@@ -2809,10 +2809,21 @@
       "channel": "LOTTEMART",
       "tsh": "LUKMAN WIBOWO",
       "april": 76,
-      "may": 25,
-      "stock": 97,
+      "may": 26,
+      "stock": 95,
       "est": 29,
-      "dos": 104.65
+      "dos": 102.05
+    },
+    {
+      "siteCode": "G443",
+      "siteDesc": "ERABLUE SETIA BUDI PAMULANG",
+      "channel": "ERABLUE",
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "april": 125,
+      "may": 23,
+      "stock": 39,
+      "est": 25,
+      "dos": 47.46
     },
     {
       "siteCode": "G497",
@@ -2822,19 +2833,8 @@
       "april": 57,
       "may": 22,
       "stock": 57,
-      "est": 25,
-      "dos": 69.85
-    },
-    {
-      "siteCode": "G443",
-      "siteDesc": "ERABLUE SETIA BUDI PAMULANG",
-      "channel": "ERABLUE",
-      "tsh": "EKA FUJI CHAERUL ANWAR",
-      "april": 125,
-      "may": 21,
-      "stock": 38,
       "est": 24,
-      "dos": 49.02
+      "dos": 72.44
     },
     {
       "siteCode": "Q002",
@@ -2844,8 +2844,19 @@
       "april": 19,
       "may": 21,
       "stock": 179,
-      "est": 24,
-      "dos": 229.62
+      "est": 23,
+      "dos": 238.13
+    },
+    {
+      "siteCode": "Q024",
+      "siteDesc": "GALERI ISAT KARAWACI TANGERANG",
+      "channel": "INDOSAT STORE",
+      "tsh": "SANDI MAULANA",
+      "april": 69,
+      "may": 20,
+      "stock": 82,
+      "est": 22,
+      "dos": 114.75
     },
     {
       "siteCode": "G416",
@@ -2854,9 +2865,20 @@
       "tsh": "ABDILLAH",
       "april": 74,
       "may": 20,
-      "stock": 42,
-      "est": 23,
-      "dos": 56.96
+      "stock": 41,
+      "est": 22,
+      "dos": 57.7
+    },
+    {
+      "siteCode": "G654",
+      "siteDesc": "ERABLUE DI PANJAITAN CILEGON",
+      "channel": "ERABLUE",
+      "tsh": "NURUL ZAMAN",
+      "april": 0,
+      "may": 20,
+      "stock": 77,
+      "est": 22,
+      "dos": 107.16
     },
     {
       "siteCode": "G584",
@@ -2865,20 +2887,9 @@
       "tsh": "ARENGGA",
       "april": 42,
       "may": 19,
-      "stock": 64,
-      "est": 22,
-      "dos": 90.64
-    },
-    {
-      "siteCode": "Q024",
-      "siteDesc": "GALERI ISAT KARAWACI TANGERANG",
-      "channel": "INDOSAT STORE",
-      "tsh": "SANDI MAULANA",
-      "april": 69,
-      "may": 19,
-      "stock": 83,
-      "est": 22,
-      "dos": 117.57
+      "stock": 67,
+      "est": 21,
+      "dos": 98.34
     },
     {
       "siteCode": "G493",
@@ -2888,19 +2899,8 @@
       "april": 21,
       "may": 19,
       "stock": 439,
-      "est": 22,
-      "dos": 623.83
-    },
-    {
-      "siteCode": "G654",
-      "siteDesc": "ERABLUE DI PANJAITAN CILEGON",
-      "channel": "ERABLUE",
-      "tsh": "NURUL ZAMAN",
-      "april": 0,
-      "may": 19,
-      "stock": 71,
-      "est": 22,
-      "dos": 100.4
+      "est": 21,
+      "dos": 646.94
     },
     {
       "siteCode": "G494",
@@ -2909,9 +2909,9 @@
       "tsh": "RENDI JANUARDI",
       "april": 73,
       "may": 16,
-      "stock": 64,
+      "stock": 69,
       "est": 18,
-      "dos": 107.64
+      "dos": 120.21
     },
     {
       "siteCode": "G505",
@@ -2919,32 +2919,10 @@
       "channel": "ERABLUE",
       "tsh": "RENDI JANUARDI",
       "april": 39,
-      "may": 12,
-      "stock": 46,
+      "may": 13,
+      "stock": 50,
       "est": 14,
-      "dos": 103.77
-    },
-    {
-      "siteCode": "G647",
-      "siteDesc": "ERABLUE KARANG TANJUNG PANDEGLANG",
-      "channel": "ERABLUE",
-      "tsh": "NURUL ZAMAN",
-      "april": 0,
-      "may": 11,
-      "stock": 109,
-      "est": 13,
-      "dos": 267.36
-    },
-    {
-      "siteCode": "G644",
-      "siteDesc": "ERABLUE PERIUK TANGERANG",
-      "channel": "ERABLUE",
-      "tsh": "ARI HIDAYAT",
-      "april": 0,
-      "may": 11,
-      "stock": 72,
-      "est": 13,
-      "dos": 175.83
+      "dos": 107.79
     },
     {
       "siteCode": "Q012",
@@ -2954,14 +2932,36 @@
       "april": 4,
       "may": 11,
       "stock": 166,
-      "est": 13,
-      "dos": 406.25
+      "est": 12,
+      "dos": 421.3
     },
     {
-      "siteCode": "XE04_",
-      "siteDesc": "Event Potluck Nasa Accecories",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
+      "siteCode": "G647",
+      "siteDesc": "ERABLUE KARANG TANJUNG PANDEGLANG",
+      "channel": "ERABLUE",
+      "tsh": "NURUL ZAMAN",
+      "april": 0,
+      "may": 11,
+      "stock": 112,
+      "est": 12,
+      "dos": 284.75
+    },
+    {
+      "siteCode": "G644",
+      "siteDesc": "ERABLUE PERIUK TANGERANG",
+      "channel": "ERABLUE",
+      "tsh": "ARI HIDAYAT",
+      "april": 0,
+      "may": 11,
+      "stock": 73,
+      "est": 12,
+      "dos": 184.84
+    },
+    {
+      "siteCode": "Q233",
+      "siteDesc": "GRAPARI TELKOMSEL WISMA ALIA",
+      "channel": "GRAPARI",
+      "tsh": "Close",
       "april": 0,
       "may": 0,
       "stock": 0,
@@ -2969,646 +2969,30 @@
       "dos": 0.0
     },
     {
-      "siteCode": "M032",
-      "siteDesc": "MEGASTORE ITC CEMPAKA MAS",
+      "siteCode": "Q232",
+      "siteDesc": "TELKOMSEL GRAPARI CENTRAL PARK",
+      "channel": "GRAPARI",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E417",
+      "siteDesc": "ERAFONE RUKO HASYIM ASYARI CILEDUG",
       "channel": "ERAFONE",
       "tsh": "Close",
-      "april": 0,
+      "april": 269,
       "may": 0,
       "stock": 0,
       "est": 0,
       "dos": 0.0
     },
     {
-      "siteCode": "E731",
-      "siteDesc": "ERAFONE MB GREEN VILLAGE PINANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q020",
-      "siteDesc": "GALERI ISAT ROXY",
-      "channel": "INDOSAT STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE05__",
-      "siteDesc": "POTLUCK ACCESSORIES - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E761",
-      "siteDesc": "ERAFONE MB KEDOYA DURI",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "M015",
-      "siteDesc": "MEGASTORE ITC ROXY MAS",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G369",
-      "siteDesc": "CARREFOUR TRANSMART CILEGON",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE02_",
-      "siteDesc": "Event Potluck Erafone Accecories",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E089",
-      "siteDesc": "ERAFONE LOTTEMART II BINTARO",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G192",
-      "siteDesc": "HYPERMART BALE KOTA",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E259",
-      "siteDesc": "ERAFONE RUKO KELAPA DUA TANGERANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 194,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE06__",
-      "siteDesc": "Event Potluck Accecories Erafone",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N142",
-      "siteDesc": "XIAOMI STORE ITC ROXY MAS",
-      "channel": "XIAOMI STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N283",
-      "siteDesc": "LG EDC",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE29",
-      "siteDesc": "POTLUCK APPLE 2025 - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G345",
-      "siteDesc": "ELEC CITY TANGERANG CITY MALL",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE34.",
-      "siteDesc": "POTLUCK SAMSUNG 2024 - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N166",
-      "siteDesc": "XIAOMI STORE PLAZA ATRIUM",
-      "channel": "XIAOMI STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G106",
-      "siteDesc": "HYPERMART GADING SERPONG",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE26",
-      "siteDesc": "LEBARAN FAIR 2025 - SAMSUNG",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E051",
-      "siteDesc": "ERAFONE 2 MANGGA DUA SQUARE",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G149",
-      "siteDesc": "ELEC CITY CILEGON",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "M132",
-      "siteDesc": "MEGASTORE GROGOL PETAMBURAN",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G334",
-      "siteDesc": "ELEC CITY CILEGON CENTER MALL",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G190",
-      "siteDesc": "HYPERMART DAAN MOGOT",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G055",
-      "siteDesc": "HYPERMART PURI INDAH",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 50,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "X056",
-      "siteDesc": "IBOX BINTARO JAYA XCHANGE",
-      "channel": "IBOX",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE05.",
-      "siteDesc": "BCA RAKERNAS - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE30",
-      "siteDesc": "Event Potluck Accecories Ibox",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE18",
-      "siteDesc": "POTLUCK ACCESSORIES IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E336",
-      "siteDesc": "ERAFONE RUKO RADEN FATAH CILEDUG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E210",
-      "siteDesc": "HULUWA RUKO JUHDI SERANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE20__",
-      "siteDesc": "CLEARANCE SALE ERAFONE BATAVIA PIK",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "S137",
-      "siteDesc": "SPS A YANI CILEGON",
-      "channel": "SAMSUNG STORE",
-      "tsh": "Close",
-      "april": 51,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE20_",
-      "siteDesc": "EVENT OPPO RENO 10 SERIES",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE07>",
-      "siteDesc": "BCA EXPOVERSARY - NASA 2024",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G319",
-      "siteDesc": "ELEC CITY DAAN MOGOT",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E165",
-      "siteDesc": "ERAFONE PAMULANG SQUARE",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E108",
-      "siteDesc": "ERAFONE CBD CILEDUG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE05",
-      "siteDesc": "BCA EXPOVERSARY - IBOX 2025",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE10__",
-      "siteDesc": "ERAFONE ROADSHOW",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE29_",
-      "siteDesc": "IBOXING WEEK ( SMS )",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE08",
-      "siteDesc": "LEBARAN FAIR 2025 - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E664",
-      "siteDesc": "ERAFONE TANJUNG DUREN",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 474,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE24",
-      "siteDesc": "GALAXY STUDIO S25 - SMS",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E418",
-      "siteDesc": "ERAFONE RUKO CIRUAS SERANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E131",
-      "siteDesc": "ERAFONE 2 CBD CILEDUG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E206",
-      "siteDesc": "ERAFONE RUKO RADEN SALEH CILEDUG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE02",
-      "siteDesc": "ERAFONE MINI ROADSHOW",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N343",
-      "siteDesc": "LOGITECH EDC PIK 2",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE25",
-      "siteDesc": "Event Potluck Accecories Samsung",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G240",
-      "siteDesc": "CARREFOUR CENTRAL PARK",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E292",
-      "siteDesc": "ERAFONE RUKO RAWA BOKOR",
-      "channel": "FRANCHISE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE07_",
-      "siteDesc": "BCA EXPOVERSARY - NASA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G108",
-      "siteDesc": "LOTTEMART MERUYA",
-      "channel": "LOTTEMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q124",
-      "siteDesc": "GERAI ISAT OOREDOO TANGERANG C",
-      "channel": "INDOSAT STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E714",
-      "siteDesc": "ERAFONE MB  JATAKE",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 170,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE16",
-      "siteDesc": "JAKARTA FAIR KEMAYORAN - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E897",
-      "siteDesc": "ERAFONE MB CADAS",
+      "siteCode": "E993",
+      "siteDesc": "ERAFONE 2.5 IMAM BONJOL",
       "channel": "ERAFONE",
       "tsh": "Close",
       "april": 0,
@@ -3629,1141 +3013,8 @@
       "dos": 0.0
     },
     {
-      "siteCode": "E124",
-      "siteDesc": "ERAFONE E-CENTER SUPERMAL KARA",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE33_",
-      "siteDesc": "POTLUCK ACCESSORIES ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G214",
-      "siteDesc": "CARREFOUR SEASON CITY",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE15-",
-      "siteDesc": "ERAFONE CLEARANCE SALE (EDC)",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE33",
-      "siteDesc": "CLEARANCE SALE ERAFONE - 2024",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "S085",
-      "siteDesc": "SPS 2 ITC CEMPAKA MAS",
-      "channel": "SAMSUNG STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE10",
-      "siteDesc": "LEBARAN FAIR 2025 - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G408",
-      "siteDesc": "ERAFONE LOTTEMART SERPONG",
-      "channel": "LOTTEMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N297",
-      "siteDesc": "TOSHIBA EDC",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE10_",
-      "siteDesc": "ERAFONE FAIR - MAL CIPUTRA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE04.",
-      "siteDesc": "POTLUCK SAMSUNG NASA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
       "siteCode": "XE11",
       "siteDesc": "JAKARTA FAIR KEMAYORAN - NASA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G015",
-      "siteDesc": "CARREFOUR DUTA MERLIN",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E697",
-      "siteDesc": "ERAFONE MB PALMERAH UTARA",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E086",
-      "siteDesc": "ERAFONE WTC SERPONG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE02__",
-      "siteDesc": "POTLUCK ACCESSORIES - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G183",
-      "siteDesc": "COURTS CBD BINTARO",
-      "channel": "COURTS",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E095",
-      "siteDesc": "ERAFONE 3 ITC ROXY MAS",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE06-",
-      "siteDesc": "CONSUMER LAUNCH ROG PHONE 8 - ERAFO",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE12",
-      "siteDesc": "JAKARTA FAIR KEMAYORAN - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E648",
-      "siteDesc": "ERAFONE RADEN SALEH CILEDUG 2",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E727",
-      "siteDesc": "ERAFONE MB  KRAMATWATU",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G032",
-      "siteDesc": "CARREFOUR TANG CITY",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q233",
-      "siteDesc": "GRAPARI TELKOMSEL WISMA ALIA",
-      "channel": "GRAPARI",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G065",
-      "siteDesc": "LOTTEMART TAMAN SURYA",
-      "channel": "LOTTEMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E083",
-      "siteDesc": "ERAFONE SUMARECON DIGITAL CENT",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE31_",
-      "siteDesc": "POTLUCK DEVICE IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE09_",
-      "siteDesc": "BCA EXPOVERSARY - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE06",
-      "siteDesc": "BCA EXPOVERSARY - ERAFONE 2025",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q082",
-      "siteDesc": "INDOSAT STORE SUMARECON MALL S",
-      "channel": "INDOSAT STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G066",
-      "siteDesc": "LOTTEMART CIPUTAT",
-      "channel": "LOTTEMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE34_",
-      "siteDesc": "MINI EXHIBITION SHARP AQUOS - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q231",
-      "siteDesc": "GALERI ISAT PLAZA BANK INDEX",
-      "channel": "INDOSAT STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N284",
-      "siteDesc": "TCL EDC",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE19",
-      "siteDesc": "EVENT CLEARANCE SALE ASIA BRAND ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N287",
-      "siteDesc": "REALME EDC",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G060",
-      "siteDesc": "HYPERMART PINANGSIA",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q171",
-      "siteDesc": "GERAI ISAT OOREDOO GREEN PRAMU",
-      "channel": "INDOSAT STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "N282",
-      "siteDesc": "HUAWEI EDC",
-      "channel": "HUAWEI STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "F123",
-      "siteDesc": "SPECIAL STORE EDC",
-      "channel": "ERAFONE",
-      "tsh": "VACANT",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G251",
-      "siteDesc": "ELEC CITY PURI",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G367",
-      "siteDesc": "CARREFOUR CBD BINTARO",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E419",
-      "siteDesc": "ERAFONE RUKO RAWA BUNTU",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E245",
-      "siteDesc": "ERAFONE RUKO BENDA RAYA PAMULANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 246,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q081",
-      "siteDesc": "GERAI ISAT OOREDOO ITC ROXY MA",
-      "channel": "INDOSAT STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E993",
-      "siteDesc": "ERAFONE 2.5 IMAM BONJOL",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q232",
-      "siteDesc": "TELKOMSEL GRAPARI CENTRAL PARK",
-      "channel": "GRAPARI",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE29>",
-      "siteDesc": "IBOX X HSBC",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G010",
-      "siteDesc": "CARREFOUR PURI INDAH",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G202",
-      "siteDesc": "HYPERMART JACC",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE24_",
-      "siteDesc": "EVENT SAMSUNG GALAXY LAND",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE04",
-      "siteDesc": "BCA EXPOVERSARY - SAMSUNG 2025",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E193",
-      "siteDesc": "ERAFONE PLAZA SLIPI JAYA",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G059",
-      "siteDesc": "HYPERMART KARAWACI",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "F074",
-      "siteDesc": "ERAFONE DOSS CIDENG JAKARTA",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G396",
-      "siteDesc": "ELECTRONIC CITY MALL TAMAN ANG",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G377",
-      "siteDesc": "HYPERMART CITRA RAYA CIKUPA",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 54,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E046",
-      "siteDesc": "ERAFONE 2 ITC CEMPAKA MAS",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G074",
-      "siteDesc": "LOTTEMART BINTARO",
-      "channel": "LOTTEMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E699",
-      "siteDesc": "ERAFONE MB  KASEMEN SERANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE22",
-      "siteDesc": "CONSUMER LAUNCH S23",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "Q014",
-      "siteDesc": "XLC SUPERMAL KARAWACI",
-      "channel": "XL STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G011",
-      "siteDesc": "CARREFOUR TAMAN PALEM",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "F133",
-      "siteDesc": "ERAFONE JB DOSS RATU PLAZA",
-      "channel": "DOSS",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G103",
-      "siteDesc": "HYPERMART CILEGON",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G380",
-      "siteDesc": "HYPERMART CILEDUG",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 4,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G338",
-      "siteDesc": "ELEC CITY GREEN PRAMUKA SQUARE",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G144",
-      "siteDesc": "ELEC CITY SUPERMAL KARAWACI",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE07",
-      "siteDesc": "POTLUCK SAMSUNG 2025 - NASA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G014",
-      "siteDesc": "CARREFOUR CEMPAKA MAS",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E585",
-      "siteDesc": "ERAFONE RUKO PONDOK CABE",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E347",
-      "siteDesc": "ERAFONE RUKO JELAMBAR BARU",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE20.",
-      "siteDesc": "ERAFONE GADGET FESTIVAL 2024",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G104",
-      "siteDesc": "HYPERMART SERANG",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E420",
-      "siteDesc": "ERAFONE RUKO CEMPAKA PUTIH",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G210",
-      "siteDesc": "CARREFOUR CEMPAKA PUTIH",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G030",
-      "siteDesc": "CARREFOUR BSD",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE26.",
-      "siteDesc": "LEBARAN FAIR - NASA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE18.",
-      "siteDesc": "IBOXING WEEK 2023_",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E417",
-      "siteDesc": "ERAFONE RUKO HASYIM ASYARI CILEDUG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 269,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE08>",
-      "siteDesc": "LEBARAN FAIR - IBOX",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E715",
-      "siteDesc": "ERAFONE MB HAYAM WURUK",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G373",
-      "siteDesc": "ELEC CITY MALL CIPUTRA CITRARA",
-      "channel": "ELECTRONIC CITY",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE34__",
-      "siteDesc": "CLEARANCE SALE ERAFONE MAL CIPUTRA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE05_",
-      "siteDesc": "Event Potluck Ibox Accecories",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE15.",
-      "siteDesc": "LAUCHING TECNO PHANTOM V-FLIP - ERA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G311",
-      "siteDesc": "CARRE4 TRANSMRT GRAHA BINTARO",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE08.",
-      "siteDesc": "IBOX RAKERNAS BCA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G022",
-      "siteDesc": "CARREFOUR MANGGA DUA SQUARE",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "X019",
-      "siteDesc": "IBOX RATU PLAZA 2",
-      "channel": "IBOX",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G191",
-      "siteDesc": "HYPERMART GAJAH MADA",
-      "channel": "HYPERMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E730",
-      "siteDesc": "ERAFONE GEROGOL CILEGON",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E104",
-      "siteDesc": "ERAPLUS TANGERANG CITY MALL",
-      "channel": "ERAPLUS",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G114",
-      "siteDesc": "LOTTEMART SERANG",
-      "channel": "LOTTEMART",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "E682",
-      "siteDesc": "ERAFONE MB KH MANSYUR TANAH ABANG",
-      "channel": "ERAFONE",
-      "tsh": "Close",
-      "april": 253,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "X013",
-      "siteDesc": "IBOX GRAND INDONESIA",
-      "channel": "IBOX",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G028",
-      "siteDesc": "CARREFOUR SERANG",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE06.",
-      "siteDesc": "CLEARANCE SALE ERAFONE BINTARO PLAZA",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G033",
-      "siteDesc": "CARREFOUR TANGERANG CENTER",
-      "channel": "CARREFOUR",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE06_.",
-      "siteDesc": "BCA EXPOVERSARY - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE15",
-      "siteDesc": "POTLUCK APPLE 2025 - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 4599,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE23",
-      "siteDesc": "GALAXY STUDIO S25",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE02.",
-      "siteDesc": "TECNO GAME FEST - ERAFONE",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE10.",
-      "siteDesc": "POTLUCK APPLE - ERAFONE",
       "channel": "YEXHIBITION",
       "tsh": "YEXHIBITION",
       "april": 0,
@@ -4784,31 +3035,9 @@
       "dos": 0.0
     },
     {
-      "siteCode": "XE13",
-      "siteDesc": "BCA Exposary ( Erafone )",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "XE20",
-      "siteDesc": "HUAWEI INNOVATIVE FOLDABLE - ERAFON",
-      "channel": "YEXHIBITION",
-      "tsh": "YEXHIBITION",
-      "april": 6,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G394",
-      "siteDesc": "IE BINTARO",
-      "channel": "INFORMA",
+      "siteCode": "G108",
+      "siteDesc": "LOTTEMART MERUYA",
+      "channel": "LOTTEMART",
       "tsh": "Close",
       "april": 0,
       "may": 0,
@@ -4817,31 +3046,9 @@
       "dos": 0.0
     },
     {
-      "siteCode": "N394",
-      "siteDesc": "XIAOMI STORE GRAND INDONESIA",
-      "channel": "XIAOMI STORE",
-      "tsh": "SOPIYAN SAURI",
-      "april": 36,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "S076",
-      "siteDesc": "SPS E-CENTER SUPERMALL KARAWAC",
-      "channel": "SAMSUNG STORE",
-      "tsh": "Close",
-      "april": 0,
-      "may": 0,
-      "stock": 0,
-      "est": 0,
-      "dos": 0.0
-    },
-    {
-      "siteCode": "G393",
-      "siteDesc": "IE ALAM SUTERA",
-      "channel": "INFORMA",
+      "siteCode": "E420",
+      "siteDesc": "ERAFONE RUKO CEMPAKA PUTIH",
+      "channel": "ERAFONE",
       "tsh": "Close",
       "april": 0,
       "may": 0,
@@ -4861,10 +3068,175 @@
       "dos": 0.0
     },
     {
-      "siteCode": "N270",
-      "siteDesc": "ITMOS EDC PIK 2",
+      "siteCode": "XE29",
+      "siteDesc": "POTLUCK APPLE 2025 - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E664",
+      "siteDesc": "ERAFONE TANJUNG DUREN",
       "channel": "ERAFONE",
       "tsh": "Close",
+      "april": 474,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "F074",
+      "siteDesc": "ERAFONE DOSS CIDENG JAKARTA",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G190",
+      "siteDesc": "HYPERMART DAAN MOGOT",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q231",
+      "siteDesc": "GALERI ISAT PLAZA BANK INDEX",
+      "channel": "INDOSAT STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE05.",
+      "siteDesc": "BCA RAKERNAS - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE34_",
+      "siteDesc": "MINI EXHIBITION SHARP AQUOS - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E124",
+      "siteDesc": "ERAFONE E-CENTER SUPERMAL KARA",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G014",
+      "siteDesc": "CARREFOUR CEMPAKA MAS",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G375",
+      "siteDesc": "HYPERMART VILLA MELATI",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G149",
+      "siteDesc": "ELEC CITY CILEGON",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE15-",
+      "siteDesc": "ERAFONE CLEARANCE SALE (EDC)",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E206",
+      "siteDesc": "ERAFONE RUKO RADEN SALEH CILEDUG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E089",
+      "siteDesc": "ERAFONE LOTTEMART II BINTARO",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G114",
+      "siteDesc": "LOTTEMART SERANG",
+      "channel": "LOTTEMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE20.",
+      "siteDesc": "ERAFONE GADGET FESTIVAL 2024",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
       "april": 0,
       "may": 0,
       "stock": 0,
@@ -4883,9 +3255,1637 @@
       "dos": 0.0
     },
     {
-      "siteCode": "G375",
-      "siteDesc": "HYPERMART VILLA MELATI",
+      "siteCode": "E336",
+      "siteDesc": "ERAFONE RUKO RADEN FATAH CILEDUG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE30",
+      "siteDesc": "Event Potluck Accecories Ibox",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E585",
+      "siteDesc": "ERAFONE RUKO PONDOK CABE",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE18",
+      "siteDesc": "POTLUCK ACCESSORIES IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE06__",
+      "siteDesc": "Event Potluck Accecories Erafone",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "X056",
+      "siteDesc": "IBOX BINTARO JAYA XCHANGE",
+      "channel": "IBOX",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N287",
+      "siteDesc": "REALME EDC",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE24",
+      "siteDesc": "GALAXY STUDIO S25 - SMS",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE31_",
+      "siteDesc": "POTLUCK DEVICE IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE26",
+      "siteDesc": "LEBARAN FAIR 2025 - SAMSUNG",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E165",
+      "siteDesc": "ERAFONE PAMULANG SQUARE",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N394",
+      "siteDesc": "XIAOMI STORE GRAND INDONESIA",
+      "channel": "XIAOMI STORE",
+      "tsh": "SOPIYAN SAURI",
+      "april": 36,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G183",
+      "siteDesc": "COURTS CBD BINTARO",
+      "channel": "COURTS",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE08.",
+      "siteDesc": "IBOX RAKERNAS BCA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E761",
+      "siteDesc": "ERAFONE MB KEDOYA DURI",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G066",
+      "siteDesc": "LOTTEMART CIPUTAT",
+      "channel": "LOTTEMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G377",
+      "siteDesc": "HYPERMART CITRA RAYA CIKUPA",
       "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 54,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N270",
+      "siteDesc": "ITMOS EDC PIK 2",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE33",
+      "siteDesc": "CLEARANCE SALE ERAFONE - 2024",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE34.",
+      "siteDesc": "POTLUCK SAMSUNG 2024 - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E046",
+      "siteDesc": "ERAFONE 2 ITC CEMPAKA MAS",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE07_",
+      "siteDesc": "BCA EXPOVERSARY - NASA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G202",
+      "siteDesc": "HYPERMART JACC",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G311",
+      "siteDesc": "CARRE4 TRANSMRT GRAHA BINTARO",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE20",
+      "siteDesc": "HUAWEI INNOVATIVE FOLDABLE - ERAFON",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 6,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE15",
+      "siteDesc": "POTLUCK APPLE 2025 - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 4599,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE13",
+      "siteDesc": "BCA Exposary ( Erafone )",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G011",
+      "siteDesc": "CARREFOUR TAMAN PALEM",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G408",
+      "siteDesc": "ERAFONE LOTTEMART SERPONG",
+      "channel": "LOTTEMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE02",
+      "siteDesc": "ERAFONE MINI ROADSHOW",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE16",
+      "siteDesc": "JAKARTA FAIR KEMAYORAN - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G074",
+      "siteDesc": "LOTTEMART BINTARO",
+      "channel": "LOTTEMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE04.",
+      "siteDesc": "POTLUCK SAMSUNG NASA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE02.",
+      "siteDesc": "TECNO GAME FEST - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE18.",
+      "siteDesc": "IBOXING WEEK 2023_",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G104",
+      "siteDesc": "HYPERMART SERANG",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE02__",
+      "siteDesc": "POTLUCK ACCESSORIES - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G033",
+      "siteDesc": "CARREFOUR TANGERANG CENTER",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE33_",
+      "siteDesc": "POTLUCK ACCESSORIES ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G396",
+      "siteDesc": "ELECTRONIC CITY MALL TAMAN ANG",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G015",
+      "siteDesc": "CARREFOUR DUTA MERLIN",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G144",
+      "siteDesc": "ELEC CITY SUPERMAL KARAWACI",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G251",
+      "siteDesc": "ELEC CITY PURI",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE10",
+      "siteDesc": "LEBARAN FAIR 2025 - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE05_",
+      "siteDesc": "Event Potluck Ibox Accecories",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE20_",
+      "siteDesc": "EVENT OPPO RENO 10 SERIES",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G065",
+      "siteDesc": "LOTTEMART TAMAN SURYA",
+      "channel": "LOTTEMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE06.",
+      "siteDesc": "CLEARANCE SALE ERAFONE BINTARO PLAZA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "F123",
+      "siteDesc": "SPECIAL STORE EDC",
+      "channel": "ERAFONE",
+      "tsh": "VACANT",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE10__",
+      "siteDesc": "ERAFONE ROADSHOW",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE19",
+      "siteDesc": "EVENT CLEARANCE SALE ASIA BRAND ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE34__",
+      "siteDesc": "CLEARANCE SALE ERAFONE MAL CIPUTRA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE29_",
+      "siteDesc": "IBOXING WEEK ( SMS )",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE07>",
+      "siteDesc": "BCA EXPOVERSARY - NASA 2024",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G214",
+      "siteDesc": "CARREFOUR SEASON CITY",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE06",
+      "siteDesc": "BCA EXPOVERSARY - ERAFONE 2025",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G369",
+      "siteDesc": "CARREFOUR TRANSMART CILEGON",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G367",
+      "siteDesc": "CARREFOUR CBD BINTARO",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N166",
+      "siteDesc": "XIAOMI STORE PLAZA ATRIUM",
+      "channel": "XIAOMI STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E083",
+      "siteDesc": "ERAFONE SUMARECON DIGITAL CENT",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "X019",
+      "siteDesc": "IBOX RATU PLAZA 2",
+      "channel": "IBOX",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G010",
+      "siteDesc": "CARREFOUR PURI INDAH",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G022",
+      "siteDesc": "CARREFOUR MANGGA DUA SQUARE",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G191",
+      "siteDesc": "HYPERMART GAJAH MADA",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E104",
+      "siteDesc": "ERAPLUS TANGERANG CITY MALL",
+      "channel": "ERAPLUS",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE05__",
+      "siteDesc": "POTLUCK ACCESSORIES - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E245",
+      "siteDesc": "ERAFONE RUKO BENDA RAYA PAMULANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 246,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E682",
+      "siteDesc": "ERAFONE MB KH MANSYUR TANAH ABANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 253,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E095",
+      "siteDesc": "ERAFONE 3 ITC ROXY MAS",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "F133",
+      "siteDesc": "ERAFONE JB DOSS RATU PLAZA",
+      "channel": "DOSS",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G192",
+      "siteDesc": "HYPERMART BALE KOTA",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E697",
+      "siteDesc": "ERAFONE MB PALMERAH UTARA",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G380",
+      "siteDesc": "HYPERMART CILEDUG",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 4,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E051",
+      "siteDesc": "ERAFONE 2 MANGGA DUA SQUARE",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E108",
+      "siteDesc": "ERAFONE CBD CILEDUG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE12",
+      "siteDesc": "JAKARTA FAIR KEMAYORAN - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E699",
+      "siteDesc": "ERAFONE MB  KASEMEN SERANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "S076",
+      "siteDesc": "SPS E-CENTER SUPERMALL KARAWAC",
+      "channel": "SAMSUNG STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE07",
+      "siteDesc": "POTLUCK SAMSUNG 2025 - NASA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE09_",
+      "siteDesc": "BCA EXPOVERSARY - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E210",
+      "siteDesc": "HULUWA RUKO JUHDI SERANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G210",
+      "siteDesc": "CARREFOUR CEMPAKA PUTIH",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE25",
+      "siteDesc": "Event Potluck Accecories Samsung",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE15.",
+      "siteDesc": "LAUCHING TECNO PHANTOM V-FLIP - ERA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G028",
+      "siteDesc": "CARREFOUR SERANG",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E715",
+      "siteDesc": "ERAFONE MB HAYAM WURUK",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E131",
+      "siteDesc": "ERAFONE 2 CBD CILEDUG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N142",
+      "siteDesc": "XIAOMI STORE ITC ROXY MAS",
+      "channel": "XIAOMI STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G394",
+      "siteDesc": "IE BINTARO",
+      "channel": "INFORMA",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G393",
+      "siteDesc": "IE ALAM SUTERA",
+      "channel": "INFORMA",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N284",
+      "siteDesc": "TCL EDC",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G373",
+      "siteDesc": "ELEC CITY MALL CIPUTRA CITRARA",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE04_",
+      "siteDesc": "Event Potluck Nasa Accecories",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E714",
+      "siteDesc": "ERAFONE MB  JATAKE",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 170,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE10_",
+      "siteDesc": "ERAFONE FAIR - MAL CIPUTRA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q171",
+      "siteDesc": "GERAI ISAT OOREDOO GREEN PRAMU",
+      "channel": "INDOSAT STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "M132",
+      "siteDesc": "MEGASTORE GROGOL PETAMBURAN",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE06_.",
+      "siteDesc": "BCA EXPOVERSARY - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N283",
+      "siteDesc": "LG EDC",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE20__",
+      "siteDesc": "CLEARANCE SALE ERAFONE BATAVIA PIK",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G345",
+      "siteDesc": "ELEC CITY TANGERANG CITY MALL",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G055",
+      "siteDesc": "HYPERMART PURI INDAH",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 50,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q124",
+      "siteDesc": "GERAI ISAT OOREDOO TANGERANG C",
+      "channel": "INDOSAT STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "S085",
+      "siteDesc": "SPS 2 ITC CEMPAKA MAS",
+      "channel": "SAMSUNG STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q020",
+      "siteDesc": "GALERI ISAT ROXY",
+      "channel": "INDOSAT STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G240",
+      "siteDesc": "CARREFOUR CENTRAL PARK",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE29>",
+      "siteDesc": "IBOX X HSBC",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "M015",
+      "siteDesc": "MEGASTORE ITC ROXY MAS",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G334",
+      "siteDesc": "ELEC CITY CILEGON CENTER MALL",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q014",
+      "siteDesc": "XLC SUPERMAL KARAWACI",
+      "channel": "XL STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G059",
+      "siteDesc": "HYPERMART KARAWACI",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N282",
+      "siteDesc": "HUAWEI EDC",
+      "channel": "HUAWEI STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E292",
+      "siteDesc": "ERAFONE RUKO RAWA BOKOR",
+      "channel": "FRANCHISE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "M032",
+      "siteDesc": "MEGASTORE ITC CEMPAKA MAS",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E727",
+      "siteDesc": "ERAFONE MB  KRAMATWATU",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE04",
+      "siteDesc": "BCA EXPOVERSARY - SAMSUNG 2025",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G106",
+      "siteDesc": "HYPERMART GADING SERPONG",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q081",
+      "siteDesc": "GERAI ISAT OOREDOO ITC ROXY MA",
+      "channel": "INDOSAT STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E086",
+      "siteDesc": "ERAFONE WTC SERPONG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE02_",
+      "siteDesc": "Event Potluck Erafone Accecories",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E347",
+      "siteDesc": "ERAFONE RUKO JELAMBAR BARU",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N343",
+      "siteDesc": "LOGITECH EDC PIK 2",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G060",
+      "siteDesc": "HYPERMART PINANGSIA",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE08",
+      "siteDesc": "LEBARAN FAIR 2025 - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "S137",
+      "siteDesc": "SPS A YANI CILEGON",
+      "channel": "SAMSUNG STORE",
+      "tsh": "Close",
+      "april": 51,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E648",
+      "siteDesc": "ERAFONE RADEN SALEH CILEDUG 2",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE23",
+      "siteDesc": "GALAXY STUDIO S25",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G032",
+      "siteDesc": "CARREFOUR TANG CITY",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E730",
+      "siteDesc": "ERAFONE GEROGOL CILEGON",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E897",
+      "siteDesc": "ERAFONE MB CADAS",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE10.",
+      "siteDesc": "POTLUCK APPLE - ERAFONE",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E731",
+      "siteDesc": "ERAFONE MB GREEN VILLAGE PINANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE06-",
+      "siteDesc": "CONSUMER LAUNCH ROG PHONE 8 - ERAFO",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G338",
+      "siteDesc": "ELEC CITY GREEN PRAMUKA SQUARE",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E193",
+      "siteDesc": "ERAFONE PLAZA SLIPI JAYA",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G030",
+      "siteDesc": "CARREFOUR BSD",
+      "channel": "CARREFOUR",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E259",
+      "siteDesc": "ERAFONE RUKO KELAPA DUA TANGERANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 194,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G319",
+      "siteDesc": "ELEC CITY DAAN MOGOT",
+      "channel": "ELECTRONIC CITY",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE26.",
+      "siteDesc": "LEBARAN FAIR - NASA",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "N297",
+      "siteDesc": "TOSHIBA EDC",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "G103",
+      "siteDesc": "HYPERMART CILEGON",
+      "channel": "HYPERMART",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE24_",
+      "siteDesc": "EVENT SAMSUNG GALAXY LAND",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE05",
+      "siteDesc": "BCA EXPOVERSARY - IBOX 2025",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE08>",
+      "siteDesc": "LEBARAN FAIR - IBOX",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E419",
+      "siteDesc": "ERAFONE RUKO RAWA BUNTU",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "E418",
+      "siteDesc": "ERAFONE RUKO CIRUAS SERANG",
+      "channel": "ERAFONE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "Q082",
+      "siteDesc": "INDOSAT STORE SUMARECON MALL S",
+      "channel": "INDOSAT STORE",
+      "tsh": "Close",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "XE22",
+      "siteDesc": "CONSUMER LAUNCH S23",
+      "channel": "YEXHIBITION",
+      "tsh": "YEXHIBITION",
+      "april": 0,
+      "may": 0,
+      "stock": 0,
+      "est": 0,
+      "dos": 0.0
+    },
+    {
+      "siteCode": "X013",
+      "siteDesc": "IBOX GRAND INDONESIA",
+      "channel": "IBOX",
       "tsh": "Close",
       "april": 0,
       "may": 0,
@@ -4908,111 +4908,111 @@
   "brandMix": [
     {
       "label": "APPLE",
-      "value": 19290
+      "value": 19868
     },
     {
       "label": "ASSESORIES",
-      "value": 18788
+      "value": 19456
     },
     {
       "label": "Lainnya",
-      "value": 118300
+      "value": 122074
     }
   ],
   "brandRanking": [
     {
       "brand": "APPLE",
-      "may": 15850,
+      "may": 16312,
       "april": 27116,
-      "growth": -41.5
+      "growth": -39.8
     },
     {
       "brand": "XIAOMI",
-      "may": 12891,
+      "may": 13280,
       "april": 15343,
-      "growth": -16.0
+      "growth": -13.4
     },
     {
       "brand": "SAMSUNG",
-      "may": 11647,
+      "may": 12051,
       "april": 14204,
-      "growth": -18.0
+      "growth": -15.2
     },
     {
       "brand": "LAMINA",
-      "may": 4848,
+      "may": 4975,
       "april": 5666,
-      "growth": -14.4
+      "growth": -12.2
     },
     {
       "brand": "VIVO",
-      "may": 3553,
+      "may": 3649,
       "april": 4285,
-      "growth": -17.1
+      "growth": -14.8
     },
     {
       "brand": "INFINIX",
-      "may": 3411,
+      "may": 3514,
       "april": 4627,
-      "growth": -26.3
+      "growth": -24.1
     },
     {
       "brand": "OPPO",
-      "may": 3308,
+      "may": 3412,
       "april": 5076,
-      "growth": -34.8
+      "growth": -32.8
     },
     {
       "brand": "HUAWEI",
-      "may": 2428,
+      "may": 2517,
       "april": 1595,
-      "growth": 52.2
+      "growth": 57.8
     },
     {
       "brand": "REALME",
-      "may": 1693,
+      "may": 1748,
       "april": 1382,
-      "growth": 22.5
+      "growth": 26.5
     },
     {
       "brand": "LOOPS",
-      "may": 938,
+      "may": 981,
       "april": 453,
-      "growth": 107.1
+      "growth": 116.6
     },
     {
       "brand": "TECNO",
-      "may": 743,
+      "may": 767,
       "april": 830,
-      "growth": -10.5
+      "growth": -7.6
     },
     {
       "brand": "HONOR",
-      "may": 391,
+      "may": 416,
       "april": 396,
-      "growth": -1.3
+      "growth": 5.1
     },
     {
       "brand": "TECPROTEC",
-      "may": 239,
+      "may": 246,
       "april": 226,
-      "growth": 5.8
+      "growth": 8.8
     },
     {
       "brand": "IQOO",
-      "may": 107,
+      "may": 115,
       "april": 147,
-      "growth": -27.2
+      "growth": -21.8
     },
     {
       "brand": "IT",
-      "may": 75,
+      "may": 77,
       "april": 163,
-      "growth": -54.0
+      "growth": -52.8
     },
     {
       "brand": "MOTOROLA",
-      "may": 71,
+      "may": 76,
       "april": 0,
       "growth": 0.0
     },
@@ -5023,16 +5023,16 @@
       "growth": 125.0
     },
     {
+      "brand": "POLYTRON",
+      "may": 31,
+      "april": 6,
+      "growth": 416.7
+    },
+    {
       "brand": "TOSHIBA",
       "may": 29,
       "april": 12,
       "growth": 141.7
-    },
-    {
-      "brand": "POLYTRON",
-      "may": 28,
-      "april": 6,
-      "growth": 366.7
     },
     {
       "brand": "PANZERGLASS",
@@ -5083,7 +5083,7 @@
       "IPHONE 17",
       "256 GB",
       1864,
-      1397,
+      1440,
       0,
       0
     ],
@@ -5092,7 +5092,7 @@
       "IPHONE 15",
       "128 GB",
       2448,
-      1387,
+      1436,
       0,
       0
     ],
@@ -5101,7 +5101,7 @@
       "IPHONE 17 PRO MAX",
       "256 GB",
       1172,
-      1311,
+      1341,
       0,
       0
     ],
@@ -5110,7 +5110,7 @@
       "A07",
       "4/64 GB",
       1623,
-      1159,
+      1209,
       0,
       0
     ],
@@ -5119,7 +5119,7 @@
       "IPHONE 17 PRO",
       "256 GB",
       976,
-      1128,
+      1174,
       0,
       0
     ],
@@ -5128,7 +5128,7 @@
       "NOTE 15",
       "8/256 GB",
       838,
-      915,
+      942,
       0,
       0
     ],
@@ -5137,7 +5137,7 @@
       "A57 5G",
       "8/256 GB",
       674,
-      751,
+      769,
       0,
       0
     ],
@@ -5146,7 +5146,7 @@
       "SMART 20",
       "4/128 GB",
       815,
-      693,
+      708,
       0,
       0
     ],
@@ -5155,7 +5155,7 @@
       "A6X",
       "8/128 GB",
       1550,
-      681,
+      700,
       0,
       0
     ],
@@ -5164,7 +5164,7 @@
       "MI PAD 2",
       "4/128 GB",
       1073,
-      638,
+      662,
       0,
       0
     ],
@@ -5173,7 +5173,7 @@
       "REDMI 15",
       "8/128 GB",
       605,
-      631,
+      658,
       0,
       0
     ],
@@ -5182,7 +5182,7 @@
       "Y05",
       "4/64 GB",
       613,
-      625,
+      643,
       0,
       0
     ],
@@ -5191,7 +5191,7 @@
       "IPAD 11",
       "128 GB WIFI",
       882,
-      602,
+      627,
       0,
       0
     ],
@@ -5200,7 +5200,7 @@
       "A17",
       "8/128 GB",
       725,
-      597,
+      619,
       0,
       0
     ],
@@ -5209,7 +5209,7 @@
       "A6X",
       "4/64 GB",
       829,
-      579,
+      591,
       0,
       0
     ],
@@ -5218,7 +5218,7 @@
       "NOTE 15",
       "8/128 GB",
       523,
-      557,
+      571,
       0,
       0
     ],
@@ -5227,7 +5227,7 @@
       "A37 5G",
       "8/256 GB",
       330,
-      540,
+      559,
       0,
       0
     ],
@@ -5236,7 +5236,7 @@
       "NOTE 15 5G",
       "8/256 GB",
       709,
-      507,
+      524,
       0,
       0
     ],
@@ -5245,7 +5245,7 @@
       "REDMI 15",
       "8/256 GB",
       544,
-      494,
+      516,
       0,
       0
     ],
@@ -5254,7 +5254,7 @@
       "NOTE 15 PRO 5G",
       "8/256 GB",
       577,
-      479,
+      493,
       0,
       0
     ],
@@ -5263,7 +5263,7 @@
       "NOTE EDGE 5G",
       "8/128 GB",
       431,
-      473,
+      485,
       0,
       0
     ],
@@ -5272,7 +5272,7 @@
       "MI PAD 2",
       "6/128 GB",
       377,
-      444,
+      453,
       0,
       0
     ],
@@ -5281,25 +5281,7 @@
       "IPHONE 16",
       "128 GB",
       547,
-      444,
-      0,
-      0
-    ],
-    [
-      "APPLE",
-      "IPHONE 14",
-      "256 GB",
-      434,
-      424,
-      0,
-      0
-    ],
-    [
-      "APPLE",
-      "IPHONE 16 PRO MAX",
-      "256 GB",
-      684,
-      415,
+      451,
       0,
       0
     ],
@@ -5308,16 +5290,25 @@
       "A07",
       "4/128 GB",
       569,
-      408,
+      428,
       0,
       0
     ],
     [
-      "VIVO",
-      "Y21D",
-      "4/128 GB",
-      559,
-      389,
+      "APPLE",
+      "IPHONE 14",
+      "256 GB",
+      434,
+      427,
+      0,
+      0
+    ],
+    [
+      "APPLE",
+      "IPHONE 16 PRO MAX",
+      "256 GB",
+      684,
+      420,
       0,
       0
     ],
@@ -5326,7 +5317,16 @@
       "NOTE 80",
       "4/64 GB",
       290,
-      385,
+      406,
+      0,
+      0
+    ],
+    [
+      "VIVO",
+      "Y21D",
+      "4/128 GB",
+      559,
+      395,
       0,
       0
     ],
@@ -5335,7 +5335,16 @@
       "A07",
       "6/128 GB",
       462,
-      376,
+      385,
+      0,
+      0
+    ],
+    [
+      "APPLE",
+      "NEO 13\"",
+      "8/256 GB",
+      0,
+      384,
       0,
       0
     ],
@@ -5344,16 +5353,7 @@
       "A17 5G",
       "8/256 GB",
       1068,
-      371,
-      0,
-      0
-    ],
-    [
-      "XIAOMI",
-      "REDMI 15C",
-      "6/128 GB",
-      424,
-      363,
+      383,
       0,
       0
     ],
@@ -5362,7 +5362,7 @@
       "A57 5G",
       "12/256 GB",
       314,
-      361,
+      376,
       0,
       0
     ],
@@ -5371,16 +5371,16 @@
       "A26 5G",
       "8/256 GB",
       661,
-      361,
+      376,
       0,
       0
     ],
     [
-      "APPLE",
-      "NEO 13\"",
-      "8/256 GB",
-      0,
-      361,
+      "XIAOMI",
+      "REDMI 15C",
+      "6/128 GB",
+      424,
+      366,
       0,
       0
     ],
@@ -5389,16 +5389,7 @@
       "Y05",
       "4/128 GB",
       757,
-      347,
-      0,
-      0
-    ],
-    [
-      "XIAOMI",
-      "REDMI A7 PRO",
-      "4/128 GB",
-      245,
-      347,
+      361,
       0,
       0
     ],
@@ -5407,7 +5398,16 @@
       "HOT 60 PRO",
       "8/256 GB",
       824,
-      346,
+      359,
+      0,
+      0
+    ],
+    [
+      "XIAOMI",
+      "REDMI A7 PRO",
+      "4/128 GB",
+      245,
+      355,
       0,
       0
     ],
@@ -5416,7 +5416,7 @@
       "IPHONE 17 PRO",
       "512 GB",
       235,
-      345,
+      351,
       0,
       0
     ],
@@ -5425,7 +5425,7 @@
       "NEO 13\"",
       "8/512 GB",
       0,
-      295,
+      306,
       0,
       0
     ],
@@ -5434,25 +5434,7 @@
       "M5 13\"",
       "16/512 GB",
       0,
-      279,
-      0,
-      0
-    ],
-    [
-      "APPLE",
-      "IPHONE 17 PRO MAX",
-      "512 GB",
-      372,
-      266,
-      0,
-      0
-    ],
-    [
-      "INFINIX",
-      "NOTE 60 PRO 5G",
-      "8/256 GB",
-      198,
-      260,
+      288,
       0,
       0
     ],
@@ -5461,7 +5443,25 @@
       "Y11D",
       "4/128 GB",
       0,
-      259,
+      279,
+      0,
+      0
+    ],
+    [
+      "INFINIX",
+      "NOTE 60 PRO 5G",
+      "8/256 GB",
+      198,
+      276,
+      0,
+      0
+    ],
+    [
+      "APPLE",
+      "IPHONE 17 PRO MAX",
+      "512 GB",
+      372,
+      268,
       0,
       0
     ],
@@ -5470,7 +5470,7 @@
       "IPHONE 15",
       "256 GB",
       322,
-      255,
+      264,
       0,
       0
     ],
@@ -5479,16 +5479,7 @@
       "SMART 20",
       "4/64 GB",
       609,
-      248,
-      0,
-      0
-    ],
-    [
-      "SAMSUNG",
-      "A07",
-      "8/256 GB",
-      344,
-      245,
+      257,
       0,
       0
     ],
@@ -5497,7 +5488,16 @@
       "NOTE 80",
       "4/128 GB",
       260,
-      244,
+      253,
+      0,
+      0
+    ],
+    [
+      "SAMSUNG",
+      "A07",
+      "8/256 GB",
+      344,
+      250,
       0,
       0
     ],
@@ -5506,7 +5506,7 @@
       "XPAD 30 EDGE",
       "4/128 GB",
       227,
-      235,
+      246,
       0,
       0
     ],
@@ -5515,16 +5515,16 @@
       "REDMI 15C",
       "8/256 GB",
       285,
-      232,
+      240,
       0,
       0
     ],
     [
-      "XIAOMI",
-      "XIAOMI 15T",
-      "12/512 GB",
-      326,
-      228,
+      "OPPO",
+      "RENO 15F",
+      "8/256 GB",
+      280,
+      238,
       0,
       0
     ]
@@ -5533,28 +5533,28 @@
     "bestSeller": {
       "title": "Best Seller Store",
       "model": "IBOX FLAGSHIP CENTRAL PARK",
-      "value": "4.147 unit",
+      "value": "4.248 unit",
       "note": "Toko dengan qty May tertinggi."
     },
     "deadStock": {
       "title": "DOS Kritis",
       "model": "XLC ITC ROXY MAS",
-      "value": "DOS 1271.8 hari",
+      "value": "DOS 1318.8 hari",
       "note": "Butuh intervensi sell-out segera."
     }
   },
   "stockSummary": [
     [
       "Total Stock",
-      "318.126 unit"
+      "322.073 unit"
     ],
     [
       "DOS Rata-rata",
-      "77,5 hari"
+      "78,8 hari"
     ],
     [
       "Toko Kritis",
-      "78 toko"
+      "80 toko"
     ],
     [
       "Active Stores",
@@ -5564,73 +5564,73 @@
   "stockStack": [
     {
       "tsh": "SOPIYAN SAURI",
-      "erafone": 5299,
+      "erafone": 5455,
       "ibox": 0,
       "eramore": 0,
       "erablue": 0,
       "samsung": 0,
-      "xiaomi": 28812
+      "xiaomi": 28447
     },
     {
       "tsh": "NURUL ZAMAN",
-      "erafone": 27419,
+      "erafone": 27684,
       "ibox": 0,
       "eramore": 0,
-      "erablue": 312,
+      "erablue": 320,
       "samsung": 0,
       "xiaomi": 0
     },
     {
       "tsh": "ARENGGA",
-      "erafone": 17898,
+      "erafone": 18028,
       "ibox": 0,
-      "eramore": 5925,
-      "erablue": 2070,
+      "eramore": 5920,
+      "erablue": 2165,
       "samsung": 0,
       "xiaomi": 0
     },
     {
       "tsh": "FEBRIAN TRI WIBOWO",
-      "erafone": 22391,
+      "erafone": 22617,
       "ibox": 0,
-      "eramore": 1954,
-      "erablue": 232,
+      "eramore": 2026,
+      "erablue": 247,
       "samsung": 0,
       "xiaomi": 0
     },
     {
       "tsh": "RENDY NUR SETIAWAN",
-      "erafone": 21930,
+      "erafone": 22060,
       "ibox": 0,
       "eramore": 0,
-      "erablue": 237,
+      "erablue": 236,
       "samsung": 0,
       "xiaomi": 0
     },
     {
       "tsh": "RENDI JANUARDI",
-      "erafone": 14184,
+      "erafone": 14465,
       "ibox": 0,
-      "eramore": 4391,
-      "erablue": 1599,
+      "eramore": 4408,
+      "erablue": 1743,
       "samsung": 0,
       "xiaomi": 0
     },
     {
       "tsh": "MENSI ALEXANDER",
-      "erafone": 16049,
+      "erafone": 16738,
       "ibox": 0,
-      "eramore": 2783,
+      "eramore": 3099,
       "erablue": 0,
       "samsung": 0,
       "xiaomi": 0
     },
     {
       "tsh": "IRMAN PERMANA",
-      "erafone": 12545,
+      "erafone": 12716,
       "ibox": 0,
-      "eramore": 2724,
-      "erablue": 597,
+      "eramore": 2725,
+      "erablue": 616,
       "samsung": 0,
       "xiaomi": 0
     }
@@ -5639,120 +5639,120 @@
     [
       "XLC ITC ROXY MAS",
       "XL STORE",
-      4380,
-      1271.75,
+      4757,
+      1318.85,
       "MENSI ALEXANDER"
     ],
     [
       "AGRES MANGGA DUA SQUARE",
       "ERAFONE",
       439,
-      623.83,
+      646.94,
       "MENSI ALEXANDER"
     ],
     [
       "GALERI ISAT MANGGA DUA",
       "INDOSAT STORE",
       166,
-      406.25,
+      421.3,
       "MENSI ALEXANDER"
     ],
     [
       "SAMSUNG (SPS) AGORA THAMRIN NINE",
       "SAMSUNG STORE",
-      609,
-      373.87,
+      643,
+      399.93,
       "LIA ASTUTI"
     ],
     [
       "XLC HYBRID BINTARO JAYA XCHANGE",
       "XL STORE",
-      2416,
-      309.11,
+      2439,
+      320.55,
       "ARENGGA"
     ],
     [
       "ERABLUE KARANG TANJUNG PANDEGLANG",
       "ERABLUE",
-      109,
-      267.36,
+      112,
+      284.75,
       "NURUL ZAMAN"
-    ],
-    [
-      "ERAFONE 2.5 PADJAJARAN PAMULANG",
-      "ERAFONE",
-      1137,
-      255.73,
-      "ARENGGA"
     ],
     [
       "XLC TANGERANG CITY MALL",
       "XL STORE",
-      519,
-      246.02,
+      538,
+      255.14,
       "ARI HIDAYAT"
     ],
     [
       "GALERI ISAT KPPTI",
       "INDOSAT STORE",
       179,
-      229.62,
+      238.13,
       "MENSI ALEXANDER"
     ],
     [
       "SAMSUNG HAMPTON SQUARE SERPONG",
       "SAMSUNG STORE",
-      284,
-      225.21,
+      281,
+      231.58,
       "LIM PING KIAN"
     ],
     [
-      "ERABLUE PERIUK TANGERANG",
-      "ERABLUE",
-      72,
-      175.83,
-      "ARI HIDAYAT"
+      "ERAFONE 2.5 PADJAJARAN PAMULANG",
+      "ERAFONE",
+      1039,
+      223.88,
+      "ARENGGA"
     ],
     [
       "ERAFONE SENAYAN PARK MALL",
       "ERAFONE",
-      568,
-      164.95,
+      677,
+      189.67,
       "MENSI ALEXANDER"
+    ],
+    [
+      "ERABLUE PERIUK TANGERANG",
+      "ERABLUE",
+      73,
+      184.84,
+      "ARI HIDAYAT"
     ]
   ],
   "accessories": [
     {
       "label": "MARKETINGGOODS",
-      "value": 33376
+      "value": 34341
     },
     {
       "label": "Shopping Bag",
-      "value": 33082
+      "value": 34175
     },
     {
       "label": "SMARTPHONE",
-      "value": 32826
+      "value": 33857
     },
     {
       "label": "SP",
-      "value": 13665
+      "value": 14121
     },
     {
       "label": "REPCONT",
-      "value": 6988
+      "value": 7199
     },
     {
       "label": "TRUE WIRELESS",
-      "value": 5738
+      "value": 5958
     },
     {
       "label": "TABLET",
-      "value": 4916
+      "value": 5083
     },
     {
       "label": "GIFT",
-      "value": 4542
+      "value": 4700
     }
   ]
 }

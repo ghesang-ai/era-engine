@@ -1,4 +1,4 @@
-import { CONFIG, MOCK_DATA } from "./config.js?v=20260527k";
+import { CONFIG, MOCK_DATA } from "./config.js?v=20260530a";
 
 function cloneMock() {
   return JSON.parse(JSON.stringify(MOCK_DATA));
@@ -30,8 +30,18 @@ function normalizeData(payload) {
     stockSummary: payload.stockSummary || fb.stockSummary,
     stockStack:   payload.stockStack   || fb.stockStack,
     risk:         payload.risk         || fb.risk,
-    accessories:  payload.accessories  || fb.accessories
+    accessories:  payload.accessories  || fb.accessories,
+    stockDetail:  payload.stockDetail  || null
   };
+}
+
+// Fetch stock_detail.json and merge into data object
+async function fetchStockDetail(data) {
+  try {
+    const raw = await fetchWithTimeout("./data/stock_detail.json", 8000);
+    if (raw && !raw.error) return { ...data, stockDetail: raw };
+  } catch (_) { /* stock detail optional */ }
+  return data;
 }
 
 export function getCacheKey(suffix) {
@@ -99,7 +109,8 @@ export async function fetchSalesData() {
   try {
     const raw = await fetchWithTimeout("./data/live_data.json");
     if (raw && !raw.error) {
-      const data = normalizeData(raw);
+      let data = normalizeData(raw);
+      data = await fetchStockDetail(data);
       safeLocalSet(cacheKey, JSON.stringify({ data, timestamp: Date.now() }));
       hideSkeletonLoading();
       return { ...data, source: "live_json" };

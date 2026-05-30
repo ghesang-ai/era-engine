@@ -1,6 +1,8 @@
 .DS_Store
 SALES VS STOCK_EMAIL MELATI/
+STOCK/
 *.xlsx
 *.xls
 node_modules/
 .env
+.venv/

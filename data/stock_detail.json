@@ -1,0 +1,2071 @@
+{
+  "totalStock": 76225,
+  "totalMaySales": 38381,
+  "avgDos": 79.9,
+  "kritisCount": 4,
+  "waspadaCount": 4,
+  "amanCount": 5,
+  "kritisModels": 98,
+  "brandStock": [
+    {
+      "brand": "SAMSUNG",
+      "stock": 18682,
+      "maySales": 8009,
+      "aprSales": 11882,
+      "dos": 65.3,
+      "status": "warn"
+    },
+    {
+      "brand": "XIAOMI",
+      "stock": 17197,
+      "maySales": 7397,
+      "aprSales": 9999,
+      "dos": 65.1,
+      "status": "warn"
+    },
+    {
+      "brand": "OPPO",
+      "stock": 11091,
+      "maySales": 3028,
+      "aprSales": 4719,
+      "dos": 102.6,
+      "status": "danger"
+    },
+    {
+      "brand": "APPLE",
+      "stock": 9856,
+      "maySales": 9347,
+      "aprSales": 19914,
+      "dos": 29.5,
+      "status": "safe"
+    },
+    {
+      "brand": "Vivo",
+      "stock": 5065,
+      "maySales": 3553,
+      "aprSales": 4287,
+      "dos": 39.9,
+      "status": "safe"
+    },
+    {
+      "brand": "Infinix",
+      "stock": 4398,
+      "maySales": 3373,
+      "aprSales": 4705,
+      "dos": 36.5,
+      "status": "safe"
+    },
+    {
+      "brand": "Realme",
+      "stock": 3387,
+      "maySales": 1693,
+      "aprSales": 1386,
+      "dos": 56.0,
+      "status": "safe"
+    },
+    {
+      "brand": "TECNO",
+      "stock": 2300,
+      "maySales": 743,
+      "aprSales": 836,
+      "dos": 86.7,
+      "status": "warn"
+    },
+    {
+      "brand": "Honor",
+      "stock": 2098,
+      "maySales": 391,
+      "aprSales": 466,
+      "dos": 150.2,
+      "status": "danger"
+    },
+    {
+      "brand": "HUAWEI",
+      "stock": 1270,
+      "maySales": 653,
+      "aprSales": 1044,
+      "dos": 54.5,
+      "status": "safe"
+    },
+    {
+      "brand": "MOTOROLA",
+      "stock": 481,
+      "maySales": 70,
+      "aprSales": 0,
+      "dos": 192.4,
+      "status": "danger"
+    },
+    {
+      "brand": "IQOO",
+      "stock": 371,
+      "maySales": 107,
+      "aprSales": 147,
+      "dos": 97.1,
+      "status": "danger"
+    },
+    {
+      "brand": "SHARP",
+      "stock": 29,
+      "maySales": 13,
+      "aprSales": 12,
+      "dos": 62.5,
+      "status": "warn"
+    }
+  ],
+  "tshStock": [
+    {
+      "tsh": "SOPIYAN SAURI",
+      "stock": 8696,
+      "may": 2676,
+      "dos": 91.0,
+      "status": "danger"
+    },
+    {
+      "tsh": "RENDI JANUARDI",
+      "stock": 6545,
+      "may": 2668,
+      "dos": 68.7,
+      "status": "warn"
+    },
+    {
+      "tsh": "ARENGGA",
+      "stock": 6026,
+      "may": 2555,
+      "dos": 66.0,
+      "status": "warn"
+    },
+    {
+      "tsh": "NURUL ZAMAN",
+      "stock": 5608,
+      "may": 2301,
+      "dos": 68.2,
+      "status": "warn"
+    },
+    {
+      "tsh": "FEBRIAN TRI WIBOWO",
+      "stock": 5242,
+      "may": 2266,
+      "dos": 64.8,
+      "status": "warn"
+    },
+    {
+      "tsh": "IRMAN PERMANA",
+      "stock": 4624,
+      "may": 2036,
+      "dos": 63.6,
+      "status": "warn"
+    },
+    {
+      "tsh": "RENDY NUR SETIAWAN",
+      "stock": 4503,
+      "may": 2013,
+      "dos": 62.6,
+      "status": "warn"
+    },
+    {
+      "tsh": "SANDI MAULANA",
+      "stock": 3839,
+      "may": 1821,
+      "dos": 59.0,
+      "status": "safe"
+    },
+    {
+      "tsh": "EKA FUJI CHAERUL ANWAR",
+      "stock": 3684,
+      "may": 1693,
+      "dos": 60.9,
+      "status": "warn"
+    },
+    {
+      "tsh": "LUKMAN WIBOWO",
+      "stock": 3670,
+      "may": 1799,
+      "dos": 57.1,
+      "status": "safe"
+    },
+    {
+      "tsh": "ABDILLAH",
+      "stock": 3633,
+      "may": 1880,
+      "dos": 54.1,
+      "status": "safe"
+    },
+    {
+      "tsh": "ARI HIDAYAT",
+      "stock": 3484,
+      "may": 1602,
+      "dos": 60.9,
+      "status": "warn"
+    },
+    {
+      "tsh": "LIA ASTUTI",
+      "stock": 3398,
+      "may": 1629,
+      "dos": 58.4,
+      "status": "safe"
+    },
+    {
+      "tsh": "MENSI ALEXANDER",
+      "stock": 3184,
+      "may": 1197,
+      "dos": 74.5,
+      "status": "warn"
+    },
+    {
+      "tsh": "LIM PING KIAN",
+      "stock": 2761,
+      "may": 1567,
+      "dos": 49.3,
+      "status": "safe"
+    },
+    {
+      "tsh": "ARDILESACH",
+      "stock": 1798,
+      "may": 1635,
+      "dos": 30.8,
+      "status": "safe"
+    },
+    {
+      "tsh": "ANDRY UTAMA",
+      "stock": 1745,
+      "may": 1831,
+      "dos": 26.7,
+      "status": "safe"
+    },
+    {
+      "tsh": "JOKO SUPRASTIO",
+      "stock": 1731,
+      "may": 1926,
+      "dos": 25.2,
+      "status": "safe"
+    },
+    {
+      "tsh": "RIZKY KURNIAWAN",
+      "stock": 1542,
+      "may": 1626,
+      "dos": 26.6,
+      "status": "safe"
+    },
+    {
+      "tsh": "VACANT",
+      "stock": 512,
+      "may": 1436,
+      "dos": 10.0,
+      "status": "safe"
+    }
+  ],
+  "buCatStock": [
+    {
+      "label": "1MULTIBRAND",
+      "stock": 48554
+    },
+    {
+      "label": "4Mi Store",
+      "stock": 7657
+    },
+    {
+      "label": "2IBOX",
+      "stock": 6879
+    },
+    {
+      "label": "3NASA",
+      "stock": 6318
+    },
+    {
+      "label": "7ERABLUE",
+      "stock": 4687
+    },
+    {
+      "label": "6OS",
+      "stock": 753
+    },
+    {
+      "label": "8HUAWEI STORE",
+      "stock": 744
+    },
+    {
+      "label": "5JB",
+      "stock": 338
+    },
+    {
+      "label": "9HONOR STORE",
+      "stock": 295
+    }
+  ],
+  "channelStock": [
+    {
+      "channel": "ERAFONE",
+      "stock": 39292
+    },
+    {
+      "channel": "XIAOMI STORE",
+      "stock": 7657
+    },
+    {
+      "channel": "IBOX",
+      "stock": 6879
+    },
+    {
+      "channel": "SAMSUNG STORE",
+      "stock": 6318
+    },
+    {
+      "channel": "ERA & MORE",
+      "stock": 5179
+    },
+    {
+      "channel": "ERABLUE",
+      "stock": 4687
+    },
+    {
+      "channel": "FRANCHISE",
+      "stock": 4342
+    },
+    {
+      "channel": "HUAWEI STORE",
+      "stock": 744
+    },
+    {
+      "channel": "XL STORE",
+      "stock": 481
+    },
+    {
+      "channel": "HONOR STORE",
+      "stock": 295
+    },
+    {
+      "channel": "INDOSAT STORE",
+      "stock": 272
+    },
+    {
+      "channel": "LOTTEMART",
+      "stock": 79
+    }
+  ],
+  "catDevStock": [
+    {
+      "label": "A6X",
+      "stock": 5781
+    },
+    {
+      "label": "NOTE 15",
+      "stock": 5160
+    },
+    {
+      "label": "A07",
+      "stock": 5021
+    },
+    {
+      "label": "IPHONE 17",
+      "stock": 3677
+    },
+    {
+      "label": "MI PAD",
+      "stock": 3623
+    },
+    {
+      "label": "XIAOMI 17",
+      "stock": 3288
+    },
+    {
+      "label": "REDMI 15",
+      "stock": 2961
+    },
+    {
+      "label": "A57",
+      "stock": 2852
+    },
+    {
+      "label": "A17",
+      "stock": 2382
+    },
+    {
+      "label": "IPHONE 15",
+      "stock": 2234
+    },
+    {
+      "label": "IPHONE 16",
+      "stock": 2206
+    },
+    {
+      "label": "C100",
+      "stock": 1999
+    },
+    {
+      "label": "A6",
+      "stock": 1905
+    },
+    {
+      "label": "RENO 15",
+      "stock": 1882
+    },
+    {
+      "label": "S26",
+      "stock": 1866
+    },
+    {
+      "label": "A37",
+      "stock": 1610
+    },
+    {
+      "label": "Y05",
+      "stock": 1553
+    },
+    {
+      "label": "V70",
+      "stock": 1310
+    },
+    {
+      "label": "SMART 20",
+      "stock": 1278
+    },
+    {
+      "label": "S25",
+      "stock": 1271
+    },
+    {
+      "label": "NOTE 60",
+      "stock": 1207
+    },
+    {
+      "label": "Y31",
+      "stock": 1024
+    },
+    {
+      "label": "NOTE 80",
+      "stock": 923
+    },
+    {
+      "label": "MI PAD 8",
+      "stock": 907
+    },
+    {
+      "label": "XPAD",
+      "stock": 850
+    },
+    {
+      "label": "SPARK 50",
+      "stock": 849
+    },
+    {
+      "label": "MATEPAD",
+      "stock": 825
+    },
+    {
+      "label": "A56",
+      "stock": 809
+    },
+    {
+      "label": "IPAD",
+      "stock": 766
+    },
+    {
+      "label": "TAB A11",
+      "stock": 763
+    }
+  ],
+  "modelDetail": [
+    {
+      "model": "OPPO A6X 8/128GB",
+      "brand": "OPPO",
+      "stock": 3365,
+      "may": 681,
+      "dos": 138.4,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Pad 2 4/128GB",
+      "brand": "XIAOMI",
+      "stock": 2094,
+      "may": 638,
+      "dos": 91.9,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A07 4/64",
+      "brand": "SAMSUNG",
+      "stock": 1902,
+      "may": 967,
+      "dos": 55.1,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 17 256GB",
+      "brand": "APPLE",
+      "stock": 1877,
+      "may": 1397,
+      "dos": 37.6,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 15 128GB",
+      "brand": "APPLE",
+      "stock": 1758,
+      "may": 1387,
+      "dos": 35.5,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A57 5G 8/256",
+      "brand": "SAMSUNG",
+      "stock": 1649,
+      "may": 751,
+      "dos": 61.5,
+      "status": "warn"
+    },
+    {
+      "model": "Xiaomi 17T Pro 12/512GB",
+      "brand": "XIAOMI",
+      "stock": 1472,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "Xiaomi 17T 12/512GB",
+      "brand": "XIAOMI",
+      "stock": 1283,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A37 5G 8/256",
+      "brand": "SAMSUNG",
+      "stock": 1252,
+      "may": 540,
+      "dos": 64.9,
+      "status": "warn"
+    },
+    {
+      "model": "iPhone 17 Pro 256GB",
+      "brand": "APPLE",
+      "stock": 1230,
+      "may": 1128,
+      "dos": 30.5,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi Note 15 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 1140,
+      "may": 915,
+      "dos": 34.9,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO A6X 4/64GB",
+      "brand": "OPPO",
+      "stock": 1100,
+      "may": 579,
+      "dos": 53.2,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A17 5G 8/256",
+      "brand": "SAMSUNG",
+      "stock": 1098,
+      "may": 371,
+      "dos": 82.9,
+      "status": "warn"
+    },
+    {
+      "model": "Redmi 15 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 986,
+      "may": 494,
+      "dos": 55.9,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi Note 15 5G 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 985,
+      "may": 507,
+      "dos": 54.4,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi Note 15Pro 5G 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 944,
+      "may": 479,
+      "dos": 55.2,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A07 4/128",
+      "brand": "SAMSUNG",
+      "stock": 927,
+      "may": 284,
+      "dos": 91.4,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A57 5G 12/256",
+      "brand": "SAMSUNG",
+      "stock": 914,
+      "may": 361,
+      "dos": 70.9,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung Galaxy S26 Ultra 12/512",
+      "brand": "SAMSUNG",
+      "stock": 899,
+      "may": 201,
+      "dos": 125.2,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A17 8/128",
+      "brand": "SAMSUNG",
+      "stock": 856,
+      "may": 597,
+      "dos": 40.1,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi Note 15 8/128GB",
+      "brand": "XIAOMI",
+      "stock": 841,
+      "may": 557,
+      "dos": 42.3,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A07 8/256",
+      "brand": "SAMSUNG",
+      "stock": 817,
+      "may": 237,
+      "dos": 96.5,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6X 4/128GB",
+      "brand": "OPPO",
+      "stock": 800,
+      "may": 163,
+      "dos": 137.4,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO Y05 4/128GB",
+      "brand": "Vivo",
+      "stock": 779,
+      "may": 347,
+      "dos": 62.9,
+      "status": "warn"
+    },
+    {
+      "model": "iPhone 16 128GB",
+      "brand": "APPLE",
+      "stock": 776,
+      "may": 444,
+      "dos": 48.9,
+      "status": "safe"
+    },
+    {
+      "model": "VIVO Y05 4/64GB",
+      "brand": "Vivo",
+      "stock": 774,
+      "may": 625,
+      "dos": 34.7,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A07 6/128",
+      "brand": "SAMSUNG",
+      "stock": 762,
+      "may": 376,
+      "dos": 56.7,
+      "status": "safe"
+    },
+    {
+      "model": "Realme C100i 4/128GB",
+      "brand": "Realme",
+      "stock": 747,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6 6/256GB",
+      "brand": "OPPO",
+      "stock": 744,
+      "may": 74,
+      "dos": 281.5,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi 15 8/128GB",
+      "brand": "XIAOMI",
+      "stock": 701,
+      "may": 631,
+      "dos": 31.1,
+      "status": "safe"
+    },
+    {
+      "model": "REDMI 15C 6/128GB",
+      "brand": "XIAOMI",
+      "stock": 686,
+      "may": 363,
+      "dos": 52.9,
+      "status": "safe"
+    },
+    {
+      "model": "VIVO Y31d Pro 6/128GB",
+      "brand": "Vivo",
+      "stock": 670,
+      "may": 228,
+      "dos": 82.3,
+      "status": "warn"
+    },
+    {
+      "model": "iPad 11 (A16) Wifi 128GB",
+      "brand": "APPLE",
+      "stock": 643,
+      "may": 441,
+      "dos": 40.8,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO A6 6/128GB",
+      "brand": "OPPO",
+      "stock": 629,
+      "may": 46,
+      "dos": 382.9,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO RENO 15F 12/256GB",
+      "brand": "OPPO",
+      "stock": 599,
+      "may": 125,
+      "dos": 134.2,
+      "status": "danger"
+    },
+    {
+      "model": "Xiaomi Pad 8 8/256G",
+      "brand": "XIAOMI",
+      "stock": 592,
+      "may": 135,
+      "dos": 122.8,
+      "status": "danger"
+    },
+    {
+      "model": "REDMI 15C 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 588,
+      "may": 232,
+      "dos": 71.0,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung Galaxy S25FE 8/256",
+      "brand": "SAMSUNG",
+      "stock": 571,
+      "may": 188,
+      "dos": 85.0,
+      "status": "warn"
+    },
+    {
+      "model": "Redmi Pad 2 Pro 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 514,
+      "may": 188,
+      "dos": 76.6,
+      "status": "warn"
+    },
+    {
+      "model": "iPhone 16 Pro Max 256GB",
+      "brand": "APPLE",
+      "stock": 509,
+      "may": 415,
+      "dos": 34.3,
+      "status": "safe"
+    },
+    {
+      "model": "IFX Smart 20 4/128",
+      "brand": "Infinix",
+      "stock": 504,
+      "may": 481,
+      "dos": 29.3,
+      "status": "safe"
+    },
+    {
+      "model": "Realme C100i 4/256GB",
+      "brand": "Realme",
+      "stock": 502,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "Realme Note 80 4/128GB",
+      "brand": "Realme",
+      "stock": 482,
+      "may": 244,
+      "dos": 55.3,
+      "status": "safe"
+    },
+    {
+      "model": "HONOR Pad 10 8/256GB",
+      "brand": "Honor",
+      "stock": 479,
+      "may": 93,
+      "dos": 144.2,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Xpad 30E 4G 4/128",
+      "brand": "Infinix",
+      "stock": 475,
+      "may": 235,
+      "dos": 56.6,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 15 256GB",
+      "brand": "APPLE",
+      "stock": 469,
+      "may": 255,
+      "dos": 51.5,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO RENO 15F 8/256GB",
+      "brand": "OPPO",
+      "stock": 468,
+      "may": 225,
+      "dos": 58.2,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A26 5G 8/256",
+      "brand": "SAMSUNG",
+      "stock": 463,
+      "may": 361,
+      "dos": 35.9,
+      "status": "safe"
+    },
+    {
+      "model": "Tecno Spark 50 6/128",
+      "brand": "TECNO",
+      "stock": 452,
+      "may": 59,
+      "dos": 214.5,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Pad 2 9.7 4/64GB",
+      "brand": "XIAOMI",
+      "stock": 446,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Smart 20 4/64",
+      "brand": "Infinix",
+      "stock": 443,
+      "may": 181,
+      "dos": 68.5,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung Galaxy A56 5G 8/256",
+      "brand": "SAMSUNG",
+      "stock": 442,
+      "may": 84,
+      "dos": 147.3,
+      "status": "danger"
+    },
+    {
+      "model": "Realme Note 80 4/64GB",
+      "brand": "Realme",
+      "stock": 441,
+      "may": 385,
+      "dos": 32.1,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi A7 Pro 4/128G",
+      "brand": "XIAOMI",
+      "stock": 431,
+      "may": 347,
+      "dos": 34.8,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi Pad 2Play 4/128G",
+      "brand": "XIAOMI",
+      "stock": 430,
+      "may": 34,
+      "dos": 354.1,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A17 8/256",
+      "brand": "SAMSUNG",
+      "stock": 428,
+      "may": 210,
+      "dos": 57.1,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A07 5G 6/128",
+      "brand": "SAMSUNG",
+      "stock": 392,
+      "may": 109,
+      "dos": 100.7,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6C 4/64GB",
+      "brand": "OPPO",
+      "stock": 384,
+      "may": 74,
+      "dos": 145.3,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A36 5G 8/256",
+      "brand": "SAMSUNG",
+      "stock": 383,
+      "may": 67,
+      "dos": 160.1,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Note 60 5G 8/256",
+      "brand": "Infinix",
+      "stock": 376,
+      "may": 77,
+      "dos": 136.7,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Note 15Pro+ 5G 12/512G",
+      "brand": "XIAOMI",
+      "stock": 371,
+      "may": 87,
+      "dos": 119.4,
+      "status": "danger"
+    },
+    {
+      "model": "Honor X8b Pad 6/128GB",
+      "brand": "Honor",
+      "stock": 368,
+      "may": 13,
+      "dos": 792.6,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A56 5G 12/256",
+      "brand": "SAMSUNG",
+      "stock": 367,
+      "may": 30,
+      "dos": 342.5,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Note Edge 5G 8/256",
+      "brand": "Infinix",
+      "stock": 363,
+      "may": 328,
+      "dos": 31.0,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy A37 5G 8/128",
+      "brand": "SAMSUNG",
+      "stock": 358,
+      "may": 86,
+      "dos": 116.6,
+      "status": "danger"
+    },
+    {
+      "model": "iPhone Air 256GB",
+      "brand": "APPLE",
+      "stock": 352,
+      "may": 149,
+      "dos": 66.1,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung Galaxy TabS10Lite 6/128",
+      "brand": "SAMSUNG",
+      "stock": 350,
+      "may": 138,
+      "dos": 71.0,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung Galaxy S25 Ultra 12/256",
+      "brand": "SAMSUNG",
+      "stock": 348,
+      "may": 58,
+      "dos": 168.0,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Note 60 Pro 5G 8/256",
+      "brand": "Infinix",
+      "stock": 346,
+      "may": 260,
+      "dos": 37.3,
+      "status": "safe"
+    },
+    {
+      "model": "IFX Note Edge 5G 8/128",
+      "brand": "Infinix",
+      "stock": 342,
+      "may": 224,
+      "dos": 42.8,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO RENO 15 12/256GB",
+      "brand": "OPPO",
+      "stock": 337,
+      "may": 61,
+      "dos": 154.7,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO V70FE 5G 8/256GB",
+      "brand": "Vivo",
+      "stock": 331,
+      "may": 155,
+      "dos": 59.8,
+      "status": "safe"
+    },
+    {
+      "model": "IFX SMART 20 4/128",
+      "brand": "Infinix",
+      "stock": 331,
+      "may": 279,
+      "dos": 33.2,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO A6 PRO 8/256GB 4G",
+      "brand": "OPPO",
+      "stock": 328,
+      "may": 90,
+      "dos": 102.0,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO V70 5G 8/256GB",
+      "brand": "Vivo",
+      "stock": 321,
+      "may": 27,
+      "dos": 332.9,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Note 60 Pro 5G 12/256",
+      "brand": "Infinix",
+      "stock": 305,
+      "may": 125,
+      "dos": 68.3,
+      "status": "warn"
+    },
+    {
+      "model": "Redmi Note 15Pro 5G 12/512GB",
+      "brand": "XIAOMI",
+      "stock": 300,
+      "may": 191,
+      "dos": 44.0,
+      "status": "safe"
+    },
+    {
+      "model": "HONOR X7d 8/512GB",
+      "brand": "Honor",
+      "stock": 300,
+      "may": 16,
+      "dos": 525.0,
+      "status": "danger"
+    },
+    {
+      "model": "iPhone 16 Pro Max 512GB",
+      "brand": "APPLE",
+      "stock": 297,
+      "may": 80,
+      "dos": 104.0,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6s 8/256GB",
+      "brand": "OPPO",
+      "stock": 295,
+      "may": 88,
+      "dos": 93.9,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy A57 5G 8/128",
+      "brand": "SAMSUNG",
+      "stock": 289,
+      "may": 68,
+      "dos": 119.0,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Note 15 5G 12/512GB",
+      "brand": "XIAOMI",
+      "stock": 288,
+      "may": 98,
+      "dos": 82.3,
+      "status": "warn"
+    },
+    {
+      "model": "OPPO RENO 15 8/256GB",
+      "brand": "OPPO",
+      "stock": 288,
+      "may": 28,
+      "dos": 288.0,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6X 6/128GB",
+      "brand": "OPPO",
+      "stock": 282,
+      "may": 21,
+      "dos": 376.0,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S25FE 8/512",
+      "brand": "SAMSUNG",
+      "stock": 273,
+      "may": 93,
+      "dos": 82.2,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung GalaxyTabA11P 6/128WiFi",
+      "brand": "SAMSUNG",
+      "stock": 269,
+      "may": 96,
+      "dos": 78.5,
+      "status": "warn"
+    },
+    {
+      "model": "Xiaomi 15T 12/512GB",
+      "brand": "XIAOMI",
+      "stock": 268,
+      "may": 228,
+      "dos": 32.9,
+      "status": "safe"
+    },
+    {
+      "model": "TECNO POVA 7 5G 8/256",
+      "brand": "TECNO",
+      "stock": 255,
+      "may": 228,
+      "dos": 31.3,
+      "status": "safe"
+    },
+    {
+      "model": "Huawei MPad 11.5 2025 8/256GB",
+      "brand": "HUAWEI",
+      "stock": 252,
+      "may": 125,
+      "dos": 56.4,
+      "status": "safe"
+    },
+    {
+      "model": "VIVO V60 Lite 4G 8/256GB",
+      "brand": "Vivo",
+      "stock": 245,
+      "may": 43,
+      "dos": 159.5,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy TabA11P 6/128",
+      "brand": "SAMSUNG",
+      "stock": 244,
+      "may": 86,
+      "dos": 79.4,
+      "status": "warn"
+    },
+    {
+      "model": "VIVO V70FE 5G 12/256GB",
+      "brand": "Vivo",
+      "stock": 242,
+      "may": 37,
+      "dos": 183.1,
+      "status": "danger"
+    },
+    {
+      "model": "iPhone 17 Pro Max 256GB",
+      "brand": "APPLE",
+      "stock": 238,
+      "may": 1311,
+      "dos": 5.1,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO A6X 6/256GB",
+      "brand": "OPPO",
+      "stock": 234,
+      "may": 17,
+      "dos": 385.4,
+      "status": "danger"
+    },
+    {
+      "model": "Xiaomi 17 12/512G",
+      "brand": "XIAOMI",
+      "stock": 233,
+      "may": 48,
+      "dos": 135.9,
+      "status": "danger"
+    },
+    {
+      "model": "Tecno Spark Go 3 4/128",
+      "brand": "TECNO",
+      "stock": 233,
+      "may": 81,
+      "dos": 80.5,
+      "status": "warn"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold7 12/512",
+      "brand": "SAMSUNG",
+      "stock": 227,
+      "may": 112,
+      "dos": 56.8,
+      "status": "safe"
+    },
+    {
+      "model": "Tecno Spark 50 4/128",
+      "brand": "TECNO",
+      "stock": 227,
+      "may": 37,
+      "dos": 171.8,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6s 8/128GB",
+      "brand": "OPPO",
+      "stock": 225,
+      "may": 43,
+      "dos": 146.5,
+      "status": "danger"
+    },
+    {
+      "model": "Realme C100x 4G 6/256GB",
+      "brand": "Realme",
+      "stock": 224,
+      "may": 30,
+      "dos": 209.1,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S26 12/512",
+      "brand": "SAMSUNG",
+      "stock": 223,
+      "may": 53,
+      "dos": 117.8,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy TabA11 4/64",
+      "brand": "SAMSUNG",
+      "stock": 219,
+      "may": 209,
+      "dos": 29.3,
+      "status": "safe"
+    },
+    {
+      "model": "Tecno Camon 50 8/256",
+      "brand": "TECNO",
+      "stock": 214,
+      "may": 45,
+      "dos": 133.2,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO Y31d Pro 8/128GB",
+      "brand": "Vivo",
+      "stock": 213,
+      "may": 62,
+      "dos": 96.2,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S26 Plus 12/512",
+      "brand": "SAMSUNG",
+      "stock": 212,
+      "may": 34,
+      "dos": 174.6,
+      "status": "danger"
+    },
+    {
+      "model": "HWE MPad 12X Laurent 12/256",
+      "brand": "HUAWEI",
+      "stock": 210,
+      "may": 163,
+      "dos": 36.1,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 16 Pro Max 1TB",
+      "brand": "APPLE",
+      "stock": 194,
+      "may": 13,
+      "dos": 417.8,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO V70 5G 12/256GB",
+      "brand": "Vivo",
+      "stock": 191,
+      "may": 121,
+      "dos": 44.2,
+      "status": "safe"
+    },
+    {
+      "model": "Xiaomi Pad 8Pro 8/256G",
+      "brand": "XIAOMI",
+      "stock": 187,
+      "may": 18,
+      "dos": 290.9,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S26 Ultra 12/256",
+      "brand": "SAMSUNG",
+      "stock": 186,
+      "may": 150,
+      "dos": 34.7,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold7 12/256",
+      "brand": "SAMSUNG",
+      "stock": 185,
+      "may": 56,
+      "dos": 92.5,
+      "status": "danger"
+    },
+    {
+      "model": "iPhone 16 Plus 128GB",
+      "brand": "APPLE",
+      "stock": 180,
+      "may": 23,
+      "dos": 219.1,
+      "status": "danger"
+    },
+    {
+      "model": "Tecno Camon 50 Pro 5G 8/256",
+      "brand": "TECNO",
+      "stock": 179,
+      "may": 35,
+      "dos": 143.2,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy Tab S10FE 8/128",
+      "brand": "SAMSUNG",
+      "stock": 174,
+      "may": 53,
+      "dos": 91.9,
+      "status": "danger"
+    },
+    {
+      "model": "Tecno Spark 50 8/128",
+      "brand": "TECNO",
+      "stock": 170,
+      "may": 15,
+      "dos": 317.3,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO Y11d 6/128GB",
+      "brand": "Vivo",
+      "stock": 165,
+      "may": 12,
+      "dos": 385.0,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Note 15 5G 6/128GB",
+      "brand": "XIAOMI",
+      "stock": 164,
+      "may": 10,
+      "dos": 459.2,
+      "status": "danger"
+    },
+    {
+      "model": "Realme C100 4G 8/256GB",
+      "brand": "Realme",
+      "stock": 161,
+      "may": 41,
+      "dos": 110.0,
+      "status": "danger"
+    },
+    {
+      "model": "Honor Pad X8B 4+128GB",
+      "brand": "Honor",
+      "stock": 161,
+      "may": 7,
+      "dos": 644.0,
+      "status": "danger"
+    },
+    {
+      "model": "HONOR X6c 6/256GB",
+      "brand": "Honor",
+      "stock": 156,
+      "may": 22,
+      "dos": 198.5,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy Z Flip7 12/256",
+      "brand": "SAMSUNG",
+      "stock": 155,
+      "may": 104,
+      "dos": 41.7,
+      "status": "safe"
+    },
+    {
+      "model": "Samsung Galaxy S26 Ultra 16/1TB",
+      "brand": "SAMSUNG",
+      "stock": 151,
+      "may": 100,
+      "dos": 42.3,
+      "status": "safe"
+    },
+    {
+      "model": "HONOR X6C 6/256GB",
+      "brand": "Honor",
+      "stock": 151,
+      "may": 9,
+      "dos": 469.8,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Xpad 30E 4G 8/128",
+      "brand": "Infinix",
+      "stock": 150,
+      "may": 20,
+      "dos": 210.0,
+      "status": "danger"
+    },
+    {
+      "model": "Huawei MPad SE 11\" 2026 8/128G",
+      "brand": "HUAWEI",
+      "stock": 148,
+      "may": 36,
+      "dos": 115.1,
+      "status": "danger"
+    },
+    {
+      "model": "iQOO Z11 5G 8/256GB",
+      "brand": "IQOO",
+      "stock": 144,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "IFX Note 60 Pro 12/256",
+      "brand": "Infinix",
+      "stock": 143,
+      "may": 11,
+      "dos": 364.0,
+      "status": "danger"
+    },
+    {
+      "model": "Realme C100x 4G 6/128GB",
+      "brand": "Realme",
+      "stock": 143,
+      "may": 45,
+      "dos": 89.0,
+      "status": "warn"
+    },
+    {
+      "model": "VIVO V70FE 5G 8/512GB",
+      "brand": "Vivo",
+      "stock": 142,
+      "may": 53,
+      "dos": 75.0,
+      "status": "warn"
+    },
+    {
+      "model": "VIVO Y31d Pro 8/256GB",
+      "brand": "Vivo",
+      "stock": 141,
+      "may": 36,
+      "dos": 109.7,
+      "status": "danger"
+    },
+    {
+      "model": "INFINIX HOT 70 6/256GB",
+      "brand": "Infinix",
+      "stock": 140,
+      "may": 1,
+      "dos": 3920.0,
+      "status": "danger"
+    },
+    {
+      "model": "Realme C100i 6/128GB",
+      "brand": "Realme",
+      "stock": 139,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "Xiaomi 17 Ultra 16/1024G",
+      "brand": "XIAOMI",
+      "stock": 135,
+      "may": 13,
+      "dos": 290.8,
+      "status": "danger"
+    },
+    {
+      "model": "Huawei Mate 80Pro 16/512GB",
+      "brand": "HUAWEI",
+      "stock": 134,
+      "may": 55,
+      "dos": 68.2,
+      "status": "warn"
+    },
+    {
+      "model": "HONOR Pad 9 8/256GB",
+      "brand": "Honor",
+      "stock": 133,
+      "may": 26,
+      "dos": 143.2,
+      "status": "danger"
+    },
+    {
+      "model": "Tecno Camon 50 12/256",
+      "brand": "TECNO",
+      "stock": 133,
+      "may": 13,
+      "dos": 286.5,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6C 4/128GB",
+      "brand": "OPPO",
+      "stock": 132,
+      "may": 43,
+      "dos": 86.0,
+      "status": "warn"
+    },
+    {
+      "model": "Xiaomi 17 Ultra 16/512G",
+      "brand": "XIAOMI",
+      "stock": 130,
+      "may": 27,
+      "dos": 134.8,
+      "status": "danger"
+    },
+    {
+      "model": "iQOO 15R 12/512 GB",
+      "brand": "IQOO",
+      "stock": 129,
+      "may": 70,
+      "dos": 51.6,
+      "status": "safe"
+    },
+    {
+      "model": "Xiaomi Pad 8Pro 12/512G",
+      "brand": "XIAOMI",
+      "stock": 128,
+      "may": 41,
+      "dos": 87.4,
+      "status": "warn"
+    },
+    {
+      "model": "SAMSUNG GALAXY A07 4/128",
+      "brand": "SAMSUNG",
+      "stock": 128,
+      "may": 124,
+      "dos": 28.9,
+      "status": "safe"
+    },
+    {
+      "model": "VIVO Y11D 4/128GB",
+      "brand": "Vivo",
+      "stock": 128,
+      "may": 181,
+      "dos": 19.8,
+      "status": "safe"
+    },
+    {
+      "model": "HONOR Pad X7 4/128GB",
+      "brand": "Honor",
+      "stock": 127,
+      "may": 58,
+      "dos": 61.3,
+      "status": "warn"
+    },
+    {
+      "model": "Redmi Note 15Pro+ 5G 8/256G",
+      "brand": "XIAOMI",
+      "stock": 127,
+      "may": 24,
+      "dos": 148.2,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi A5 4/128GB",
+      "brand": "XIAOMI",
+      "stock": 120,
+      "may": 27,
+      "dos": 124.4,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO Y11d 4/128GB",
+      "brand": "Vivo",
+      "stock": 112,
+      "may": 78,
+      "dos": 40.2,
+      "status": "safe"
+    },
+    {
+      "model": "VIVO V60 Lite 5G 8/256GB",
+      "brand": "Vivo",
+      "stock": 109,
+      "may": 26,
+      "dos": 117.4,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S26 12/256",
+      "brand": "SAMSUNG",
+      "stock": 104,
+      "may": 116,
+      "dos": 25.1,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 17 Pro 512GB",
+      "brand": "APPLE",
+      "stock": 104,
+      "may": 345,
+      "dos": 8.4,
+      "status": "safe"
+    },
+    {
+      "model": "Redmi A7 Pro 4/64G",
+      "brand": "XIAOMI",
+      "stock": 103,
+      "may": 132,
+      "dos": 21.8,
+      "status": "safe"
+    },
+    {
+      "model": "Huawei Nova 14Pro 12/512GB",
+      "brand": "HUAWEI",
+      "stock": 103,
+      "may": 9,
+      "dos": 320.4,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO RENO 15P MAX 12/512GB 5G",
+      "brand": "OPPO",
+      "stock": 102,
+      "may": 36,
+      "dos": 79.3,
+      "status": "warn"
+    },
+    {
+      "model": "MTR G06 POWER 4/128GB",
+      "brand": "MOTOROLA",
+      "stock": 101,
+      "may": 8,
+      "dos": 353.5,
+      "status": "danger"
+    },
+    {
+      "model": "Tecno Camon 50 8/128",
+      "brand": "TECNO",
+      "stock": 100,
+      "may": 43,
+      "dos": 65.1,
+      "status": "warn"
+    },
+    {
+      "model": "INFINIX HOT 70 6/128GB",
+      "brand": "Infinix",
+      "stock": 100,
+      "may": 27,
+      "dos": 103.7,
+      "status": "danger"
+    },
+    {
+      "model": "SAMSUNG GALAXY A07 4/64",
+      "brand": "SAMSUNG",
+      "stock": 93,
+      "may": 192,
+      "dos": 13.6,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO PAD SE Matte 4/128",
+      "brand": "OPPO",
+      "stock": 91,
+      "may": 5,
+      "dos": 509.6,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S26 Plus 12/256",
+      "brand": "SAMSUNG",
+      "stock": 91,
+      "may": 41,
+      "dos": 62.1,
+      "status": "warn"
+    },
+    {
+      "model": "OPPO A6 PRO 8/128GB 4G",
+      "brand": "OPPO",
+      "stock": 90,
+      "may": 23,
+      "dos": 109.6,
+      "status": "danger"
+    },
+    {
+      "model": "realme C85 Pro 8/256GB",
+      "brand": "Realme",
+      "stock": 90,
+      "may": 33,
+      "dos": 76.4,
+      "status": "warn"
+    },
+    {
+      "model": "Redmi Pad 2 4G 6/128G",
+      "brand": "XIAOMI",
+      "stock": 89,
+      "may": 444,
+      "dos": 5.6,
+      "status": "safe"
+    },
+    {
+      "model": "TECNO POVA 7 Curve 5G 8/256",
+      "brand": "TECNO",
+      "stock": 89,
+      "may": 42,
+      "dos": 59.3,
+      "status": "safe"
+    },
+    {
+      "model": "IFX Xpad 30E 4G 8/256",
+      "brand": "Infinix",
+      "stock": 89,
+      "may": 9,
+      "dos": 276.9,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO RENO 15F 8/128GB",
+      "brand": "OPPO",
+      "stock": 88,
+      "may": 48,
+      "dos": 51.3,
+      "status": "safe"
+    },
+    {
+      "model": "Xiaomi 15T Pro 12/512GB",
+      "brand": "XIAOMI",
+      "stock": 87,
+      "may": 125,
+      "dos": 19.5,
+      "status": "safe"
+    },
+    {
+      "model": "OPPO FIND X9 12/256GB",
+      "brand": "OPPO",
+      "stock": 87,
+      "may": 4,
+      "dos": 609.0,
+      "status": "danger"
+    },
+    {
+      "model": "iPad Pro 11 6th Gen Wifi 256GB",
+      "brand": "APPLE",
+      "stock": 86,
+      "may": 49,
+      "dos": 49.1,
+      "status": "safe"
+    },
+    {
+      "model": "iPad Air 11 (M4) Wifi 128GB",
+      "brand": "APPLE",
+      "stock": 86,
+      "may": 87,
+      "dos": 27.7,
+      "status": "safe"
+    },
+    {
+      "model": "HWE MP 11.5 BartokR No Kybd 6/128",
+      "brand": "HUAWEI",
+      "stock": 84,
+      "may": 41,
+      "dos": 57.4,
+      "status": "safe"
+    },
+    {
+      "model": "VIVO V70 5G 12/512GB",
+      "brand": "Vivo",
+      "stock": 83,
+      "may": 33,
+      "dos": 70.4,
+      "status": "warn"
+    },
+    {
+      "model": "iPhone 16 Plus 256GB",
+      "brand": "APPLE",
+      "stock": 83,
+      "may": 15,
+      "dos": 154.9,
+      "status": "danger"
+    },
+    {
+      "model": "Realme C100 4G 6/128GB",
+      "brand": "Realme",
+      "stock": 83,
+      "may": 14,
+      "dos": 166.0,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO Y21d 4/128GB",
+      "brand": "Vivo",
+      "stock": 79,
+      "may": 275,
+      "dos": 8.0,
+      "status": "safe"
+    },
+    {
+      "model": "iQOO Z11x 5G 8/256GB",
+      "brand": "IQOO",
+      "stock": 79,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO FIND X9 16/512GB",
+      "brand": "OPPO",
+      "stock": 78,
+      "may": 6,
+      "dos": 364.0,
+      "status": "danger"
+    },
+    {
+      "model": "HONOR 400 Lite 8/256GB 5G",
+      "brand": "Honor",
+      "stock": 77,
+      "may": 48,
+      "dos": 44.9,
+      "status": "safe"
+    },
+    {
+      "model": "realme C85 4G 8/128GB",
+      "brand": "Realme",
+      "stock": 75,
+      "may": 119,
+      "dos": 17.6,
+      "status": "safe"
+    },
+    {
+      "model": "realme C85 Pro 8/128GB",
+      "brand": "Realme",
+      "stock": 75,
+      "may": 21,
+      "dos": 100.0,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO FIND N5 FOLD 16/512",
+      "brand": "OPPO",
+      "stock": 75,
+      "may": 9,
+      "dos": 233.3,
+      "status": "danger"
+    },
+    {
+      "model": "Samsung Galaxy S25 12/256",
+      "brand": "SAMSUNG",
+      "stock": 74,
+      "may": 52,
+      "dos": 39.8,
+      "status": "safe"
+    },
+    {
+      "model": "iPad 11 (A16) Wifi 256GB",
+      "brand": "APPLE",
+      "stock": 72,
+      "may": 124,
+      "dos": 16.3,
+      "status": "safe"
+    },
+    {
+      "model": "Huawei Mate X7 16/512GB",
+      "brand": "HUAWEI",
+      "stock": 71,
+      "may": 52,
+      "dos": 38.2,
+      "status": "safe"
+    },
+    {
+      "model": "Huawei Pura 80 Pro 12/512GB",
+      "brand": "HUAWEI",
+      "stock": 70,
+      "may": 9,
+      "dos": 217.8,
+      "status": "danger"
+    },
+    {
+      "model": "iPhone 17 Pro Max 1TB",
+      "brand": "APPLE",
+      "stock": 68,
+      "may": 143,
+      "dos": 13.3,
+      "status": "safe"
+    },
+    {
+      "model": "MTR G57 POWER 8/256",
+      "brand": "MOTOROLA",
+      "stock": 66,
+      "may": 16,
+      "dos": 115.5,
+      "status": "danger"
+    },
+    {
+      "model": "VIVO V60 5G 12/256GB",
+      "brand": "Vivo",
+      "stock": 64,
+      "may": 18,
+      "dos": 99.6,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Note 14Pro+ 5G 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 62,
+      "may": 5,
+      "dos": 347.2,
+      "status": "danger"
+    },
+    {
+      "model": "iPad Air 11 (M4) Wifi 256GB",
+      "brand": "APPLE",
+      "stock": 58,
+      "may": 88,
+      "dos": 18.5,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 16 Plus 512GB",
+      "brand": "APPLE",
+      "stock": 58,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "IFX XPAD 30E 4G 8/128",
+      "brand": "Infinix",
+      "stock": 57,
+      "may": 15,
+      "dos": 106.4,
+      "status": "danger"
+    },
+    {
+      "model": "HONOR 400 12/512GB 5G",
+      "brand": "Honor",
+      "stock": 57,
+      "may": 26,
+      "dos": 61.4,
+      "status": "warn"
+    },
+    {
+      "model": "IFX GT 50P 12/256",
+      "brand": "Infinix",
+      "stock": 56,
+      "may": 27,
+      "dos": 58.1,
+      "status": "safe"
+    },
+    {
+      "model": "Xiaomi Pad 7 8/256GB",
+      "brand": "XIAOMI",
+      "stock": 55,
+      "may": 19,
+      "dos": 81.1,
+      "status": "warn"
+    },
+    {
+      "model": "OPPO A6P 8/256 4G",
+      "brand": "OPPO",
+      "stock": 55,
+      "may": 6,
+      "dos": 256.7,
+      "status": "danger"
+    },
+    {
+      "model": "HUAWEI MatePad SE 11' 6/128",
+      "brand": "HUAWEI",
+      "stock": 53,
+      "may": 68,
+      "dos": 21.8,
+      "status": "safe"
+    },
+    {
+      "model": "iPhone 17 Pro Max 512GB",
+      "brand": "APPLE",
+      "stock": 51,
+      "may": 266,
+      "dos": 5.4,
+      "status": "safe"
+    },
+    {
+      "model": "Tecno Camon 50 Pro 5G 12/512",
+      "brand": "TECNO",
+      "stock": 50,
+      "may": 11,
+      "dos": 127.3,
+      "status": "danger"
+    },
+    {
+      "model": "Redmi Pad 2 Pro 6/128GB",
+      "brand": "XIAOMI",
+      "stock": 50,
+      "may": 0,
+      "dos": 9999,
+      "status": "danger"
+    },
+    {
+      "model": "MTR G86 POWER 8/256",
+      "brand": "MOTOROLA",
+      "stock": 46,
+      "may": 4,
+      "dos": 322.0,
+      "status": "danger"
+    },
+    {
+      "model": "OPPO A6 PRO 8/256GB 5G",
+      "brand": "OPPO",
+      "stock": 45,
+      "may": 32,
+      "dos": 39.4,
+      "status": "safe"
+    }
+  ],
+  "sourceFile": "DATA STOCK.xlsx",
+  "parsedAt": "2026-05-30T18:26:15.131260"
+}

@@ -1,5 +1,5 @@
-import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260527k";
-import { getDosProgress, getDosTone } from "./filters.js?v=20260527k";
+import { STORE_FILTERS, STORE_SORTS } from "./config.js?v=20260530a";
+import { getDosProgress, getDosTone } from "./filters.js?v=20260530a";
 
 function formatNumber(value) {
   return new Intl.NumberFormat("id-ID").format(value);
@@ -428,18 +428,195 @@ export function renderBrandSection(data) {
   renderModelTable(_brandAllModels, null);
 }
 
-export function renderStockSection(data) {
-  document.getElementById("stockSummary").innerHTML = data.stockSummary.map(([label, value]) => `
-    <article class="summary-card"><span>${label}</span><strong>${value}</strong></article>
-  `).join("");
-  document.getElementById("riskTable").innerHTML = `
-    <thead><tr><th>Toko</th><th>Channel</th><th>Stock</th><th>DOS</th><th>Status</th></tr></thead>
-    <tbody>${data.risk.map((row) => {
-      const tone = row[3] > 90 ? "danger" : row[3] >= 60 ? "warn" : "safe";
-      const label = row[3] > 90 ? "KRITIS" : row[3] >= 60 ? "WASPADA" : "AMAN";
-      return `<tr><td>${row[0]}</td><td>${row[1]}</td><td>${formatNumber(row[2])}</td><td>${row[3].toFixed(1).replace(".", ",")}</td><td><span class="badge ${tone}">${label}</span></td></tr>`;
+// ─── Stock section state ──────────────────────────────────────────────────────
+let _stockDetail     = null;
+let _stockBrandFilter = null;   // active brand filter from card click
+let _stockStatusFilter = "all"; // "all" | "danger" | "warn" | "safe"
+let _stockModelQuery  = "";
+
+function dosLabel(status) {
+  if (status === "danger") return "KRITIS";
+  if (status === "warn")   return "WASPADA";
+  return "AMAN";
+}
+
+function renderStockModelTable() {
+  const el = document.getElementById("stockModelTable");
+  if (!el || !_stockDetail) return;
+
+  const q    = _stockModelQuery.toLowerCase();
+  const rows = (_stockDetail.modelDetail || []).filter((r) => {
+    const matchBrand  = !_stockBrandFilter || r.brand === _stockBrandFilter;
+    const matchStatus = _stockStatusFilter === "all" || r.status === _stockStatusFilter;
+    const matchSearch = !q || r.model.toLowerCase().includes(q) || r.brand.toLowerCase().includes(q);
+    return matchBrand && matchStatus && matchSearch;
+  });
+
+  const titleEl = document.getElementById("stockModelTitle");
+  if (titleEl) {
+    const parts = [];
+    if (_stockBrandFilter) parts.push(_stockBrandFilter);
+    if (_stockStatusFilter !== "all") parts.push(dosLabel(_stockStatusFilter));
+    titleEl.textContent = parts.length ? `${parts.join(" · ")} · Stock & DOS` : "Top Model · Stock & DOS";
+  }
+
+  if (!rows.length) {
+    el.innerHTML = `<tbody><tr><td colspan="6" style="text-align:center;padding:24px;color:var(--text-tertiary)">Tidak ada data untuk filter ini.</td></tr></tbody>`;
+    return;
+  }
+
+  el.innerHTML = `
+    <thead><tr><th>Brand</th><th>Model</th><th>Stock</th><th>Mei</th><th>DOS</th><th>Status</th></tr></thead>
+    <tbody>${rows.slice(0, 50).map((r) => {
+      const dosText = r.dos >= 9999 ? "—" : r.dos.toFixed(1).replace(".", ",");
+      return `<tr>
+        <td>${r.brand}</td>
+        <td>${r.model}</td>
+        <td><strong>${formatNumber(r.stock)}</strong></td>
+        <td>${formatNumber(r.may)}</td>
+        <td>${dosText}</td>
+        <td><span class="badge ${r.status}">${dosLabel(r.status)}</span></td>
+      </tr>`;
     }).join("")}</tbody>
   `;
+}
+
+function bindStockModelControls() {
+  // Filter pills
+  document.getElementById("stockModelFilters")?.querySelectorAll("[data-mf]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.getElementById("stockModelFilters").querySelectorAll("[data-mf]").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      _stockStatusFilter = btn.dataset.mf;
+      renderStockModelTable();
+    });
+  });
+
+  // Search
+  document.getElementById("stockModelSearch")?.addEventListener("input", (e) => {
+    _stockModelQuery = e.target.value;
+    renderStockModelTable();
+  });
+}
+
+function renderStockBrandCards(detail) {
+  const listEl = document.getElementById("stockBrandCards");
+  if (!listEl) return;
+
+  const brands = detail.brandStock || [];
+  if (!brands.length) {
+    listEl.innerHTML = `<p style="color:var(--text-tertiary);padding:16px">Data brand stock belum tersedia.</p>`;
+    return;
+  }
+
+  const maxStock = Math.max(...brands.map((b) => b.stock), 1);
+
+  listEl.innerHTML = brands.map((item, idx) => {
+    const barPct   = Math.round((item.stock / maxStock) * 100);
+    const dosText  = item.dos >= 9999 ? "No Sales" : `DOS ${item.dos.toFixed(1).replace(".", ",")}`;
+    const isActive = _stockBrandFilter === item.brand;
+    return `
+      <div class="stock-brand-card ${item.status} ${isActive ? "active" : ""}" data-brand="${item.brand}">
+        <span class="stock-brand-rank">${idx + 1}</span>
+        <div class="stock-brand-main">
+          <span class="stock-brand-name">${item.brand}</span>
+          <div class="stock-brand-bar-wrap">
+            <div class="stock-brand-bar ${item.status}" style="width:${barPct}%"></div>
+          </div>
+        </div>
+        <div class="stock-brand-meta">
+          <span class="stock-brand-qty">${formatNumber(item.stock)}</span>
+          <span class="badge ${item.status}">${dosText}</span>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  listEl.querySelectorAll(".stock-brand-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const brand = card.dataset.brand;
+      if (_stockBrandFilter === brand) {
+        _stockBrandFilter = null;
+      } else {
+        _stockBrandFilter = brand;
+      }
+      // re-render cards to update active state
+      renderStockBrandCards(detail);
+      renderStockModelTable();
+    });
+  });
+}
+
+function renderStockTshTable(detail) {
+  const el = document.getElementById("stockTshTable");
+  if (!el) return;
+  const rows = detail.tshStock || [];
+  if (!rows.length) {
+    el.innerHTML = `<tbody><tr><td colspan="5" style="text-align:center;padding:16px;color:var(--text-tertiary)">Data tidak tersedia.</td></tr></tbody>`;
+    return;
+  }
+  el.innerHTML = `
+    <thead><tr><th>#</th><th>TSH</th><th>Stock</th><th>May Sales</th><th>DOS</th></tr></thead>
+    <tbody>${rows.map((r, i) => {
+      const dosText = r.dos >= 9999 ? "—" : r.dos.toFixed(1).replace(".", ",");
+      return `<tr>
+        <td>${i + 1}</td>
+        <td>${r.tsh}</td>
+        <td><strong>${formatNumber(r.stock)}</strong></td>
+        <td>${formatNumber(r.may)}</td>
+        <td><span class="badge ${r.status}">${dosText}</span></td>
+      </tr>`;
+    }).join("")}</tbody>
+  `;
+}
+
+export function renderStockSection(data) {
+  _stockDetail = data.stockDetail || null;
+
+  // ── Summary strip ───────────────────────────────────────────────────────────
+  const summaryEl = document.getElementById("stockSummary");
+  if (summaryEl) {
+    if (_stockDetail) {
+      const d = _stockDetail;
+      summaryEl.innerHTML = [
+        ["Total Stock", `${formatNumber(d.totalStock)} unit`],
+        ["AVG DOS",     `${String(d.avgDos).replace(".", ",")} hari`],
+        ["Brand Kritis", `${d.kritisCount} brand`],
+        ["Model Kritis", `${d.kritisModels} model`],
+      ].map(([label, value]) => `<article class="summary-card"><span>${label}</span><strong>${value}</strong></article>`).join("");
+    } else {
+      // Fallback to existing stockSummary from live_data
+      summaryEl.innerHTML = (data.stockSummary || []).map(([label, value]) => `
+        <article class="summary-card"><span>${label}</span><strong>${value}</strong></article>
+      `).join("");
+    }
+  }
+
+  // ── Brand cards ─────────────────────────────────────────────────────────────
+  if (_stockDetail) {
+    renderStockBrandCards(_stockDetail);
+    renderStockModelTable();
+    bindStockModelControls();
+    renderStockTshTable(_stockDetail);
+  } else {
+    // Hide new sections if no stock detail data
+    document.getElementById("stockBrandSection")?.classList.add("hidden");
+    document.getElementById("stockModelSection")?.classList.add("hidden");
+    document.getElementById("stockTshSection")?.classList.add("hidden");
+  }
+
+  // ── Risk table (existing) ───────────────────────────────────────────────────
+  const riskEl = document.getElementById("riskTable");
+  if (riskEl) {
+    riskEl.innerHTML = `
+      <thead><tr><th>Toko</th><th>Channel</th><th>Stock</th><th>DOS</th><th>Status</th></tr></thead>
+      <tbody>${(data.risk || []).map((row) => {
+        const tone  = row[3] > 90 ? "danger" : row[3] >= 60 ? "warn" : "safe";
+        const label = row[3] > 90 ? "KRITIS"  : row[3] >= 60 ? "WASPADA" : "AMAN";
+        return `<tr><td>${row[0]}</td><td>${row[1]}</td><td>${formatNumber(row[2])}</td><td>${row[3].toFixed(1).replace(".", ",")}</td><td><span class="badge ${tone}">${label}</span></td></tr>`;
+      }).join("")}</tbody>
+    `;
+  }
 }
 
 export function renderAccessoriesSection(data) {

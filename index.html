@@ -14,9 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css?v=20260527k" />
-    <link rel="stylesheet" href="./css/components.css?v=20260527k" />
-    <link rel="stylesheet" href="./css/mobile.css?v=20260527k" />
+    <link rel="stylesheet" href="./css/main.css?v=20260530a" />
+    <link rel="stylesheet" href="./css/components.css?v=20260530a" />
+    <link rel="stylesheet" href="./css/mobile.css?v=20260530a" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   </head>
   <body>
@@ -225,13 +225,53 @@
             </div>
           </div>
 
+          <!-- Summary strip: 4 top-level KPIs -->
           <div class="summary-strip" id="stockSummary"></div>
 
+          <!-- Brand DOS overview (from DATA STOCK.xlsx) -->
+          <article class="card" id="stockBrandSection">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Type by Brand</p>
+                <h4>Stock &amp; DOS per Brand</h4>
+              </div>
+              <div class="stock-legend">
+                <span class="stock-legend-dot safe"></span><span>Aman</span>
+                <span class="stock-legend-dot warn"></span><span>Waspada</span>
+                <span class="stock-legend-dot danger"></span><span>Kritis</span>
+              </div>
+            </div>
+            <div id="stockBrandCards" class="stock-brand-list"></div>
+          </article>
+
+          <!-- Model detail table (from DATA STOCK.xlsx) -->
+          <article class="card" id="stockModelSection">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">Detail Model</p>
+                <h4 id="stockModelTitle">Top Model · Stock &amp; DOS</h4>
+              </div>
+            </div>
+            <div class="stock-model-controls">
+              <input type="search" id="stockModelSearch" class="search-input" placeholder="Cari model…" autocomplete="off" />
+              <div class="filter-row" id="stockModelFilters">
+                <button class="filter-pill active" data-mf="all">Semua</button>
+                <button class="filter-pill" data-mf="danger">🔴 Kritis</button>
+                <button class="filter-pill" data-mf="warn">🟡 Waspada</button>
+                <button class="filter-pill" data-mf="safe">🟢 Aman</button>
+              </div>
+            </div>
+            <div class="table-scroll">
+              <table class="data-table" id="stockModelTable"></table>
+            </div>
+          </article>
+
+          <!-- Stacked bar chart: stock per TSH & channel -->
           <article class="card chart-card">
             <div class="card-header">
               <div>
                 <p class="section-kicker">Distribusi</p>
-                <h4>Stock per TSH & channel</h4>
+                <h4>Stock per TSH &amp; channel</h4>
               </div>
             </div>
             <div class="chart-wrap tall">
@@ -239,11 +279,25 @@
             </div>
           </article>
 
+          <!-- TSH breakdown table -->
+          <article class="card" id="stockTshSection">
+            <div class="card-header">
+              <div>
+                <p class="section-kicker">TSH Overview</p>
+                <h4>Stock per area manager</h4>
+              </div>
+            </div>
+            <div class="table-scroll">
+              <table class="data-table" id="stockTshTable"></table>
+            </div>
+          </article>
+
+          <!-- Risk table: top DOS stores -->
           <article class="card">
             <div class="card-header">
               <div>
                 <p class="section-kicker">Risk Table</p>
-                <h4>DOS risk tertinggi</h4>
+                <h4>DOS risk tertinggi per toko</h4>
               </div>
             </div>
             <div class="table-scroll">
@@ -304,6 +358,6 @@
       </dialog>
     </div>
 
-    <script type="module" src="./js/main.js?v=20260527k"></script>
+    <script type="module" src="./js/main.js?v=20260530a"></script>
   </body>
 </html>

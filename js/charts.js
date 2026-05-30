@@ -1,4 +1,4 @@
-import { CONFIG } from "./config.js?v=20260527k";
+import { CONFIG } from "./config.js?v=20260530a";
 
 Chart.defaults.color = CONFIG.COLORS.text;
 Chart.defaults.borderColor = CONFIG.COLORS.grid;

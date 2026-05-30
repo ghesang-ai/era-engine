@@ -1076,3 +1076,144 @@
     transform: translateX(100%);
   }
 }
+
+/* ─── Stock Intelligence: Brand DOS Cards ─────────────────────────────────── */
+.stock-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-tertiary);
+  flex-wrap: wrap;
+}
+.stock-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.stock-legend-dot.safe   { background: var(--accent-green); }
+.stock-legend-dot.warn   { background: var(--accent-amber); }
+.stock-legend-dot.danger { background: var(--accent-red); }
+
+.stock-brand-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.stock-brand-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  transition: border-color 0.18s, background 0.18s;
+}
+.stock-brand-card:hover,
+.stock-brand-card.active {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.stock-brand-card.active { border-color: var(--accent-cyan) !important; }
+
+/* Left border color by status */
+.stock-brand-card.safe   { border-left: 3px solid var(--accent-green); }
+.stock-brand-card.warn   { border-left: 3px solid var(--accent-amber); }
+.stock-brand-card.danger { border-left: 3px solid var(--accent-red); }
+
+.stock-brand-rank {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  min-width: 16px;
+  text-align: center;
+}
+
+.stock-brand-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.stock-brand-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stock-brand-bar-wrap {
+  height: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.stock-brand-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+.stock-brand-bar.safe   { background: var(--accent-green); }
+.stock-brand-bar.warn   { background: var(--accent-amber); }
+.stock-brand-bar.danger { background: var(--accent-red); }
+
+.stock-brand-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  min-width: 80px;
+}
+
+.stock-brand-qty {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ─── Stock Model Controls ────────────────────────────────────────────────── */
+.stock-model-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 9px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-size: 13px;
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+}
+.search-input:focus {
+  border-color: var(--accent-cyan);
+  background: rgba(0, 212, 255, 0.05);
+}
+.search-input::placeholder { color: var(--text-tertiary); }
+
+.filter-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* ─── Stock Card Header with legend ──────────────────────────────────────── */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
